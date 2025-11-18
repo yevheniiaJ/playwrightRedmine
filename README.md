@@ -1,4 +1,3 @@
-# playwrightRedmine
 
 --  Run tests 
 npx playwright test
