@@ -21,7 +21,6 @@ test.beforeEach(async ({ page }) => {
 test('TC #1. Verify adding the Redmine to the cart', async ({ }) => {
 
     feature('Buying a product');
-    epic('Adding product to the cart');
     severity('critical')
 
     await mainPage.book.click();
@@ -32,7 +31,6 @@ test('TC #1. Verify adding the Redmine to the cart', async ({ }) => {
 test('TC #2. Verify the Buy Now functionality', async ({ }) => {
 
     feature('Buying a product');
-    epic('Adding product to the cart');
     await mainPage.book.click();
     await mainPage.buyNowBtn.click();
     await expect(checkoutPage.item).toBeVisible();
@@ -41,7 +39,6 @@ test('TC #2. Verify the Buy Now functionality', async ({ }) => {
 test('TC #3. Verify navigation to the Your order page as unauthorized user', async ({ page }) => {
 
     feature('Buying a product');
-    epic('Verifying ordered products');
     await mainPage.book.click();
     await mainPage.profile.click();
     await mainPage.yourOrder.click();
@@ -51,7 +48,6 @@ test('TC #3. Verify navigation to the Your order page as unauthorized user', asy
 test('TC #4. Verify deleting the product from the cart', async ({ }) => {
 
     feature('Buying a product');
-    epic('Deleting a product from the cart');
     await mainPage.book.click();
     await mainPage.addSelectedToCart.click();
     await mainPage.cartIcon.hover();
@@ -62,7 +58,6 @@ test('TC #4. Verify deleting the product from the cart', async ({ }) => {
 test('TC #5. Verify navigation to the Project Management', async ({ }) => {
 
     feature('Project Management');
-    epic('Navigation to the Project Management');
     await mainPage.book.click();
     await mainPage.projectManagement.click()
     await expect(projectManagement.ProjectManagementTitle).toBeVisible()
@@ -71,7 +66,6 @@ test('TC #5. Verify navigation to the Project Management', async ({ }) => {
 test('TC #6. Verify searching the information', async ({ testData }) => {
 
     feature('Search');
-    epic('Search with valid data');
     await mainPage.searchField.fill(testData.searchKeyword);
     await mainPage.searchField.press('Enter')
     const count = await mainPage.searchLinks.count()
