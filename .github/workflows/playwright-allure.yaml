@@ -1,60 +1,57 @@
-name: Playwright Allure CI
+name: Tests
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
 
 jobs:
-  test-and-report:
+  tests:
     runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Checkout repo
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: true
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
+      - name: Install Node deps
         run: npm ci
-        
-      - name: Install Playwright Browsers
+
+      - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      - name: Run Playwright Tests
-        run: npx playwright test
+      - name: Restore Allure history (optional but recommended)
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-report
+          path: previous-allure-report
+        continue-on-error: true
+
+      - name: Copy history into new results
+        run: |
+          if [ -d "previous-allure-report/history" ]; then
+            echo "History found → copying..."
+            mkdir -p allure-results/history
+            cp -R previous-allure-report/history/* allure-results/history/
+          else
+            echo "No previous history"
+          fi
+
+      - name: Run Playwright tests
+        run: npx playwright test --reporter=line,allure-playwright
 
       - name: Generate Allure Report
         run: |
-          npx allure generate allure-results --clean -o allure-report
+          npx allure generate allure-results --clean
+          ls -la allure-report
 
-      - name: Checkout gh-pages branch
-        run: |
-          git fetch origin gh-pages:gh-pages || git checkout --orphan gh-pages
-          git switch gh-pages
-
-      - name: Copy Allure Report
-        run: |
-          rm -rf ./*
-          cp -r allure-report/* .
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add .
-          git commit -m "Update Allure report from workflow" || echo "No changes to commit"
-          git push origin gh-pages
-
-      - name: Comment GitHub Pages link
-        if: github.event_name == 'pull_request'
-        uses: peter-evans/create-or-update-comment@v3
+      - name: Upload Allure Report (for history next run)
+        uses: actions/upload-artifact@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          body: " Allure report is available here: https://<username>.github.io/<repo-name>/"
+          name: allure-report
+          path: allure-report
+
+      - name: Upload Allure Results (raw)
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
