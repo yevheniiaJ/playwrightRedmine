@@ -1,0 +1,408 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - list:
+          - listitem [ref=e7]:
+            - link "Sign in" [ref=e8] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e9]:
+            - link "Register" [ref=e10] [cursor=pointer]:
+              - /url: /account/register
+      - list:
+        - listitem [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e13]:
+          - link "Projects" [ref=e14] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=e15]:
+          - link "Help" [ref=e16] [cursor=pointer]:
+            - /url: https://www.redmine.org/guide
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - link "Search" [ref=e21] [cursor=pointer]:
+              - /url: /projects/redmine/search?scope=subprojects
+            - text: ":"
+          - textbox "Search:" [ref=e22]
+        - generic [ref=e24] [cursor=pointer]: Redmine
+      - heading "Redmine" [level=1] [ref=e25]
+      - list [ref=e27]:
+        - listitem [ref=e28]:
+          - link "Overview" [ref=e29] [cursor=pointer]:
+            - /url: /projects/redmine
+        - listitem [ref=e30]:
+          - link "Download" [ref=e31] [cursor=pointer]:
+            - /url: /projects/redmine/wiki/Download
+        - listitem [ref=e32]:
+          - link "Activity" [ref=e33] [cursor=pointer]:
+            - /url: /projects/redmine/activity
+        - listitem [ref=e34]:
+          - link "Roadmap" [ref=e35] [cursor=pointer]:
+            - /url: /projects/redmine/roadmap
+        - listitem [ref=e36]:
+          - link "Issues" [ref=e37] [cursor=pointer]:
+            - /url: /projects/redmine/issues
+        - listitem [ref=e38]:
+          - link "News" [ref=e39] [cursor=pointer]:
+            - /url: /projects/redmine/news
+        - listitem [ref=e40]:
+          - link "Wiki" [ref=e41] [cursor=pointer]:
+            - /url: /projects/redmine/wiki
+        - listitem [ref=e42]:
+          - link "Forums" [ref=e43] [cursor=pointer]:
+            - /url: /projects/redmine/boards
+        - listitem [ref=e44]:
+          - link "Repository" [ref=e45] [cursor=pointer]:
+            - /url: /projects/redmine/repository
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - heading "Latest releases" [level=3] [ref=e49]
+          - paragraph [ref=e50]:
+            - link "5.0.14 (2025-09-21)" [ref=e51] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Download
+            - link "5.1.10 (2025-09-21)" [ref=e52] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Download
+            - link "6.0.7 (2025-09-21)" [ref=e53] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Download
+            - link "6.1.0 (2025-09-21)" [ref=e54] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Download
+          - heading "Resources" [level=3] [ref=e55]
+          - paragraph [ref=e56]:
+            - link "User's Guide" [ref=e57] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Guide
+            - link "Developer's Guide" [ref=e58] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Developer_Guide
+            - link "Changelog" [ref=e59] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Changelog
+            - text: ","
+            - link "Security" [ref=e60] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Security_Advisories
+            - link "FAQ" [ref=e61] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/FAQ
+            - text: ","
+            - link "HowTo's" [ref=e62] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/HowTos
+            - link "Plugins" [ref=e63] [cursor=pointer]:
+              - /url: /plugins
+            - text: ","
+            - link "Themes" [ref=e64] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Theme_List
+            - link "Privacy Policy" [ref=e65] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/PrivacyPolicy
+        - heading "Wiki" [level=3] [ref=e66]
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - link "Start page" [ref=e69] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e70]:
+            - link "Index by title" [ref=e71] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/index
+          - listitem [ref=e72]:
+            - link "Index by date" [ref=e73] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/date_index
+        - insertion [ref=e74]:
+          - generic [ref=e76]:
+            - generic "These are topics related to the article that might interest you" [ref=e77]: Discover more
+            - link "redmine" [ref=e78] [cursor=pointer]:
+              - img [ref=e80]
+              - text: redmine
+            - link "Email notification services" [ref=e82] [cursor=pointer]:
+              - img [ref=e84]
+              - text: Email notification services
+            - link "Redmine" [ref=e86] [cursor=pointer]:
+              - img [ref=e88]
+              - text: Redmine
+            - link "Gantt chart tool" [ref=e90] [cursor=pointer]:
+              - img [ref=e92]
+              - text: Gantt chart tool
+            - link "Collaboration software" [ref=e94] [cursor=pointer]:
+              - img [ref=e96]
+              - text: Collaboration software
+            - link "Project management books" [ref=e98] [cursor=pointer]:
+              - img [ref=e100]
+              - text: Project management books
+            - link "Project management templates" [ref=e102] [cursor=pointer]:
+              - img [ref=e104]
+              - text: Project management templates
+            - link "Version control systems" [ref=e106] [cursor=pointer]:
+              - img [ref=e108]
+              - text: Version control systems
+            - link "Server hosting solutions" [ref=e110] [cursor=pointer]:
+              - img [ref=e112]
+              - text: Server hosting solutions
+            - link "Redmine training courses" [ref=e114] [cursor=pointer]:
+              - img [ref=e116]
+              - text: Redmine training courses
+      - generic [ref=e118]:
+        - generic "Actions" [ref=e122] [cursor=pointer]
+        - generic [ref=e123]:
+          - heading "Redmine" [level=1] [ref=e124]
+          - list [ref=e125]:
+            - listitem [ref=e126]:
+              - strong [ref=e127]: Table of contents
+            - listitem [ref=e128]:
+              - link "Redmine" [ref=e129] [cursor=pointer]:
+                - /url: "#Redmine"
+              - list [ref=e130]:
+                - listitem [ref=e131]:
+                  - link "Features" [ref=e132] [cursor=pointer]:
+                    - /url: "#Features"
+                - listitem [ref=e133]:
+                  - link "Documentation" [ref=e134] [cursor=pointer]:
+                    - /url: "#Documentation"
+                - listitem [ref=e135]:
+                  - link "Online demo" [ref=e136] [cursor=pointer]:
+                    - /url: "#Online-demo"
+                - listitem [ref=e137]:
+                  - link "Support & getting help" [ref=e138] [cursor=pointer]:
+                    - /url: "#Support-amp-getting-help"
+                - listitem [ref=e139]:
+                  - link "Contributing and helping out" [ref=e140] [cursor=pointer]:
+                    - /url: "#Contributing-and-helping-out"
+                - listitem [ref=e141]:
+                  - link "Who uses Redmine?" [ref=e142] [cursor=pointer]:
+                    - /url: "#Who-uses-Redmine"
+                - listitem [ref=e143]:
+                  - link "Redmine books" [ref=e144] [cursor=pointer]:
+                    - /url: "#Redmine-books"
+          - paragraph [ref=e145]: Redmine is a flexible project management web application. Written using the Ruby on Rails framework, it is cross-platform and cross-database.
+          - paragraph [ref=e146]:
+            - text: Redmine is open source and released under the terms of the
+            - link "GNU General Public License v2" [ref=e147] [cursor=pointer]:
+              - /url: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+            - text: (GPL).
+          - heading "Features" [level=2] [ref=e148]
+          - paragraph [ref=e149]: "Some of the main features of Redmine are:"
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - link "Multiple projects support" [ref=e152] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineProjects
+            - listitem [ref=e153]:
+              - text: Flexible
+              - link "role based access control" [ref=e154] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineRoles
+            - listitem [ref=e155]:
+              - text: Flexible
+              - link "issue tracking system" [ref=e156] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineIssues
+            - listitem [ref=e157]:
+              - link "Gantt chart" [ref=e158] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineGantt
+              - text: and
+              - link "calendar" [ref=e159] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineCalendar
+            - listitem [ref=e160]:
+              - link "News" [ref=e161] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineNews
+              - text: ","
+              - link "documents" [ref=e162] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineDocuments
+              - text: "&"
+              - link "files" [ref=e163] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineFiles
+              - text: management
+            - listitem [ref=e164]: Feeds & email notifications
+            - listitem [ref=e165]:
+              - text: Per project
+              - link "wiki" [ref=e166] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineWikis
+            - listitem [ref=e167]:
+              - text: Per project
+              - link "forums" [ref=e168] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineForums
+            - listitem [ref=e169]:
+              - link "Time tracking" [ref=e170] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineTimeTracking
+            - listitem [ref=e171]:
+              - link "Custom fields" [ref=e172] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineCustomFields
+              - text: for issues, time-entries, projects and users
+            - listitem [ref=e173]:
+              - link "SCM integration" [ref=e174] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineRepository
+              - text: (SVN, CVS, Git, Mercurial and Bazaar)
+            - listitem [ref=e175]:
+              - link "Issue creation via email" [ref=e176] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineReceivingEmails
+            - listitem [ref=e177]:
+              - text: Multiple
+              - link "LDAP authentication" [ref=e178] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineLDAP
+              - text: support
+            - listitem [ref=e179]:
+              - link "User self-registration" [ref=e180] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineRegister
+              - text: support
+            - listitem [ref=e181]: Multilanguage support
+            - listitem [ref=e182]:
+              - link "Multiple databases" [ref=e183] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/RedmineInstall#Supported-database-back-ends
+              - text: support
+          - paragraph [ref=e184]:
+            - text: Read more about
+            - link "Redmine features" [ref=e185] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Features
+            - text: .
+          - heading "Documentation" [level=2] [ref=e186]
+          - paragraph [ref=e187]:
+            - text: You can read the
+            - strong [ref=e188]:
+              - link "Redmine guide" [ref=e189] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/Guide
+            - text: .
+          - list [ref=e190]:
+            - listitem [ref=e191]:
+              - link "User's Guide" [ref=e192] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/Guide
+            - listitem [ref=e193]:
+              - link "Developer's Guide" [ref=e194] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/Developer_Guide
+            - listitem [ref=e195]:
+              - link "DeepWiki Documentation" [ref=e196] [cursor=pointer]:
+                - /url: https://deepwiki.com/redmine/redmine
+              - text: (Auto-generated by DeepWiki)
+          - text: "Other resources:"
+          - list [ref=e197]:
+            - listitem [ref=e198]:
+              - link "Changelog" [ref=e199] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/Changelog
+            - listitem [ref=e200]:
+              - link "Security Advisories" [ref=e201] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/Security_Advisories
+            - listitem [ref=e202]:
+              - link "Frequently Asked Questions" [ref=e203] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/FAQ
+            - listitem [ref=e204]:
+              - link "HowTos" [ref=e205] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/HowTos
+            - listitem [ref=e206]:
+              - link "Plugins" [ref=e207] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/Plugins
+            - listitem [ref=e208]:
+              - link "Themes" [ref=e209] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/Themes
+            - listitem [ref=e210]:
+              - link "Logo and Icon" [ref=e211] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/Logo
+            - listitem [ref=e212]:
+              - link "Third Party Tools" [ref=e213] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/ThirdPartyTools
+          - heading "Online demo" [level=2] [ref=e214]
+          - paragraph [ref=e215]:
+            - text: A shared online
+            - emphasis [ref=e216]: unofficial
+            - text: demo site can be found at
+            - link "https://demo.redminecloud.net/" [ref=e217] [cursor=pointer]:
+              - /url: https://demo.redminecloud.net/
+            - text: . It has been set up to give registered users the ability to create their own projects. This means that once you register, you can create your own project on there and try out the project administration features. Please note that this demo site is an unofficial, third-party site and has no connection to Redmine.org.
+          - heading "Support & getting help" [level=2] [ref=e218]
+          - paragraph [ref=e219]:
+            - text: For getting help or discussing Redmine, you can browse the
+            - strong [ref=e220]:
+              - link "Redmine forums" [ref=e221] [cursor=pointer]:
+                - /url: http://www.redmine.org/projects/redmine/boards
+            - text: hosted right here in Redmine.
+          - paragraph [ref=e222]:
+            - text: We also have a
+            - strong [ref=e223]:
+              - link "chatroom" [ref=e224] [cursor=pointer]:
+                - /url: /projects/redmine/wiki/IRC
+            - text: "-"
+            - 'link "join #redmine" [ref=e225] [cursor=pointer]':
+              - /url: https://web.libera.chat/?channel=#redmine
+            - text: on the
+            - link "libera.chat" [ref=e226] [cursor=pointer]:
+              - /url: https://libera.chat
+            - text: IRC network.
+          - paragraph [ref=e227]:
+            - text: There's also an unofficial workspace on
+            - strong [ref=e228]:
+              - link "Slack" [ref=e229] [cursor=pointer]:
+                - /url: https://join.slack.com/t/redmineorg/shared_invite/zt-ew74bkww-9~Cs~L2oSioRXDljumZ_zg
+            - text: where you can ask questions and participate in discussions with other Redmine users.
+          - paragraph [ref=e230]:
+            - text: Before submitting a bug report, a patch or a feature request here, please read the
+            - link "Submission guidelines" [ref=e231] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Submissions
+            - text: .
+          - heading "Contributing and helping out" [level=2] [ref=e232]
+          - paragraph [ref=e233]:
+            - text: Redmine is built and maintained by community volunteers. If you enjoy using it and would like to give back to the community, the
+            - link "Contribute" [ref=e234] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Contribute
+            - text: page has several ideas. Software development experience is not required. Check out the
+            - link "Teams" [ref=e235] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Teams
+            - text: Page if you are interested in a specific area to contribute regularly.
+          - paragraph [ref=e236]:
+            - text: You can also make a donation and get listed on the
+            - link "Redmine Donors page" [ref=e237] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/Donors
+            - text: .
+          - heading "Who uses Redmine?" [level=2] [ref=e238]
+          - paragraph [ref=e239]:
+            - link "This page lists" [ref=e240] [cursor=pointer]:
+              - /url: /projects/redmine/wiki/WeAreUsingRedmine
+            - text: some companies and projects using Redmine.
+          - heading "Redmine books" [level=2] [ref=e241]
+          - table [ref=e242]:
+            - rowgroup [ref=e243]:
+              - row [ref=e244]:
+                - cell [ref=e245]:
+                  - link [ref=e246] [cursor=pointer]:
+                    - /url: https://www.packtpub.com/product/mastering-redmine-second-edition/9781785881305
+                - cell [ref=e247]:
+                  - link [ref=e248] [cursor=pointer]:
+                    - /url: http://www.packtpub.com/redmine-plugin-extension-and-development/book
+                - cell [ref=e249]:
+                  - link [ref=e250] [cursor=pointer]:
+                    - /url: https://www.packtpub.com/big-data-and-business-intelligence/redmine-cookbook
+              - 'row "Mastering Redmine 2nd Edition is a comprehensive guide with tips, tricks and best practices for using Redmine. You can buy it online. Redmine Plugin Extension and Development provides an overview of the tools available to developers who want to extend Redmine to work their way. You can buy it online. Redmine Cookbook: over 80 hands-on recipes to improve your skills in project management, team management, process improvement, and Redmine administration. You can buy it online." [ref=e251]':
+                - cell "Mastering Redmine 2nd Edition is a comprehensive guide with tips, tricks and best practices for using Redmine. You can buy it online." [ref=e252]:
+                  - emphasis [ref=e253]: Mastering Redmine 2nd Edition
+                  - text: is a comprehensive guide with tips, tricks and best practices for using Redmine.
+                  - text: You can
+                  - link "buy it online" [ref=e254] [cursor=pointer]:
+                    - /url: https://www.packtpub.com/product/mastering-redmine-second-edition/9781785881305
+                  - text: .
+                - cell "Redmine Plugin Extension and Development provides an overview of the tools available to developers who want to extend Redmine to work their way. You can buy it online." [ref=e255]:
+                  - emphasis [ref=e256]: Redmine Plugin Extension and Development
+                  - text: provides an overview of the tools available to developers who want to extend Redmine to work their way.
+                  - text: You can
+                  - link "buy it online" [ref=e257] [cursor=pointer]:
+                    - /url: https://www.packtpub.com/product/redmine-plugin-extension-and-development/9781783288748
+                  - text: .
+                - 'cell "Redmine Cookbook: over 80 hands-on recipes to improve your skills in project management, team management, process improvement, and Redmine administration. You can buy it online." [ref=e258]':
+                  - emphasis [ref=e259]: Redmine Cookbook
+                  - text: ": over 80 hands-on recipes to improve your skills in project management, team management, process improvement, and Redmine administration."
+                  - text: You can
+                  - link "buy it online" [ref=e260] [cursor=pointer]:
+                    - /url: https://www.packtpub.com/product/redmine-cookbook/9781785286131
+                  - text: .
+        - group "Files (0)" [ref=e261]:
+          - generic [ref=e262] [cursor=pointer]: Files (0)
+        - paragraph [ref=e263]:
+          - text: Updated by
+          - link "Go MAEDA" [ref=e264] [cursor=pointer]:
+            - /url: /users/332
+          - link "3 months" [ref=e265] [cursor=pointer]:
+            - /url: /projects/redmine/activity?from=2025-08-29
+          - text: ago ·
+          - link "87 revisions" [ref=e266] [cursor=pointer]:
+            - /url: /projects/redmine/wiki/Overview/history
+          - text: locked
+    - generic [ref=e267]:
+      - text: Powered by
+      - link "Redmine" [ref=e268] [cursor=pointer]:
+        - /url: https://www.redmine.org/
+      - text: © 2006-2023 Jean-Philippe Lang
+  - log [ref=e269]
+  - log [ref=e270]
+```

@@ -16,10 +16,13 @@ jobs:
       - name: Install Node deps
         run: npm ci
 
+      - name: Install Allure CLI
+        run: npm install -g allure-commandline --save-dev
+
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      - name: Restore Allure history (optional but recommended)
+      - name: Restore Allure history (optional)
         uses: actions/download-artifact@v4
         with:
           name: allure-report
@@ -41,7 +44,7 @@ jobs:
 
       - name: Generate Allure Report
         run: |
-          npx allure generate allure-results --clean
+          allure generate allure-results --clean
           ls -la allure-report
 
       - name: Upload Allure Report (for history next run)
