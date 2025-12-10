@@ -40,15 +40,19 @@ test('TC #3. Verify navigation to the Your order page as unauthorized user, book
     expect(page.url()).toContain('login')
 });
 
-test('TC #4. Verify deleting the product from the cart, book page', async ({ mainPage }) => {
+test('TC #4. Verify deleting the product from the cart, book page', async ({ page, mainPage }) => {
 
     feature('Buying a product');
 
-    await mainPage.click(mainPage.addSelectedToCart)
-    await mainPage.click(mainPage.cartIcon)
-    await (mainPage.cartDeleteIcon).waitFor({ state: 'visible' })
-    await mainPage.click(mainPage.cartDeleteIcon)
+    await page.screenshot({ path: 'debug.png', fullPage: true });
+
+    await mainPage.click(mainPage.addSelectedToCart);
+    await mainPage.cartIcon.hover({ trial: true });
+    await page.waitForTimeout(1000);
+    await expect(mainPage.cartDeleteIcon).toBeVisible(); 
+    await mainPage.cartDeleteIcon.click({ force: true });
     await expect(mainPage.cartCount).toHaveText('2');
+    
 });
 
 test('TC #5. Verify navigation to the Project Management, book page', async ({ mainPage, projectManagement }) => {
