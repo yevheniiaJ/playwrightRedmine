@@ -9,9 +9,9 @@ const config = {
   testDir: './tests',
   use: {
     headless: true,
-    viewport: { width: 1280, height: 720 },
+    viewport: { width: 1280, height: 1280 },
     ignoreHTTPSErrors: true,
   },
 };
 
-module.exports = config;
+export default config;

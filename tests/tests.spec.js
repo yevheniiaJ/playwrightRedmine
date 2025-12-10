@@ -1,71 +1,69 @@
 import { expect } from '@playwright/test'
-import { MainPage } from '../pages/mainPage.js'
-import { CheckoutPage } from '../pages/checkoutPage.js';
-import { ProjectManagement } from '../pages/projectManagement.js';
-import { epic, feature, severity } from 'allure-js-commons';
+import { feature, severity } from 'allure-js-commons';
 import { test } from '../fixtures.js'
 
-let mainPage;
-let checkoutPage;
-let projectManagement;
 
-test.beforeEach(async ({ page }) => {
-    mainPage = new MainPage(page);
-    checkoutPage = new CheckoutPage(page);
-    projectManagement = new ProjectManagement(page);
-
-
-    await mainPage.goto();
+test.beforeEach(async ({ mainPage }, testInfo) => {
+   
+    if (testInfo.title.includes('book page')) {
+        await mainPage.goto()
+        await mainPage.redmineBooksNavigate()
+    } else{
+        await mainPage.goto()
+    }
 });
 
-test('TC #1. Verify adding the Redmine to the cart', async ({ }) => {
+test('TC #1. Verify adding the Redmine to the cart, book page', async ({ mainPage }) => {
 
     feature('Buying a product');
     severity('critical')
 
-    await mainPage.book.click();
-    await mainPage.addSelectedToCart.click();
+    await mainPage.click(mainPage.addSelectedToCart)
     await expect(mainPage.cartCount).toBeVisible();
 });
 
-test('TC #2. Verify the Buy Now functionality', async ({ }) => {
+test('TC #2. Verify the Buy Now functionality, book page', async ({ mainPage, checkoutPage }) => {
 
     feature('Buying a product');
-    await mainPage.book.click();
-    await mainPage.buyNowBtn.click();
-    await expect(checkoutPage.item).toBeVisible();
+
+    await mainPage.buyNowBtn.scrollIntoViewIfNeeded();
+    await mainPage.click(mainPage.buyNowBtn)
+    await expect(checkoutPage.item).toBeVisible({ timeout: 60000 });
 });
 
-test('TC #3. Verify navigation to the Your order page as unauthorized user', async ({ page }) => {
+test('TC #3. Verify navigation to the Your order page as unauthorized user, book page', async ({ page, mainPage }) => {
 
     feature('Buying a product');
-    await mainPage.book.click();
-    await mainPage.profile.click();
-    await mainPage.yourOrder.click();
+
+    await mainPage.click(mainPage.profile)
+    await mainPage.click(mainPage.yourOrder)
     expect(page.url()).toContain('login')
 });
 
-test('TC #4. Verify deleting the product from the cart', async ({ }) => {
+test('TC #4. Verify deleting the product from the cart, book page', async ({ mainPage }) => {
 
     feature('Buying a product');
-    await mainPage.book.click();
-    await mainPage.addSelectedToCart.click();
-    await mainPage.cartIcon.hover();
-    await mainPage.cartDeleteIcon.click()
+
+    await mainPage.click(mainPage.addSelectedToCart)
+    await mainPage.click(mainPage.cartIcon)
+    await (mainPage.cartDeleteIcon).waitFor({ state: 'visible' })
+    await mainPage.click(mainPage.cartDeleteIcon)
     await expect(mainPage.cartCount).toHaveText('2');
 });
 
-test('TC #5. Verify navigation to the Project Management', async ({ }) => {
+test('TC #5. Verify navigation to the Project Management, book page', async ({ mainPage, projectManagement }) => {
 
     feature('Project Management');
-    await mainPage.book.click();
-    await mainPage.projectManagement.click()
-    await expect(projectManagement.ProjectManagementTitle).toBeVisible()
+
+    await mainPage.click(mainPage.projectManagement)
+    await expect(projectManagement.projectManagementTitle).toBeVisible()
 });
 
-test('TC #6. Verify searching the information', async ({ testData }) => {
+
+test('TC #6. Verify searching the information', async ({ testData, mainPage }) => {
 
     feature('Search');
+
     await mainPage.searchField.fill(testData.searchKeyword);
     await mainPage.searchField.press('Enter')
     const count = await mainPage.searchLinks.count()
