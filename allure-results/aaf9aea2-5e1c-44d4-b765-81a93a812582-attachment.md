@@ -1,0 +1,1439 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Packt" [ref=e4] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us
+        - img "Packt" [ref=e5]
+      - generic [ref=e6]:
+        - img "Search icon" [ref=e7]
+        - textbox "Search..." [ref=e8]
+      - generic [ref=e9]:
+        - link "Subscription" [ref=e10] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/subscribe
+        - generic [ref=e11]:
+          - generic [ref=e12]: "0"
+          - generic [ref=e13]:
+            - img "Cart icon" [ref=e14] [cursor=pointer]
+            - generic [ref=e17]:
+              - text: You have no products in your basket yet
+              - generic [ref=e18]:
+                - generic [ref=e19]:
+                  - text: Save more on your purchases!
+                  - img "discount-offer-chevron-icon" [ref=e21]
+                - generic [ref=e22]:
+                  - generic [ref=e23]:
+                    - checkbox [disabled] [ref=e24]
+                    - text: Buy 2 products and get 15% off
+                  - generic [ref=e25]:
+                    - checkbox [disabled] [ref=e26]
+                    - text: Buy 3-4 products and get 20% off
+                  - generic [ref=e27]:
+                    - checkbox [disabled] [ref=e28]
+                    - text: Buy 5+ products and get 30% off
+                  - text: Savings automatically calculated. No voucher code required.
+              - link "Checkout" [ref=e30] [cursor=pointer]:
+                - /url: https://www.packtpub.com/checkout
+      - img "Profile icon" [ref=e33]
+    - generic [ref=e37]:
+      - generic [ref=e38]: Explore Products
+      - generic [ref=e39]: Best Sellers
+      - generic [ref=e40]: New Releases
+      - generic [ref=e41]: Books
+      - generic [ref=e42]: Videos
+      - generic [ref=e43]: Audiobooks
+      - link "Learning Hub" [ref=e44] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/learning
+        - generic [ref=e45]: Learning Hub
+      - link "Newsletter Hub" [ref=e46] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/newsletters
+        - generic [ref=e47]: Newsletter Hub
+      - generic [ref=e48]: Free Learning
+  - generic [ref=e51]:
+    - link "Home" [ref=e52] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e53]: ">"
+    - link "Business & Other" [ref=e54] [cursor=pointer]:
+      - /url: /en-us/business-and-other
+    - generic [ref=e55]: ">"
+    - link "Project Management" [ref=e56] [cursor=pointer]:
+      - /url: /en-us/business-and-other/concept/project-management
+    - generic [ref=e57]: ">"
+    - generic [ref=e58]: Mastering Redmine Second Edition
+  - generic [ref=e59]:
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - img "Mastering Redmine Second Edition" [ref=e63] [cursor=pointer]
+        - generic [ref=e64]:
+          - 'heading "Mastering Redmine Second Edition: , Second Edition" [level=1] [ref=e65]'
+          - generic [ref=e67]:
+            - generic [ref=e71]:
+              - img "Profile Icon" [ref=e72]
+              - text: ANDRIY LESYUK
+            - generic [ref=e74]: $54.99
+            - link "Full star icon Full star icon Full star icon Full star icon Full star icon 5 (3 Ratings)" [ref=e76] [cursor=pointer]:
+              - /url: "#review-section"
+              - generic [ref=e77]:
+                - img "Full star icon" [ref=e78]
+                - img "Full star icon" [ref=e79]
+                - img "Full star icon" [ref=e80]
+                - img "Full star icon" [ref=e81]
+                - img "Full star icon" [ref=e82]
+                - generic [ref=e83]: "5"
+                - generic [ref=e84]: (3 Ratings)
+            - generic [ref=e85]:
+              - generic [ref=e86]: Paperback
+              - generic [ref=e87]: ●
+              - generic [ref=e88]: May 2016
+              - generic [ref=e89]: ●
+              - generic [ref=e90]: 366 pages
+              - generic [ref=e91]: ●
+              - generic [ref=e92]: 2nd Edition
+            - generic [ref=e93]:
+              - link "eBook $39.59 $43.99" [ref=e94] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785883460
+                - generic [ref=e95]:
+                  - generic [ref=e96]: eBook
+                  - generic [ref=e97]: $39.59
+                  - deletion [ref=e98]: $43.99
+              - link "Paperback $54.99" [ref=e99] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Paperback
+                  - generic [ref=e102]: $54.99
+              - link "Subscription Free Trial Renews at $19.99p/m" [ref=e103] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305?type=subscription
+                - generic [ref=e104]:
+                  - generic [ref=e105]: Subscription
+                  - generic [ref=e106]: Free Trial
+                  - generic [ref=e107]: Renews at $19.99p/m
+      - text: ● ● ●
+      - generic [ref=e108]:
+        - link "Table of content icon View table of contents" [ref=e109] [cursor=pointer]:
+          - /url: "#tocBlock"
+          - img "Table of content icon" [ref=e110]
+          - generic [ref=e111]: View table of contents
+        - generic [ref=e112]:
+          - img "Preview book icon" [ref=e113]
+          - generic [ref=e114]: Preview Book
+        - text: Note Note
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - heading "Key benefits" [level=2] [ref=e117]
+          - list [ref=e118]:
+            - listitem [ref=e119]: "*Learn Redmine through the basic topics to the mastering ones"
+            - listitem [ref=e120]: "*Customize Redmine without breaking upgrade compatibility"
+            - listitem [ref=e121]: "*Become an expert of Redmine after having read this comprehensive guide with tips, tricks and best practices."
+        - generic [ref=e122]:
+          - heading "Description" [level=2] [ref=e123]
+          - generic [ref=e124]: Redmine is not only one of the popular open source project management applications but also one of the best project hosting and issue tracking solutions. This book is an update of our previous successful edition, Mastering Redmine. This book is a comprehensive guide that will give you a detailed practical understanding on how to effectively manage, monitor and administer complex projects using Redmine. You will get familiar with the concept of Issue Tracking and will get to know why and what makes Redmine one of the best issue trackers. Another main part of Redmine functionality, which is Managing projects shows why this is one of the best applications for project hosting. Furthermore, you will learn more about Redmine rich text formatting syntax, access control and workflow and time Tracking. Towards the end, you will unleash the power of custom fields and guides to show how to customize Redmine without breaking upgrade compatibility. By the end of the book, you will have a deep practical understanding on how to effectively monitor and manage large scale and complex projects using Redmine.
+        - generic [ref=e125]:
+          - heading "Who is this book for?" [level=2] [ref=e126]
+          - generic [ref=e127]: This book is best suited for project managers and Redmine administrators who have working knowledge of Redmine and who now want to get advanced practical knowledge to manage and monitor projects effectively and efficiently.
+        - generic [ref=e128]:
+          - heading "What you will learn" [level=2] [ref=e129]
+          - list [ref=e130]:
+            - listitem [ref=e131]: "*Forget about troubles with installing and configuring Redmine"
+            - listitem [ref=e132]: "*Feel at ease with using Redmine wiki syntax"
+            - listitem [ref=e133]: "*Get familiar with the permissions system and issue life cycle in Redmine"
+            - listitem [ref=e134]: "*Use Redmine for issue tracking, project hosting, project management, and time tracking"
+            - listitem [ref=e135]: "*Find and choose plugins, and get familiar with some of the most useful Redmine plugins"
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - heading "What do you get with Print?" [level=2] [ref=e138]
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - img "Product feature icon" [ref=e141]
+            - generic [ref=e142]:
+              - strong [ref=e143]: Instant access
+              - text: to your digital copy whilst your Print order is Shipped
+          - generic [ref=e144]:
+            - img "Product feature icon" [ref=e145]
+            - generic [ref=e146]: Paperback book shipped to your preferred address
+          - generic [ref=e147]:
+            - img "Product feature icon" [ref=e148]
+            - generic [ref=e149]: Redeem a companion digital copy on all Print orders
+          - generic [ref=e150]:
+            - img "Product feature icon" [ref=e151]
+            - generic [ref=e152]: Access this title in our online reader with advanced features
+          - generic [ref=e153]:
+            - img "Product feature icon" [ref=e154]
+            - generic [ref=e155]:
+              - strong [ref=e156]: DRM FREE
+              - text: "- Read whenever, wherever and however you want"
+        - generic [ref=e157]:
+          - button "Buy Now" [ref=e159]
+          - button "ADD TO CART" [ref=e160]
+        - generic [ref=e161]:
+          - text: OR
+          - generic [ref=e162]:
+            - button "Google Pay" [ref=e163] [cursor=pointer]:
+              - img "Google Pay" [ref=e164]
+            - button "Apple Pay" [ref=e165] [cursor=pointer]:
+              - img "Apple Pay" [ref=e166]
+      - generic [ref=e167]:
+        - generic [ref=e168]: Estimated delivery fee
+        - generic [ref=e169]: Deliver to United States
+        - generic [ref=e170]:
+          - generic [ref=e172]:
+            - paragraph [ref=e173]:
+              - generic [ref=e174]: Economy delivery
+              - generic [ref=e175]: 10 - 13 business days
+            - generic [ref=e176]:
+              - generic [ref=e177]: Free
+              - deletion [ref=e178]: $6.95
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - paragraph [ref=e181]:
+                - generic [ref=e182]: Premium delivery
+                - generic [ref=e183]: 6 - 9 business days
+              - generic [ref=e185]: $21.95
+            - generic [ref=e186]: (Includes tracking information)
+      - generic [ref=e187]:
+        - heading "Product Details" [level=2] [ref=e189]
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - generic [ref=e193]: "Publication date :"
+            - generic [ref=e194]: May 31, 2016
+          - generic [ref=e195]:
+            - generic [ref=e196]: "Length:"
+            - generic [ref=e197]: 366 pages
+          - generic [ref=e198]:
+            - generic [ref=e199]: "Edition :"
+            - generic [ref=e200]: 2nd
+          - generic [ref=e201]:
+            - generic [ref=e202]: "Language :"
+            - generic [ref=e203]: English
+          - generic [ref=e204]:
+            - generic [ref=e205]: "ISBN-13 :"
+            - generic [ref=e206]: "9781785881305"
+          - generic [ref=e207]:
+            - generic [ref=e208]: "Category :"
+            - link "Business & Other" [ref=e210] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/business-and-other
+          - generic [ref=e211]:
+            - generic [ref=e212]: "Concepts :"
+            - link "Project Management" [ref=e214] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/business-and-other/concept/project-management
+          - generic [ref=e215]:
+            - generic [ref=e216]: "Tools :"
+            - link "Redmine" [ref=e218] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/business-and-other/tool/redmine
+  - generic [ref=e220]:
+    - heading "Frequently bought together" [level=2] [ref=e221]
+    - generic [ref=e222]:
+      - generic [ref=e224]:
+        - link "Redmine Cookbook Redmine Cookbook Feb 2016 ● 322 pages" [ref=e225] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/product/redmine-cookbook-9781785285264
+          - img "Redmine Cookbook" [ref=e226]
+          - generic [ref=e228]: Redmine Cookbook
+          - generic [ref=e229]:
+            - generic [ref=e230]: Feb 2016
+            - generic [ref=e231]: ●
+            - generic [ref=e232]: 322 pages
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - img "eBook" [ref=e236]
+              - button "eBook" [ref=e238] [cursor=pointer]
+            - generic [ref=e240]:
+              - strong [ref=e241]: $35.99
+              - deletion [ref=e242]: $39.99
+          - generic [ref=e244]:
+            - button "ADD TO CART" [ref=e245]
+            - checkbox [checked] [ref=e247] [cursor=pointer]: ✓
+      - generic [ref=e249]:
+        - link "Mastering Redmine Second Edition Mastering Redmine Second Edition May 2016 ● 366 pages ● Full star icon 5 (3)" [ref=e250] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785883460
+          - img "Mastering Redmine Second Edition" [ref=e251]
+          - generic [ref=e253]: Mastering Redmine Second Edition
+          - generic [ref=e254]:
+            - generic [ref=e255]: May 2016
+            - generic [ref=e256]: ●
+            - generic [ref=e257]: 366 pages
+            - generic [ref=e258]: ●
+            - generic [ref=e259]:
+              - img "Full star icon" [ref=e260]
+              - generic [ref=e261]: 5 (3)
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - img "eBook" [ref=e265]
+              - button "eBook" [ref=e267] [cursor=pointer]
+            - generic [ref=e269]:
+              - strong [ref=e270]: $39.59
+              - deletion [ref=e271]: $43.99
+          - generic [ref=e273]:
+            - button "ADD TO CART" [ref=e274]
+            - checkbox [checked] [ref=e276] [cursor=pointer]: ✓
+      - generic [ref=e278]:
+        - link "Redmine Plugin Extension and Development Redmine Plugin Extension and Development Mar 2014 ● 114 pages ● Full star icon 4.5 (2)" [ref=e279] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/product/redmine-plugin-extension-and-development-9781783288755
+          - img "Redmine Plugin Extension and Development" [ref=e280]
+          - generic [ref=e282]: Redmine Plugin Extension and Development
+          - generic [ref=e283]:
+            - generic [ref=e284]: Mar 2014
+            - generic [ref=e285]: ●
+            - generic [ref=e286]: 114 pages
+            - generic [ref=e287]: ●
+            - generic [ref=e288]:
+              - img "Full star icon" [ref=e289]
+              - generic [ref=e290]: 4.5 (2)
+        - generic [ref=e291]:
+          - generic [ref=e292]:
+            - generic [ref=e293]:
+              - img "eBook" [ref=e294]
+              - button "eBook" [ref=e296] [cursor=pointer]
+            - generic [ref=e298]:
+              - strong [ref=e299]: $17.99
+              - deletion [ref=e300]: $19.99
+          - generic [ref=e302]:
+            - button "ADD TO CART" [ref=e303]
+            - checkbox [checked] [ref=e305] [cursor=pointer]: ✓
+      - generic [ref=e306]:
+        - img "Stars icon" [ref=e308]
+        - generic [ref=e309]:
+          - generic [ref=e310]: Total
+          - generic [ref=e311]:
+            - generic [ref=e312]: $
+            - generic [ref=e313]: "136.97"
+        - button "ADD SELECTED TO CART" [ref=e315]
+    - text: ✓ ✓ ✓
+  - generic [ref=e317]:
+    - generic [ref=e318]:
+      - heading "Table of Contents" [level=2] [ref=e319]
+      - text: 13 Chapters
+    - button "1. Getting Familiar with Redmine Chevron down icon" [ref=e320] [cursor=pointer]:
+      - generic [ref=e321]: 1. Getting Familiar with Redmine
+      - img "Chevron down icon" [ref=e323]
+    - generic [ref=e324]:
+      - link "1. Getting Familiar with Redmine" [ref=e325] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/1-getting-familiar-with-redmine-ch01lvl1sec01
+        - generic [ref=e326]: 1. Getting Familiar with Redmine
+      - link "What is Redmine?" [ref=e327] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/what-is-redmine-ch01lvl1sec02
+        - generic [ref=e328]: What is Redmine?
+      - link "Walking through the Redmine interface" [ref=e329] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/walking-through-the-redmine-interface-ch01lvl1sec03
+        - generic [ref=e330]: Walking through the Redmine interface
+      - link "MySQL, PostgreSQL, SQLite or Microsoft SQL Server" [ref=e331] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/mysql-postgresql-sqlite-or-microsoft-sql-server-ch01lvl1sec04
+        - generic [ref=e332]: MySQL, PostgreSQL, SQLite or Microsoft SQL Server
+      - link "Textile or Markdown?" [ref=e333] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/textile-or-markdown-ch01lvl1sec05
+        - generic [ref=e334]: Textile or Markdown?
+      - link "Selecting a Source Control Management (SCM)" [ref=e335] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/selecting-a-source-control-management-scm-ch01lvl1sec06
+        - generic [ref=e336]: Selecting a Source Control Management (SCM)
+      - link "Selecting a web server and an application server" [ref=e337] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/selecting-a-web-server-and-an-application-server-ch01lvl1sec07
+        - generic [ref=e338]: Selecting a web server and an application server
+      - link "Redmine versions" [ref=e339] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/redmine-versions-ch01lvl1sec08
+        - generic [ref=e340]: Redmine versions
+      - link "Forks" [ref=e341] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/forks-ch01lvl1sec09
+        - generic [ref=e342]: Forks
+      - link "Summary" [ref=e343] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/1-dot-getting-familiar-with-redmine-1/section/summary-ch01lvl1sec10
+        - generic [ref=e344]: Summary
+    - button "2. Installing Redmine Chevron down icon" [ref=e345] [cursor=pointer]:
+      - generic [ref=e346]: 2. Installing Redmine
+      - img "Chevron down icon" [ref=e348]
+    - generic [ref=e349]:
+      - link "2. Installing Redmine" [ref=e350] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/2-dot-installing-redmine-2/section/2-installing-redmine-ch02lvl1sec11
+        - generic [ref=e351]: 2. Installing Redmine
+      - link "Introduction to installation options" [ref=e352] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/2-dot-installing-redmine-2/section/introduction-to-installation-options-ch02lvl1sec12
+        - generic [ref=e353]: Introduction to installation options
+      - link "Installing Redmine from a package" [ref=e354] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/2-dot-installing-redmine-2/section/installing-redmine-from-a-package-ch02lvl1sec13
+        - generic [ref=e355]: Installing Redmine from a package
+      - link "Installing Redmine and MySQL server" [ref=e356] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/2-dot-installing-redmine-2/section/installing-redmine-and-mysql-server-ch02lvl1sec14
+        - generic [ref=e357]: Installing Redmine and MySQL server
+      - link "Verifying and completing the installation" [ref=e358] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/2-dot-installing-redmine-2/section/verifying-and-completing-the-installation-ch02lvl1sec15
+        - generic [ref=e359]: Verifying and completing the installation
+      - link "Installing Redmine from sources" [ref=e360] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/2-dot-installing-redmine-2/section/installing-redmine-from-sources-ch02lvl1sec16
+        - generic [ref=e361]: Installing Redmine from sources
+      - link "Other installation options" [ref=e362] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/2-dot-installing-redmine-2/section/other-installation-options-ch02lvl1sec17
+        - generic [ref=e363]: Other installation options
+      - link "Summary" [ref=e364] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/2-dot-installing-redmine-2/section/summary-ch02lvl1sec18
+        - generic [ref=e365]: Summary
+    - button "3. Configuring Redmine Chevron down icon" [ref=e366] [cursor=pointer]:
+      - generic [ref=e367]: 3. Configuring Redmine
+      - img "Chevron down icon" [ref=e369]
+    - generic [ref=e370]:
+      - link "3. Configuring Redmine" [ref=e371] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/3-dot-configuring-redmine-3/section/3-configuring-redmine-ch03lvl1sec19
+        - generic [ref=e372]: 3. Configuring Redmine
+      - link "The first thing to fix" [ref=e373] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/3-dot-configuring-redmine-3/section/the-first-thing-to-fix-ch03lvl1sec20
+        - generic [ref=e374]: The first thing to fix
+      - link "The general settings" [ref=e375] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/3-dot-configuring-redmine-3/section/the-general-settings-ch03lvl1sec21
+        - generic [ref=e376]: The general settings
+      - link "Authentication" [ref=e377] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/3-dot-configuring-redmine-3/section/authentication-ch03lvl1sec22
+        - generic [ref=e378]: Authentication
+      - link "Email integration" [ref=e379] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/3-dot-configuring-redmine-3/section/email-integration-ch03lvl1sec23
+        - generic [ref=e380]: Email integration
+      - link "Repository integration" [ref=e381] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/3-dot-configuring-redmine-3/section/repository-integration-ch03lvl1sec24
+        - generic [ref=e382]: Repository integration
+      - link "Troubleshooting" [ref=e383] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/3-dot-configuring-redmine-3/section/troubleshooting-ch03lvl1sec25
+        - generic [ref=e384]: Troubleshooting
+      - link "Summary" [ref=e385] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/3-dot-configuring-redmine-3/section/summary-ch03lvl1sec26
+        - generic [ref=e386]: Summary
+    - button "4. Issue Tracking Chevron down icon" [ref=e387] [cursor=pointer]:
+      - generic [ref=e388]: 4. Issue Tracking
+      - img "Chevron down icon" [ref=e390]
+    - generic [ref=e391]:
+      - link "4. Issue Tracking" [ref=e392] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/4-issue-tracking-ch04lvl1sec27
+        - generic [ref=e393]: 4. Issue Tracking
+      - link "Creating an issue" [ref=e394] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/creating-an-issue-ch04lvl1sec28
+        - generic [ref=e395]: Creating an issue
+      - link "The issue page" [ref=e396] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/the-issue-page-ch04lvl1sec29
+        - generic [ref=e397]: The issue page
+      - link "The issue list" [ref=e398] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/the-issue-list-ch04lvl1sec30
+        - generic [ref=e399]: The issue list
+      - link "Updating an issue" [ref=e400] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/updating-an-issue-ch04lvl1sec31
+        - generic [ref=e401]: Updating an issue
+      - link "Issue reports" [ref=e402] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/issue-reports-ch04lvl1sec32
+        - generic [ref=e403]: Issue reports
+      - link "Importing issues" [ref=e404] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/importing-issues-ch04lvl1sec33
+        - generic [ref=e405]: Importing issues
+      - link "Keeping track of changes" [ref=e406] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/keeping-track-of-changes-ch04lvl1sec34
+        - generic [ref=e407]: Keeping track of changes
+      - link "Configuring issue tracking" [ref=e408] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/configuring-issue-tracking-ch04lvl1sec35
+        - generic [ref=e409]: Configuring issue tracking
+      - link "Summary" [ref=e410] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/4-dot-issue-tracking-4/section/summary-ch04lvl1sec36
+        - generic [ref=e411]: Summary
+    - button "5. Managing Projects Chevron down icon" [ref=e412] [cursor=pointer]:
+      - generic [ref=e413]: 5. Managing Projects
+      - img "Chevron down icon" [ref=e415]
+    - generic [ref=e416]:
+      - link "5. Managing Projects" [ref=e417] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/5-managing-projects-ch05lvl1sec37
+        - generic [ref=e418]: 5. Managing Projects
+      - link "Modules" [ref=e419] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/modules-ch05lvl1sec38
+        - generic [ref=e420]: Modules
+      - link "The global configuration" [ref=e421] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/the-global-configuration-ch05lvl1sec39
+        - generic [ref=e422]: The global configuration
+      - link "Creating a project" [ref=e423] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/creating-a-project-ch05lvl1sec40
+        - generic [ref=e424]: Creating a project
+      - link "The project pages" [ref=e425] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/the-project-pages-ch05lvl1sec41
+        - generic [ref=e426]: The project pages
+      - link "The project configuration" [ref=e427] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/the-project-configuration-ch05lvl1sec42
+        - generic [ref=e428]: The project configuration
+      - link "Closing a project" [ref=e429] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/closing-a-project-ch05lvl1sec43
+        - generic [ref=e430]: Closing a project
+      - link "The project list" [ref=e431] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/the-project-list-ch05lvl1sec44
+        - generic [ref=e432]: The project list
+      - link "Project maintenance best practices" [ref=e433] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/project-maintenance-best-practices-ch05lvl1sec45
+        - generic [ref=e434]: Project maintenance best practices
+      - link "Administering projects" [ref=e435] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/administering-projects-ch05lvl1sec46
+        - generic [ref=e436]: Administering projects
+      - link "Summary" [ref=e437] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/5-dot-managing-projects-5/section/summary-ch05lvl1sec47
+        - generic [ref=e438]: Summary
+    - button "6. Text Formatting Chevron down icon" [ref=e439] [cursor=pointer]:
+      - generic [ref=e440]: 6. Text Formatting
+      - img "Chevron down icon" [ref=e442]
+    - generic [ref=e443]:
+      - link "6. Text Formatting" [ref=e444] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/6-dot-text-formatting-6/section/6-text-formatting-ch06lvl1sec48
+        - generic [ref=e445]: 6. Text Formatting
+      - link "Formatting text in Redmine" [ref=e446] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/6-dot-text-formatting-6/section/formatting-text-in-redmine-ch06lvl1sec49
+        - generic [ref=e447]: Formatting text in Redmine
+      - link "The Wiki syntax" [ref=e448] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/6-dot-text-formatting-6/section/the-wiki-syntax-ch06lvl1sec50
+        - generic [ref=e449]: The Wiki syntax
+      - link "Code" [ref=e450] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/6-dot-text-formatting-6/section/code-ch06lvl1sec51
+        - generic [ref=e451]: Code
+      - link "Tables" [ref=e452] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/6-dot-text-formatting-6/section/tables-ch06lvl1sec52
+        - generic [ref=e453]: Tables
+      - link "Macros" [ref=e454] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/6-dot-text-formatting-6/section/macros-ch06lvl1sec53
+        - generic [ref=e455]: Macros
+      - link "The advanced syntax" [ref=e456] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/6-dot-text-formatting-6/section/the-advanced-syntax-ch06lvl1sec54
+        - generic [ref=e457]: The advanced syntax
+      - link "Alignment options" [ref=e458] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/6-dot-text-formatting-6/section/alignment-options-ch06lvl1sec55
+        - generic [ref=e459]: Alignment options
+      - link "Summary" [ref=e460] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/6-dot-text-formatting-6/section/summary-ch06lvl1sec56
+        - generic [ref=e461]: Summary
+    - button "7. Access Control and Workflow Chevron down icon" [ref=e462] [cursor=pointer]:
+      - generic [ref=e463]: 7. Access Control and Workflow
+      - img "Chevron down icon" [ref=e465]
+    - generic [ref=e466]:
+      - link "7. Access Control and Workflow" [ref=e467] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/7-dot-access-control-and-workflow-7/section/7-access-control-and-workflow-ch07lvl1sec57
+        - generic [ref=e468]: 7. Access Control and Workflow
+      - link "The Roles and permissions page" [ref=e469] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/7-dot-access-control-and-workflow-7/section/the-roles-and-permissions-page-ch07lvl1sec58
+        - generic [ref=e470]: The Roles and permissions page
+      - link "The Trackers page" [ref=e471] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/7-dot-access-control-and-workflow-7/section/the-trackers-page-ch07lvl1sec59
+        - generic [ref=e472]: The Trackers page
+      - link "The Issue statuses page" [ref=e473] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/7-dot-access-control-and-workflow-7/section/the-issue-statuses-page-ch07lvl1sec60
+        - generic [ref=e474]: The Issue statuses page
+      - link "The Workflow page" [ref=e475] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/7-dot-access-control-and-workflow-7/section/the-workflow-page-ch07lvl1sec61
+        - generic [ref=e476]: The Workflow page
+      - link "Modifying the workflow" [ref=e477] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/7-dot-access-control-and-workflow-7/section/modifying-the-workflow-ch07lvl1sec62
+        - generic [ref=e478]: Modifying the workflow
+      - link "A practical example" [ref=e479] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/7-dot-access-control-and-workflow-7/section/a-practical-example-ch07lvl1sec63
+        - generic [ref=e480]: A practical example
+      - link "Summary" [ref=e481] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/7-dot-access-control-and-workflow-7/section/summary-ch07lvl1sec64
+        - generic [ref=e482]: Summary
+    - button "8. Time Tracking Chevron down icon" [ref=e483] [cursor=pointer]:
+      - generic [ref=e484]: 8. Time Tracking
+      - img "Chevron down icon" [ref=e486]
+    - generic [ref=e487]:
+      - link "8. Time Tracking" [ref=e488] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/8-dot-time-tracking-8/section/8-time-tracking-ch08lvl1sec65
+        - generic [ref=e489]: 8. Time Tracking
+      - link "Time tracking in Redmine" [ref=e490] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/8-dot-time-tracking-8/section/time-tracking-in-redmine-ch08lvl1sec66
+        - generic [ref=e491]: Time tracking in Redmine
+      - link "Activities" [ref=e492] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/8-dot-time-tracking-8/section/activities-ch08lvl1sec67
+        - generic [ref=e493]: Activities
+      - link "Tracking your time" [ref=e494] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/8-dot-time-tracking-8/section/tracking-your-time-ch08lvl1sec68
+        - generic [ref=e495]: Tracking your time
+      - link "Checking out the spent time" [ref=e496] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/8-dot-time-tracking-8/section/checking-out-the-spent-time-ch08lvl1sec69
+        - generic [ref=e497]: Checking out the spent time
+      - link "Time reports" [ref=e498] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/8-dot-time-tracking-8/section/time-reports-ch08lvl1sec70
+        - generic [ref=e499]: Time reports
+      - link "Summary" [ref=e500] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/8-dot-time-tracking-8/section/summary-ch08lvl1sec71
+        - generic [ref=e501]: Summary
+    - button "9. Personalization Chevron down icon" [ref=e502] [cursor=pointer]:
+      - generic [ref=e503]: 9. Personalization
+      - img "Chevron down icon" [ref=e505]
+    - generic [ref=e506]:
+      - link "9. Personalization" [ref=e507] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/9-dot-personalization-9/section/9-personalization-ch09lvl1sec72
+        - generic [ref=e508]: 9. Personalization
+      - link "Gravatar" [ref=e509] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/9-dot-personalization-9/section/gravatar-ch09lvl1sec73
+        - generic [ref=e510]: Gravatar
+      - link "The personal page" [ref=e511] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/9-dot-personalization-9/section/the-personal-page-ch09lvl1sec74
+        - generic [ref=e512]: The personal page
+      - link "Getting updates" [ref=e513] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/9-dot-personalization-9/section/getting-updates-ch09lvl1sec75
+        - generic [ref=e514]: Getting updates
+      - link "Personalizing the issue list" [ref=e515] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/9-dot-personalization-9/section/personalizing-the-issue-list-ch09lvl1sec76
+        - generic [ref=e516]: Personalizing the issue list
+      - link "On-the-fly account creation" [ref=e517] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/9-dot-personalization-9/section/on-the-fly-account-creation-ch09lvl1sec77
+        - generic [ref=e518]: On-the-fly account creation
+      - link "Summary" [ref=e519] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/9-dot-personalization-9/section/summary-ch09lvl1sec78
+        - generic [ref=e520]: Summary
+    - button "10. Plugins and Themes Chevron down icon" [ref=e521] [cursor=pointer]:
+      - generic [ref=e522]: 10. Plugins and Themes
+      - img "Chevron down icon" [ref=e524]
+    - generic [ref=e525]:
+      - link "10. Plugins and Themes" [ref=e526] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/10-dot-plugins-and-themes-10/section/10-plugins-and-themes-ch10lvl1sec79
+        - generic [ref=e527]: 10. Plugins and Themes
+      - link "Finding plugins" [ref=e528] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/10-dot-plugins-and-themes-10/section/finding-plugins-ch10lvl1sec80
+        - generic [ref=e529]: Finding plugins
+      - link "Installing a plugin" [ref=e530] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/10-dot-plugins-and-themes-10/section/installing-a-plugin-ch10lvl1sec81
+        - generic [ref=e531]: Installing a plugin
+      - link "A review of some plugins" [ref=e532] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/10-dot-plugins-and-themes-10/section/a-review-of-some-plugins-ch10lvl1sec82
+        - generic [ref=e533]: A review of some plugins
+      - link "Installing a theme" [ref=e534] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/10-dot-plugins-and-themes-10/section/installing-a-theme-ch10lvl1sec83
+        - generic [ref=e535]: Installing a theme
+      - link "A review of some themes" [ref=e536] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/10-dot-plugins-and-themes-10/section/a-review-of-some-themes-ch10lvl1sec84
+        - generic [ref=e537]: A review of some themes
+      - link "Summary" [ref=e538] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/10-dot-plugins-and-themes-10/section/summary-ch10lvl1sec85
+        - generic [ref=e539]: Summary
+    - button "11. Customizing Redmine Chevron down icon" [ref=e540] [cursor=pointer]:
+      - generic [ref=e541]: 11. Customizing Redmine
+      - img "Chevron down icon" [ref=e543]
+    - generic [ref=e544]:
+      - link "11. Customizing Redmine" [ref=e545] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/11-dot-customizing-redmine-11/section/11-customizing-redmine-ch11lvl1sec86
+        - generic [ref=e546]: 11. Customizing Redmine
+      - link "Custom fields" [ref=e547] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/11-dot-customizing-redmine-11/section/custom-fields-ch11lvl1sec87
+        - generic [ref=e548]: Custom fields
+      - link "Customizing with Textile" [ref=e549] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/11-dot-customizing-redmine-11/section/customizing-with-textile-ch11lvl1sec88
+        - generic [ref=e550]: Customizing with Textile
+      - link "Customizing the theme" [ref=e551] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/11-dot-customizing-redmine-11/section/customizing-the-theme-ch11lvl1sec89
+        - generic [ref=e552]: Customizing the theme
+      - link "Customizing with a plugin" [ref=e553] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/11-dot-customizing-redmine-11/section/customizing-with-a-plugin-ch11lvl1sec90
+        - generic [ref=e554]: Customizing with a plugin
+      - link "Helping Redmine" [ref=e555] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/11-dot-customizing-redmine-11/section/helping-redmine-ch11lvl1sec91
+        - generic [ref=e556]: Helping Redmine
+      - link "Summary" [ref=e557] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/11-dot-customizing-redmine-11/section/summary-ch11lvl1sec92
+        - generic [ref=e558]: Summary
+    - button "A. Quick Syntax Reference Chevron down icon" [ref=e559] [cursor=pointer]:
+      - generic [ref=e560]: A. Quick Syntax Reference
+      - img "Chevron down icon" [ref=e562]
+    - link "A. Quick Syntax Reference" [ref=e564] [cursor=pointer]:
+      - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/a-dot-quick-syntax-reference-12/section/a-quick-syntax-reference-ch12lvl1sec93
+      - generic [ref=e565]: A. Quick Syntax Reference
+    - button "Index Chevron down icon" [ref=e566] [cursor=pointer]:
+      - generic [ref=e567]: Index
+      - img "Chevron down icon" [ref=e569]
+    - link "Index" [ref=e571] [cursor=pointer]:
+      - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305/chapter/index-13/section/index-ch13lvl1sec94
+      - generic [ref=e572]: Index
+  - generic [ref=e574]:
+    - heading "Recommendations for you" [level=2] [ref=e577]
+    - generic [ref=e579]:
+      - img "Left arrow icon" [ref=e580] [cursor=pointer]
+      - generic [ref=e581]:
+        - generic [ref=e584]:
+          - link "Mastering PyTorch Mastering PyTorch May 2024 ● 554 pages ● Full star icon 4.7 (20)" [ref=e585] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/mastering-pytorch-9781801079969
+            - img "Mastering PyTorch" [ref=e586]
+            - generic [ref=e588]: Mastering PyTorch
+            - generic [ref=e589]:
+              - generic [ref=e590]: May 2024
+              - generic [ref=e591]: ●
+              - generic [ref=e592]: 554 pages
+              - generic [ref=e593]: ●
+              - generic [ref=e594]:
+                - img "Full star icon" [ref=e595]
+                - generic [ref=e596]: 4.7 (20)
+          - generic [ref=e597]:
+            - generic [ref=e598]:
+              - generic [ref=e599]:
+                - img "eBook" [ref=e600]
+                - button "eBook" [ref=e602] [cursor=pointer]
+              - generic [ref=e604]:
+                - strong [ref=e605]: $37.79
+                - deletion [ref=e606]: $41.99
+            - button "ADD TO CART" [ref=e609]
+        - generic [ref=e612]:
+          - link "Microsoft 365 and SharePoint Online Cookbook Microsoft 365 and SharePoint Online Cookbook Feb 2024 ● 642 pages ● Full star icon 4.8 (23)" [ref=e613] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/microsoft-365-and-sharepoint-online-cookbook-9781803247373
+            - img "Microsoft 365 and SharePoint Online Cookbook" [ref=e614]
+            - generic [ref=e616]: Microsoft 365 and SharePoint Online Cookbook
+            - generic [ref=e617]:
+              - generic [ref=e618]: Feb 2024
+              - generic [ref=e619]: ●
+              - generic [ref=e620]: 642 pages
+              - generic [ref=e621]: ●
+              - generic [ref=e622]:
+                - img "Full star icon" [ref=e623]
+                - generic [ref=e624]: 4.8 (23)
+          - generic [ref=e625]:
+            - generic [ref=e626]:
+              - generic [ref=e627]:
+                - img "eBook" [ref=e628]
+                - button "eBook" [ref=e630] [cursor=pointer]
+              - generic [ref=e632]:
+                - strong [ref=e633]: $28.79
+                - deletion [ref=e634]: $31.99
+            - button "ADD TO CART" [ref=e637]
+        - generic [ref=e640]:
+          - link "Tools and Skills for .NET 8 Tools and Skills for .NET 8 Jul 2024 ● 778 pages ● Full star icon 5 (13)" [ref=e641] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/tools-and-skills-for-net-8-9781837633685
+            - img "Tools and Skills for .NET 8" [ref=e642]
+            - generic [ref=e644]: Tools and Skills for .NET 8
+            - generic [ref=e645]:
+              - generic [ref=e646]: Jul 2024
+              - generic [ref=e647]: ●
+              - generic [ref=e648]: 778 pages
+              - generic [ref=e649]: ●
+              - generic [ref=e650]:
+                - img "Full star icon" [ref=e651]
+                - generic [ref=e652]: 5 (13)
+          - generic [ref=e653]:
+            - generic [ref=e654]:
+              - generic [ref=e655]:
+                - img "eBook" [ref=e656]
+                - button "eBook" [ref=e658] [cursor=pointer]
+              - generic [ref=e660]:
+                - strong [ref=e661]: $35.09
+                - deletion [ref=e662]: $38.99
+            - button "ADD TO CART" [ref=e665]
+        - generic [ref=e668]:
+          - link "Information Theory Information Theory Nov 2024 ● 294 pages" [ref=e669] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/information-theory-9781837026845
+            - img "Information Theory" [ref=e670]
+            - generic [ref=e672]: Information Theory
+            - generic [ref=e673]:
+              - generic [ref=e674]: Nov 2024
+              - generic [ref=e675]: ●
+              - generic [ref=e676]: 294 pages
+          - generic [ref=e677]:
+            - generic [ref=e678]:
+              - generic [ref=e679]:
+                - img "eBook" [ref=e680]
+                - generic [ref=e681] [cursor=pointer]: eBook
+              - generic [ref=e683]:
+                - strong [ref=e684]: $8.99
+                - deletion [ref=e685]: $9.99
+            - button "ADD TO CART" [ref=e688]
+        - generic [ref=e691]:
+          - link "The Music Producer's Ultimate Guide to FL Studio 21 The Music Producer's Ultimate Guide to FL Studio 21 Jun 2023 ● 462 pages ● Full star icon 5 (11)" [ref=e692] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/the-music-producers-ultimate-guide-to-fl-studio-21-9781837638499
+            - img "The Music Producer's Ultimate Guide to FL Studio 21" [ref=e693]
+            - generic [ref=e695]: The Music Producer's Ultimate Guide to FL Studio 21
+            - generic [ref=e696]:
+              - generic [ref=e697]: Jun 2023
+              - generic [ref=e698]: ●
+              - generic [ref=e699]: 462 pages
+              - generic [ref=e700]: ●
+              - generic [ref=e701]:
+                - img "Full star icon" [ref=e702]
+                - generic [ref=e703]: 5 (11)
+          - generic [ref=e704]:
+            - generic [ref=e705]:
+              - generic [ref=e706]:
+                - img "eBook" [ref=e707]
+                - button "eBook" [ref=e709] [cursor=pointer]
+              - generic [ref=e711]:
+                - strong [ref=e712]: $28.79
+                - deletion [ref=e713]: $31.99
+            - button "ADD TO CART" [ref=e716]
+        - generic [ref=e719]:
+          - link "Workflow Automation with Microsoft Power Automate Workflow Automation with Microsoft Power Automate Aug 2022 ● 424 pages ● Full star icon 4.3 (35)" [ref=e720] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/workflow-automation-with-microsoft-power-automate-9781803242668
+            - img "Workflow Automation with Microsoft Power Automate" [ref=e721]
+            - generic [ref=e723]: Workflow Automation with Microsoft Power Automate
+            - generic [ref=e724]:
+              - generic [ref=e725]: Aug 2022
+              - generic [ref=e726]: ●
+              - generic [ref=e727]: 424 pages
+              - generic [ref=e728]: ●
+              - generic [ref=e729]:
+                - img "Full star icon" [ref=e730]
+                - generic [ref=e731]: 4.3 (35)
+          - generic [ref=e732]:
+            - generic [ref=e733]:
+              - generic [ref=e734]:
+                - img "eBook" [ref=e735]
+                - button "eBook" [ref=e737] [cursor=pointer]
+              - generic [ref=e739]:
+                - strong [ref=e740]: $40.49
+                - deletion [ref=e741]: $44.99
+            - button "ADD TO CART" [ref=e744]
+        - generic [ref=e747]:
+          - link "Mastering QuickBooks 2024 Mastering QuickBooks 2024 Dec 2023 ● 570 pages ● Full star icon 4.6 (18)" [ref=e748] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/mastering-quickbooks-2024-9781835460238
+            - img "Mastering QuickBooks 2024" [ref=e749]
+            - generic [ref=e751]: Mastering QuickBooks 2024
+            - generic [ref=e752]:
+              - generic [ref=e753]: Dec 2023
+              - generic [ref=e754]: ●
+              - generic [ref=e755]: 570 pages
+              - generic [ref=e756]: ●
+              - generic [ref=e757]:
+                - img "Full star icon" [ref=e758]
+                - generic [ref=e759]: 4.6 (18)
+          - generic [ref=e760]:
+            - generic [ref=e761]:
+              - generic [ref=e762]:
+                - img "eBook" [ref=e763]
+                - button "eBook" [ref=e765] [cursor=pointer]
+              - generic [ref=e767]:
+                - strong [ref=e768]: $25.19
+                - deletion [ref=e769]: $27.99
+            - button "ADD TO CART" [ref=e772]
+        - generic [ref=e775]:
+          - link "Programming Microsoft Dynamics 365 Business Central Programming Microsoft Dynamics 365 Business Central Oct 2024 ● 466 pages ● Full star icon 5 (2)" [ref=e776] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/programming-microsoft-dynamics-365-business-central-9781803242149
+            - img "Programming Microsoft Dynamics 365 Business Central" [ref=e777]
+            - generic [ref=e779]: Programming Microsoft Dynamics 365 Business Central
+            - generic [ref=e780]:
+              - generic [ref=e781]: Oct 2024
+              - generic [ref=e782]: ●
+              - generic [ref=e783]: 466 pages
+              - generic [ref=e784]: ●
+              - generic [ref=e785]:
+                - img "Full star icon" [ref=e786]
+                - generic [ref=e787]: 5 (2)
+          - generic [ref=e788]:
+            - generic [ref=e789]:
+              - generic [ref=e790]:
+                - img "eBook" [ref=e791]
+                - button "eBook" [ref=e793] [cursor=pointer]
+              - generic [ref=e795]:
+                - strong [ref=e796]: $32.39
+                - deletion [ref=e797]: $35.99
+            - button "ADD TO CART" [ref=e800]
+        - generic [ref=e803]:
+          - link "Unreal Engine 5 Character Creation, Animation, and Cinematics Unreal Engine 5 Character Creation, Animation, and Cinematics Jun 2022 ● 598 pages ● Full star icon 4.7 (16)" [ref=e804] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/unreal-engine-5-character-creation-animation-and-cinematics-9781801819480
+            - img "Unreal Engine 5 Character Creation, Animation, and Cinematics" [ref=e805]
+            - generic [ref=e807]: Unreal Engine 5 Character Creation, Animation, and Cinematics
+            - generic [ref=e808]:
+              - generic [ref=e809]: Jun 2022
+              - generic [ref=e810]: ●
+              - generic [ref=e811]: 598 pages
+              - generic [ref=e812]: ●
+              - generic [ref=e813]:
+                - img "Full star icon" [ref=e814]
+                - generic [ref=e815]: 4.7 (16)
+          - generic [ref=e816]:
+            - generic [ref=e817]:
+              - generic [ref=e818]:
+                - img "eBook" [ref=e819]
+                - button "eBook" [ref=e821] [cursor=pointer]
+              - generic [ref=e823]:
+                - strong [ref=e824]: $57.59
+                - deletion [ref=e825]: $63.99
+            - button "ADD TO CART" [ref=e828]
+        - generic [ref=e831]:
+          - link "Power Apps Tips, Tricks, and Best Practices Power Apps Tips, Tricks, and Best Practices Nov 2024 ● 430 pages ● Full star icon 4.5 (2)" [ref=e832] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/product/power-apps-tips-tricks-and-best-practices-9781835089644
+            - img "Power Apps Tips, Tricks, and Best Practices" [ref=e833]
+            - generic [ref=e835]: Power Apps Tips, Tricks, and Best Practices
+            - generic [ref=e836]:
+              - generic [ref=e837]: Nov 2024
+              - generic [ref=e838]: ●
+              - generic [ref=e839]: 430 pages
+              - generic [ref=e840]: ●
+              - generic [ref=e841]:
+                - img "Full star icon" [ref=e842]
+                - generic [ref=e843]: 4.5 (2)
+          - generic [ref=e844]:
+            - generic [ref=e845]:
+              - generic [ref=e846]:
+                - img "eBook" [ref=e847]
+                - button "eBook" [ref=e849] [cursor=pointer]
+              - generic [ref=e851]:
+                - strong [ref=e852]: $32.39
+                - deletion [ref=e853]: $35.99
+            - button "ADD TO CART" [ref=e856]
+      - img "Right arrow icon" [ref=e857] [cursor=pointer]
+  - generic [ref=e859]:
+    - heading "Customer reviews" [level=2] [ref=e861]
+    - generic [ref=e862]:
+      - generic [ref=e864]:
+        - generic [ref=e865]: Rating distribution
+        - generic [ref=e866]:
+          - generic [ref=e867]:
+            - img "Full star icon" [ref=e868]
+            - img "Full star icon" [ref=e869]
+            - img "Full star icon" [ref=e870]
+            - img "Full star icon" [ref=e871]
+            - img "Full star icon" [ref=e872]
+            - generic [ref=e873]: "5"
+          - generic [ref=e874]: (3 Ratings)
+        - generic [ref=e875]:
+          - generic [ref=e876]:
+            - generic [ref=e877]: 5 star
+            - generic [ref=e879]: 100%
+          - generic [ref=e880]:
+            - generic [ref=e881]: 4 star
+            - generic [ref=e883]: 0%
+          - generic [ref=e884]:
+            - generic [ref=e885]: 3 star
+            - generic [ref=e887]: 0%
+          - generic [ref=e888]:
+            - generic [ref=e889]: 2 star
+            - generic [ref=e891]: 0%
+          - generic [ref=e892]:
+            - generic [ref=e893]: 1 star
+            - generic [ref=e895]: 0%
+      - generic [ref=e896]:
+        - generic [ref=e897]:
+          - generic [ref=e898]:
+            - generic [ref=e899]: Joshua S.
+            - generic [ref=e900]: Aug 03, 2018
+          - generic [ref=e902]:
+            - img "Full star icon" [ref=e903]
+            - img "Full star icon" [ref=e904]
+            - img "Full star icon" [ref=e905]
+            - img "Full star icon" [ref=e906]
+            - img "Full star icon" [ref=e907]
+            - generic [ref=e908]: "5"
+          - generic [ref=e909]: Just what I needed to know, learn, and understand Redmine. Stays on my desk for reference.
+          - generic [ref=e910]:
+            - generic [ref=e911]: Amazon Verified review
+            - img "Amazon" [ref=e912]
+        - generic [ref=e913]:
+          - generic [ref=e914]:
+            - generic [ref=e915]: VA Systems Engineer
+            - generic [ref=e916]: May 28, 2018
+          - generic [ref=e918]:
+            - img "Full star icon" [ref=e919]
+            - img "Full star icon" [ref=e920]
+            - img "Full star icon" [ref=e921]
+            - img "Full star icon" [ref=e922]
+            - img "Full star icon" [ref=e923]
+            - generic [ref=e924]: "5"
+          - generic [ref=e925]: Everything you need to know!
+          - generic [ref=e926]:
+            - generic [ref=e927]: Amazon Verified review
+            - img "Amazon" [ref=e928]
+        - generic [ref=e929]:
+          - generic [ref=e930]:
+            - generic [ref=e931]: Ilya Lyamkin
+            - generic [ref=e932]: Jun 22, 2016
+          - generic [ref=e934]:
+            - img "Full star icon" [ref=e935]
+            - img "Full star icon" [ref=e936]
+            - img "Full star icon" [ref=e937]
+            - img "Full star icon" [ref=e938]
+            - img "Full star icon" [ref=e939]
+            - generic [ref=e940]: "5"
+          - generic [ref=e941]: "I tried many project management application, and Redmine is one of my favorite tools, because of its flexibility and power simultaneously.Mastering Redmine covers the massive amount of functionality provided by Redmine with enough depth to get new users off and managing projects on their own installation.Actually the book covers everything, from the basics - where author expands on the sparse documentation that exists around installing Redmine and initial settings to look at and change, to the more advanced topics of personalization and customization. Usually it’s the hard route, by setting Redmine up using the existing instructions online, but this book is a good reference for the day-to-day administration of the system, as well as customizing the workflow.The book can be divided into four main parts: overview, installation & configuration, main features and customization.Chapter 1 is all about overview of Redmine and of its user interface. This is followed by discussions on the different databases, web servers, and source control systems that can be used with Redmine.Chapters 2 and 3 cover installation and configuration. The author writes about many ways to install Redmine and also writes about the basic setup.Chapters 4 through 9 are the essential of the book. They explain main features of Redmine, e.g. Issue Tracking, Managing Projects, Time Tracking, Text Formatting for the wiki and even more.Chapters 10 and 11 tell us about plugins, themes and customizing Redmine at all. You will learn how to tweak or make more user friendly your Redmine installation.Each chapter comes with best practices, useful tips and insights from the author experience that should make our life easier. A good addition is a practical example where he shows us how to configure Redmine to satisfy Kanban‘s task rotation practices.Overall, this is a really good book. Mastering Redmine fills the gaps in Redmine's documentation, and I am sure it will become one of the most referred-to books among administrators and users alike."
+          - generic [ref=e942]:
+            - generic [ref=e943]: Amazon Verified review
+            - img "Amazon" [ref=e944]
+  - generic [ref=e946]:
+    - heading "People who bought this also bought" [level=2] [ref=e949]
+    - generic [ref=e952]:
+      - generic [ref=e955]:
+        - link "Workflow Automation with Microsoft Power Automate Workflow Automation with Microsoft Power Automate Aug 2022 ● 424 pages ● Full star icon 4.3 (35)" [ref=e956] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/product/workflow-automation-with-microsoft-power-automate-9781803242668
+          - img "Workflow Automation with Microsoft Power Automate" [ref=e957]
+          - generic [ref=e959]: Workflow Automation with Microsoft Power Automate
+          - generic [ref=e960]:
+            - generic [ref=e961]: Aug 2022
+            - generic [ref=e962]: ●
+            - generic [ref=e963]: 424 pages
+            - generic [ref=e964]: ●
+            - generic [ref=e965]:
+              - img "Full star icon" [ref=e966]
+              - generic [ref=e967]: 4.3 (35)
+        - generic [ref=e968]:
+          - generic [ref=e969]:
+            - generic [ref=e970]:
+              - img "eBook" [ref=e971]
+              - button "eBook" [ref=e973] [cursor=pointer]
+            - generic [ref=e975]:
+              - strong [ref=e976]: $40.49
+              - deletion [ref=e977]: $44.99
+          - button "ADD TO CART" [ref=e980]
+      - generic [ref=e983]:
+        - link "101 UX Principles – 2nd edition 101 UX Principles – 2nd edition May 2022 ● 454 pages ● Full star icon 4.7 (60)" [ref=e984] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/product/101-ux-principles-2nd-edition-9781803230511
+          - img "101 UX Principles – 2nd edition" [ref=e985]
+          - generic [ref=e987]: 101 UX Principles – 2nd edition
+          - generic [ref=e988]:
+            - generic [ref=e989]: May 2022
+            - generic [ref=e990]: ●
+            - generic [ref=e991]: 454 pages
+            - generic [ref=e992]: ●
+            - generic [ref=e993]:
+              - img "Full star icon" [ref=e994]
+              - generic [ref=e995]: 4.7 (60)
+        - generic [ref=e996]:
+          - generic [ref=e997]:
+            - generic [ref=e998]:
+              - img "eBook" [ref=e999]
+              - button "eBook" [ref=e1001] [cursor=pointer]
+            - generic [ref=e1003]:
+              - strong [ref=e1004]: $30.59
+              - deletion [ref=e1005]: $33.99
+          - button "ADD TO CART" [ref=e1008]
+      - generic [ref=e1011]:
+        - link "Mastering PostgreSQL 12 Mastering PostgreSQL 12 Nov 2019 ● 470 pages ● Full star icon 4.9 (7)" [ref=e1012] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/product/mastering-postgresql-12-9781838985271
+          - img "Mastering PostgreSQL 12" [ref=e1013]
+          - generic [ref=e1015]: Mastering PostgreSQL 12
+          - generic [ref=e1016]:
+            - generic [ref=e1017]: Nov 2019
+            - generic [ref=e1018]: ●
+            - generic [ref=e1019]: 470 pages
+            - generic [ref=e1020]: ●
+            - generic [ref=e1021]:
+              - img "Full star icon" [ref=e1022]
+              - generic [ref=e1023]: 4.9 (7)
+        - generic [ref=e1024]:
+          - generic [ref=e1025]:
+            - generic [ref=e1026]:
+              - img "eBook" [ref=e1027]
+              - button "eBook" [ref=e1029] [cursor=pointer]
+            - generic [ref=e1031]:
+              - strong [ref=e1032]: $26.99
+              - deletion [ref=e1033]: $29.99
+          - button "ADD TO CART" [ref=e1036]
+      - generic [ref=e1039]:
+        - link "Mastering Microsoft Dynamics 365 Business Central Mastering Microsoft Dynamics 365 Business Central Mar 2024 ● 684 pages ● Full star icon 4.9 (15)" [ref=e1040] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/product/mastering-microsoft-dynamics-365-business-central-9781837639663
+          - img "Mastering Microsoft Dynamics 365 Business Central" [ref=e1041]
+          - generic [ref=e1043]: Mastering Microsoft Dynamics 365 Business Central
+          - generic [ref=e1044]:
+            - generic [ref=e1045]: Mar 2024
+            - generic [ref=e1046]: ●
+            - generic [ref=e1047]: 684 pages
+            - generic [ref=e1048]: ●
+            - generic [ref=e1049]:
+              - img "Full star icon" [ref=e1050]
+              - generic [ref=e1051]: 4.9 (15)
+        - generic [ref=e1052]:
+          - generic [ref=e1053]:
+            - generic [ref=e1054]:
+              - img "eBook" [ref=e1055]
+              - button "eBook" [ref=e1057] [cursor=pointer]
+            - generic [ref=e1059]:
+              - strong [ref=e1060]: $35.99
+              - deletion [ref=e1061]: $39.99
+          - button "ADD TO CART" [ref=e1064]
+      - generic [ref=e1067]:
+        - link "Learn Blender Simulations the Right Way Learn Blender Simulations the Right Way Nov 2022 ● 368 pages ● Full star icon 4.2 (13)" [ref=e1068] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/product/learn-blender-simulations-the-right-way-9781803240169
+          - img "Learn Blender Simulations the Right Way" [ref=e1069]
+          - generic [ref=e1071]: Learn Blender Simulations the Right Way
+          - generic [ref=e1072]:
+            - generic [ref=e1073]: Nov 2022
+            - generic [ref=e1074]: ●
+            - generic [ref=e1075]: 368 pages
+            - generic [ref=e1076]: ●
+            - generic [ref=e1077]:
+              - img "Full star icon" [ref=e1078]
+              - generic [ref=e1079]: 4.2 (13)
+        - generic [ref=e1080]:
+          - generic [ref=e1081]:
+            - generic [ref=e1082]:
+              - img "eBook" [ref=e1083]
+              - button "eBook" [ref=e1085] [cursor=pointer]
+            - generic [ref=e1087]:
+              - strong [ref=e1088]: $43.19
+              - deletion [ref=e1089]: $47.99
+          - button "ADD TO CART" [ref=e1092]
+  - generic [ref=e1094]:
+    - heading "About the author" [level=2] [ref=e1097]
+    - generic [ref=e1102]:
+      - generic [ref=e1103]:
+        - generic [ref=e1104]:
+          - img "Profile icon" [ref=e1105]
+          - generic [ref=e1106]: ANDRIY LESYUK
+        - generic [ref=e1107]:
+          - link "LinkedIn icon" [ref=e1108] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/andriylesyuk/
+            - img "LinkedIn icon" [ref=e1109]
+          - link "Github icon" [ref=e1110] [cursor=pointer]:
+            - /url: https://github.com/s-andy
+            - img "Github icon" [ref=e1111]
+      - generic [ref=e1114]: Andriy Lesyuk is an open source evangelist. He is an enthusiastic and passionate developer with more than 14 years of experience. He is skilled in Ruby, PHP, Perl, C, and more. His primary areas of interest are web development and Linux system development. Andriy is also the author of more than 20 open source plugins for Redmine. He lives and works in Ivano-Frankivsk, Ukraine. His website is http://blog.andriylesyuk.com/about/. He started his career as an engineer at the Ivano-Frankivsk National Technical University of Oil and Gas, where he later became the head of the Software and Networking Laboratory. For some time, he worked as a freelancer, developing custom Redmine plugins for companies worldwide, the most famous of which is oDesk. Later, Andriy joined the Kayako team, which develops the world's leading helpdesk solutions.
+      - link "See other products by ANDRIY LESYUK" [ref=e1115] [cursor=pointer]:
+        - /url: https://www.packtpub.com/authors/andriy-lesyuk
+  - generic [ref=e1117]:
+    - generic [ref=e1118]: Get free access to Packt library with over 7500+ books and video courses for 7 days!
+    - link "Start Free Trial" [ref=e1119] [cursor=pointer]:
+      - /url: https://www.packtpub.com/checkout-subscription/monthly-packt-subscription-vz22?freeTrial=true
+  - generic [ref=e1121]:
+    - heading "FAQs" [level=2] [ref=e1123]
+    - button "What is the digital copy I get with my Print order? Chevron down icon" [ref=e1124] [cursor=pointer]:
+      - generic [ref=e1125]: What is the digital copy I get with my Print order?
+      - img "Chevron down icon" [ref=e1127]
+    - paragraph [ref=e1130]: When you buy any Print edition of our Books, you can redeem (for free) the eBook edition of the Print Book you’ve purchased. This gives you instant access to your book when you make an order via PDF, EPUB or our online Reader experience.
+    - button "What is the delivery time and cost of print book? Chevron down icon" [ref=e1131] [cursor=pointer]:
+      - generic [ref=e1132]: What is the delivery time and cost of print book?
+      - img "Chevron down icon" [ref=e1134]
+    - generic [ref=e1136]:
+      - paragraph [ref=e1137]:
+        - strong [ref=e1138]: Shipping Details
+      - paragraph [ref=e1139]:
+        - strong [ref=e1140]: "USA:"
+      - text: "'"
+      - paragraph [ref=e1141]:
+        - strong [ref=e1142]: "Economy:"
+        - text: Delivery to most addresses in the US within 10-15 business days
+      - paragraph [ref=e1143]:
+        - strong [ref=e1144]: "Premium:"
+        - text: Trackable Delivery to most addresses in the US within 3-8 business days
+      - paragraph [ref=e1145]:
+        - strong [ref=e1146]: "UK:"
+      - paragraph [ref=e1147]:
+        - strong [ref=e1148]: "Economy:"
+        - text: Delivery to most addresses in the U.K. within 7-9 business days.
+        - text: Shipments are not trackable
+      - paragraph [ref=e1149]:
+        - strong [ref=e1150]:
+          - strong [ref=e1151]: Premium
+          - text: ":"
+        - text: Trackable delivery to most addresses in the U.K. within 3-4 business days!
+        - text: Add one extra business day for deliveries to Northern Ireland and Scottish Highlands and islands
+      - paragraph [ref=e1152]:
+        - strong [ref=e1153]: "EU:"
+      - paragraph [ref=e1154]:
+        - strong [ref=e1155]: "Premium:"
+        - text: Trackable delivery to most EU destinations within 4-9 business days.
+      - paragraph [ref=e1156]:
+        - strong [ref=e1157]: "Australia:"
+      - paragraph [ref=e1158]:
+        - strong [ref=e1159]: "Economy:"
+        - text: Can deliver to P. O. Boxes and private residences.
+        - text: Trackable service with delivery to addresses in Australia only.
+        - text: Delivery time ranges from 7-9 business days for VIC and 8-10 business days for Interstate metro
+        - text: Delivery time is up to 15 business days for remote areas of WA, NT & QLD.
+      - paragraph [ref=e1160]:
+        - strong [ref=e1161]: "Premium:"
+        - text: Delivery to addresses in Australia only
+        - text: Trackable delivery to most P. O. Boxes and private residences in Australia within 4-5 days based on the distance to a destination following dispatch.
+      - paragraph [ref=e1162]:
+        - strong [ref=e1163]: "India:"
+      - paragraph [ref=e1164]:
+        - strong [ref=e1165]: "Premium:"
+        - text: Delivery to most Indian addresses within 5-6 business days
+      - paragraph [ref=e1166]:
+        - strong [ref=e1167]: "Rest of the World:"
+      - paragraph [ref=e1168]:
+        - strong [ref=e1169]: "Premium:"
+        - text: "Countries in the American continent: Trackable delivery to most countries within 4-7 business days"
+      - paragraph [ref=e1170]:
+        - strong [ref=e1171]: "Asia:"
+      - paragraph [ref=e1172]:
+        - strong [ref=e1173]: "Premium:"
+        - text: Delivery to most Asian addresses within 5-9 business days
+      - paragraph [ref=e1174]:
+        - strong [ref=e1175]: "Disclaimer:"
+        - text: All orders received before 5 PM U.K time would start printing from the next business day. So the estimated delivery times start from the next day as well. Orders received after 5 PM U.K time (in our internal systems) on a business day or anytime on the weekend will begin printing the second to next business day. For example, an order placed at 11 AM today will begin printing tomorrow, whereas an order placed at 9 PM tonight will begin printing the day after tomorrow.
+      - paragraph [ref=e1176]: "Unfortunately, due to several restrictions, we are unable to ship to the following countries:"
+      - paragraph
+      - list [ref=e1177]:
+        - listitem [ref=e1178]: Afghanistan
+        - listitem [ref=e1179]: American Samoa
+        - listitem [ref=e1180]: Belarus
+        - listitem [ref=e1181]: Brunei Darussalam
+        - listitem [ref=e1182]: Central African Republic
+        - listitem [ref=e1183]: The Democratic Republic of Congo
+        - listitem [ref=e1184]: Eritrea
+        - listitem [ref=e1185]: Guinea-bissau
+        - listitem [ref=e1186]: Iran
+        - listitem [ref=e1187]: Lebanon
+        - listitem [ref=e1188]: Libiya Arab Jamahriya
+        - listitem [ref=e1189]: Somalia
+        - listitem [ref=e1190]: Sudan
+        - listitem [ref=e1191]: Russian Federation
+        - listitem [ref=e1192]: Syrian Arab Republic
+        - listitem [ref=e1193]: Ukraine
+        - listitem [ref=e1194]: Venezuela
+    - button "What is custom duty/charge? Chevron down icon" [ref=e1195] [cursor=pointer]:
+      - generic [ref=e1196]: What is custom duty/charge?
+      - img "Chevron down icon" [ref=e1198]
+    - paragraph [ref=e1201]: Customs duty are charges levied on goods when they cross international borders. It is a tax that is imposed on imported goods. These duties are charged by special authorities and bodies created by local governments and are meant to protect local industries, economies, and businesses.
+    - button "Do I have to pay customs charges for the print book order? Chevron down icon" [ref=e1202] [cursor=pointer]:
+      - generic [ref=e1203]: Do I have to pay customs charges for the print book order?
+      - img "Chevron down icon" [ref=e1205]
+    - generic [ref=e1207]:
+      - paragraph [ref=e1208]: The orders shipped to the countries that are listed under EU27 will not bear custom charges. They are paid by Packt as part of the order.
+      - paragraph [ref=e1209]:
+        - text: "List of EU27 countries:"
+        - link "www.gov.uk/eu-eea:" [ref=e1210] [cursor=pointer]:
+          - /url: https://www.gov.uk/eu-eea#:~:text=The%20EU%20countries%20are%3A,%2C%20Slovenia%2C%20Spain%20and%20Sweden
+      - paragraph [ref=e1211]: A custom duty or localized taxes may be applicable on the shipment and would be charged by the recipient country outside of the EU27 which should be paid by the customer and these duties are not included in the shipping charges been charged on the order.
+    - button "How do I know my custom duty charges? Chevron down icon" [ref=e1212] [cursor=pointer]:
+      - generic [ref=e1213]: How do I know my custom duty charges?
+      - img "Chevron down icon" [ref=e1215]
+    - generic [ref=e1217]:
+      - paragraph [ref=e1218]: The amount of duty payable varies greatly depending on the imported goods, the country of origin and several other factors like the total invoice amount or dimensions like weight, and other such criteria applicable in your country.
+      - paragraph [ref=e1219]: "For example:"
+      - list [ref=e1220]:
+        - listitem [ref=e1221]:
+          - text: If you live in
+          - strong [ref=e1222]: Mexico
+          - text: ", and the declared value of your ordered items is over $ 50, for you to receive a package, you will have to pay additional import tax of 19% which will be $ 9.50 to the courier service."
+        - listitem [ref=e1223]:
+          - text: Whereas if you live in
+          - strong [ref=e1224]: Turkey
+          - text: ", and the declared value of your ordered items is over € 22, for you to receive a package, you will have to pay additional import tax of 18% which will be € 3.96 to the courier service."
+    - button "How can I cancel my order? Chevron down icon" [ref=e1225] [cursor=pointer]:
+      - generic [ref=e1226]: How can I cancel my order?
+      - img "Chevron down icon" [ref=e1228]
+    - generic [ref=e1230]:
+      - paragraph [ref=e1231]:
+        - strong [ref=e1232]: "Cancellation Policy for Published Printed Books:"
+      - paragraph [ref=e1233]:
+        - text: You can cancel any order within 1 hour of placing the order. Simply contact customercare@packt.com with your order details or payment transaction id. If your order has already started the shipment process, we will do our best to stop it. However, if it is already on the way to you then when you receive it, you can contact us at
+        - link "customercare@packt.com" [ref=e1234] [cursor=pointer]:
+          - /url: mailto:customercare@packt.com
+        - text: using the returns and refund process.
+      - paragraph [ref=e1235]: Please understand that Packt Publishing cannot provide refunds or cancel any order except for the cases described in our Return Policy (i.e. Packt Publishing agrees to replace your printed book because it arrives damaged or material defect in book), Packt Publishing will not accept returns.
+    - button "What is your returns and refunds policy? Chevron down icon" [ref=e1236] [cursor=pointer]:
+      - generic [ref=e1237]: What is your returns and refunds policy?
+      - img "Chevron down icon" [ref=e1239]
+    - generic [ref=e1241]:
+      - paragraph [ref=e1242]:
+        - strong [ref=e1243]: "Return Policy:"
+      - paragraph [ref=e1244]:
+        - text: We want you to be happy with your purchase from Packtpub.com. We will not hassle you with returning print books to us. If the print book you receive from us is incorrect, damaged, doesn't work or is unacceptably late, please contact Customer Relations Team on
+        - link "customercare@packt.com" [ref=e1245] [cursor=pointer]:
+          - /url: mailto:customercare@packt.com
+        - text: "with the order number and issue details as explained below:"
+      - list [ref=e1246]:
+        - listitem [ref=e1247]:
+          - text: If you ordered (eBook, Video or Print Book) incorrectly or accidentally, please contact Customer Relations Team on
+          - link "customercare@packt.com" [ref=e1248] [cursor=pointer]:
+            - /url: mailto:customercare@packt.com
+          - text: within one hour of placing the order and we will replace/refund you the item cost.
+        - listitem [ref=e1249]:
+          - text: Sadly, if your eBook or Video file is faulty or a fault occurs during the eBook or Video being made available to you, i.e. during download then you should contact Customer Relations Team within 14 days of purchase on
+          - link "customercare@packt.com" [ref=e1250] [cursor=pointer]:
+            - /url: mailto:customercare@packt.com
+          - text: who will be able to resolve this issue for you.
+        - listitem [ref=e1251]: You will have a choice of replacement or refund of the problem items.(damaged, defective or incorrect)
+        - listitem [ref=e1252]: Once Customer Care Team confirms that you will be refunded, you should receive the refund within 10 to 12 working days.
+        - listitem [ref=e1253]: If you are only requesting a refund of one book from a multiple order, then we will refund you the appropriate single item.
+        - listitem [ref=e1254]: Where the items were shipped under a free shipping offer, there will be no shipping costs to refund.
+      - paragraph [ref=e1255]:
+        - text: On the off chance your printed book arrives damaged, with book material defect, contact our Customer Relation Team on
+        - link "customercare@packt.com" [ref=e1256] [cursor=pointer]:
+          - /url: mailto:customercare@packt.com
+        - text: within 14 days of receipt of the book with appropriate evidence of damage and we will work with you to secure a replacement copy, if necessary. Please note that each printed book you order from us is individually made by Packt's professional book-printing partner which is on a print-on-demand basis.
+    - button "What tax is charged? Chevron down icon" [ref=e1257] [cursor=pointer]:
+      - generic [ref=e1258]: What tax is charged?
+      - img "Chevron down icon" [ref=e1260]
+    - paragraph [ref=e1263]: Currently, no tax is charged on the purchase of any print book (subject to change based on the laws and regulations). A localized VAT fee is charged only to our European and UK customers on eBooks, Video and subscriptions that they buy. GST is charged to Indian customers for eBooks and video purchases.
+    - button "What payment methods can I use? Chevron down icon" [ref=e1264] [cursor=pointer]:
+      - generic [ref=e1265]: What payment methods can I use?
+      - img "Chevron down icon" [ref=e1267]
+    - generic [ref=e1269]:
+      - paragraph [ref=e1270]: "You can pay with the following card types:"
+      - list [ref=e1271]:
+        - listitem [ref=e1272]: Visa Debit
+        - listitem [ref=e1273]: Visa Credit
+        - listitem [ref=e1274]: MasterCard
+        - listitem [ref=e1275]: PayPal
+    - button "What is the delivery time and cost of print books? Chevron down icon" [ref=e1276] [cursor=pointer]:
+      - generic [ref=e1277]: What is the delivery time and cost of print books?
+      - img "Chevron down icon" [ref=e1279]
+    - generic [ref=e1281]:
+      - paragraph [ref=e1282]:
+        - strong [ref=e1283]: Shipping Details
+      - paragraph [ref=e1284]:
+        - strong [ref=e1285]: "USA:"
+      - text: "'"
+      - paragraph [ref=e1286]:
+        - strong [ref=e1287]: "Economy:"
+        - text: Delivery to most addresses in the US within 10-15 business days
+      - paragraph [ref=e1288]:
+        - strong [ref=e1289]: "Premium:"
+        - text: Trackable Delivery to most addresses in the US within 3-8 business days
+      - paragraph [ref=e1290]:
+        - strong [ref=e1291]: "UK:"
+      - paragraph [ref=e1292]:
+        - strong [ref=e1293]: "Economy:"
+        - text: Delivery to most addresses in the U.K. within 7-9 business days.
+        - text: Shipments are not trackable
+      - paragraph [ref=e1294]:
+        - strong [ref=e1295]:
+          - strong [ref=e1296]: Premium
+          - text: ":"
+        - text: Trackable delivery to most addresses in the U.K. within 3-4 business days!
+        - text: Add one extra business day for deliveries to Northern Ireland and Scottish Highlands and islands
+      - paragraph [ref=e1297]:
+        - strong [ref=e1298]: "EU:"
+      - paragraph [ref=e1299]:
+        - strong [ref=e1300]: "Premium:"
+        - text: Trackable delivery to most EU destinations within 4-9 business days.
+      - paragraph [ref=e1301]:
+        - strong [ref=e1302]: "Australia:"
+      - paragraph [ref=e1303]:
+        - strong [ref=e1304]: "Economy:"
+        - text: Can deliver to P. O. Boxes and private residences.
+        - text: Trackable service with delivery to addresses in Australia only.
+        - text: Delivery time ranges from 7-9 business days for VIC and 8-10 business days for Interstate metro
+        - text: Delivery time is up to 15 business days for remote areas of WA, NT & QLD.
+      - paragraph [ref=e1305]:
+        - strong [ref=e1306]: "Premium:"
+        - text: Delivery to addresses in Australia only
+        - text: Trackable delivery to most P. O. Boxes and private residences in Australia within 4-5 days based on the distance to a destination following dispatch.
+      - paragraph [ref=e1307]:
+        - strong [ref=e1308]: "India:"
+      - paragraph [ref=e1309]:
+        - strong [ref=e1310]: "Premium:"
+        - text: Delivery to most Indian addresses within 5-6 business days
+      - paragraph [ref=e1311]:
+        - strong [ref=e1312]: "Rest of the World:"
+      - paragraph [ref=e1313]:
+        - strong [ref=e1314]: "Premium:"
+        - text: "Countries in the American continent: Trackable delivery to most countries within 4-7 business days"
+      - paragraph [ref=e1315]:
+        - strong [ref=e1316]: "Asia:"
+      - paragraph [ref=e1317]:
+        - strong [ref=e1318]: "Premium:"
+        - text: Delivery to most Asian addresses within 5-9 business days
+      - paragraph [ref=e1319]:
+        - strong [ref=e1320]: "Disclaimer:"
+        - text: All orders received before 5 PM U.K time would start printing from the next business day. So the estimated delivery times start from the next day as well. Orders received after 5 PM U.K time (in our internal systems) on a business day or anytime on the weekend will begin printing the second to next business day. For example, an order placed at 11 AM today will begin printing tomorrow, whereas an order placed at 9 PM tonight will begin printing the day after tomorrow.
+      - paragraph [ref=e1321]: "Unfortunately, due to several restrictions, we are unable to ship to the following countries:"
+      - paragraph
+      - list [ref=e1322]:
+        - listitem [ref=e1323]: Afghanistan
+        - listitem [ref=e1324]: American Samoa
+        - listitem [ref=e1325]: Belarus
+        - listitem [ref=e1326]: Brunei Darussalam
+        - listitem [ref=e1327]: Central African Republic
+        - listitem [ref=e1328]: The Democratic Republic of Congo
+        - listitem [ref=e1329]: Eritrea
+        - listitem [ref=e1330]: Guinea-bissau
+        - listitem [ref=e1331]: Iran
+        - listitem [ref=e1332]: Lebanon
+        - listitem [ref=e1333]: Libiya Arab Jamahriya
+        - listitem [ref=e1334]: Somalia
+        - listitem [ref=e1335]: Sudan
+        - listitem [ref=e1336]: Russian Federation
+        - listitem [ref=e1337]: Syrian Arab Republic
+        - listitem [ref=e1338]: Ukraine
+        - listitem [ref=e1339]: Venezuela
+  - contentinfo [ref=e1340]:
+    - generic [ref=e1344]:
+      - link "Enterprise Resource Planning" [ref=e1345] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/enterprise-resource-planning
+      - link "Project Management" [ref=e1346] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/project-management
+      - link "Business Management" [ref=e1347] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/business-management
+      - link "Soft Skills" [ref=e1348] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/soft-skills
+      - link "Animation" [ref=e1349] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/animation
+      - link "Agile" [ref=e1350] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/agile
+      - link "Computer Aided Design" [ref=e1351] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/computer-aided-design
+      - link "Workflow Automation" [ref=e1352] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/workflow-automation
+      - link "Document Preparation" [ref=e1353] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/document-preparation
+      - link "UI Development" [ref=e1354] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/business-and-other/concept/ui-development
+    - generic [ref=e1355]:
+      - generic [ref=e1356]:
+        - generic [ref=e1357]: Legal
+        - generic [ref=e1358]:
+          - link "Terms and Conditions" [ref=e1359] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/terms-and-conditions
+          - link "Privacy Policy" [ref=e1360] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/privacy-policy
+          - link "Cookie Policy" [ref=e1361] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/cookie-policy
+          - link "Shipping Policy" [ref=e1362] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/shipping-policy
+          - link "Cancellation Policy" [ref=e1363] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/cancellation-policy
+          - link "Return Policy" [ref=e1364] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/returns-policy
+      - generic [ref=e1365]:
+        - generic [ref=e1366]: Support
+        - generic [ref=e1367]:
+          - link "Help" [ref=e1368] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/faqs
+          - link "Contact Us" [ref=e1369] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/contact
+      - generic [ref=e1370]:
+        - generic [ref=e1371]: Business
+        - generic [ref=e1372]:
+          - link "Partnerships" [ref=e1373] [cursor=pointer]:
+            - /url: https://partnerships.packt.com/
+          - generic [ref=e1374]:
+            - link "Sponsored eBooks" [ref=e1375] [cursor=pointer]:
+              - /url: https://partnerships.packt.com/sponsored-ebooks/
+            - link "Custom eBooks" [ref=e1376] [cursor=pointer]:
+              - /url: https://partnerships.packt.com/ebooks-white-papers/
+          - link "Careers" [ref=e1377] [cursor=pointer]:
+            - /url: https://apply.workable.com/packtpublishing/?lng=en
+          - link "Packt China" [ref=e1378] [cursor=pointer]:
+            - /url: https://china.packtpub.com/
+          - link "Become an author" [ref=e1379] [cursor=pointer]:
+            - /url: https://partnerships.packt.com/contributors/
+      - generic [ref=e1380]:
+        - generic [ref=e1381]: Packt+ Membership
+        - generic [ref=e1382]:
+          - link "Subscription" [ref=e1383] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/subscribe
+          - link "DataPro" [ref=e1384] [cursor=pointer]:
+            - /url: https://www.packtpub.com/datapro
+          - link "SecPro" [ref=e1385] [cursor=pointer]:
+            - /url: https://www.packtpub.com/secpro
+    - generic [ref=e1386]:
+      - generic [ref=e1387]:
+        - img "countryFlag" [ref=e1388]
+        - generic [ref=e1389]: United States
+      - generic [ref=e1390]:
+        - generic [ref=e1391]: "Company Address: Packt Publishing Ltd, Grosvenor House, 11 St Paul's Square, Birmingham, B3 1RB"
+        - generic [ref=e1392]: © 2025 Packt Publishing Limited All Rights Reserved
+    - generic [ref=e1395]:
+      - generic [ref=e1396]:
+        - img "Close icon" [ref=e1397]
+        - generic [ref=e1398]: You are browsing a version of our website which may not be the most relevant option for you. We suggest changing to the following version.
+        - generic [ref=e1399]:
+          - button "countryFlag Canada" [ref=e1400] [cursor=pointer]:
+            - img "countryFlag" [ref=e1401]
+            - generic [ref=e1402]: Canada
+          - link "GO" [ref=e1403] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-ca?product=mastering-redmine-second-edition-9781785881305
+            - button "GO" [ref=e1404]
+      - separator [ref=e1405]
+      - generic [ref=e1406]:
+        - img "Close icon" [ref=e1407]
+        - paragraph [ref=e1409]: Signed in users are eligible for personalised offers and content recommendations.
+        - generic [ref=e1410]:
+          - link "Country selected Sign in with Packt" [ref=e1411] [cursor=pointer]:
+            - /url: https://www.packtpub.com/login
+            - button "Country selected Sign in with Packt" [ref=e1412]:
+              - img "Country selected" [ref=e1413]
+              - text: Sign in with
+              - generic [ref=e1414]: Packt
+          - link "Google Sign in with Google" [ref=e1415] [cursor=pointer]:
+            - /url: https://www.packtpub.com/login
+            - button "Google Sign in with Google" [ref=e1416]:
+              - img "Google" [ref=e1417]
+              - text: Sign in with
+              - generic [ref=e1418]: Google
+          - link "Github Sign in with Github" [ref=e1419] [cursor=pointer]:
+            - /url: https://www.packtpub.com/login
+            - button "Github Sign in with Github" [ref=e1420]:
+              - img "Github" [ref=e1421]
+              - text: Sign in with
+              - generic [ref=e1422]: Github
+```

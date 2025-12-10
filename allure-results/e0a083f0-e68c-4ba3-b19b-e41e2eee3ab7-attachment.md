@@ -1,0 +1,204 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Packt" [ref=e4] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us
+        - img "Packt" [ref=e5]
+      - generic [ref=e6]:
+        - img "Search icon" [ref=e7]
+        - textbox "Search..." [ref=e8]
+      - generic [ref=e9]:
+        - link "Subscription" [ref=e10] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/subscribe
+        - generic [ref=e11]:
+          - generic [ref=e12]: "0"
+          - img "Cart icon" [ref=e14]
+      - img "Profile icon" [ref=e17]
+    - generic [ref=e21]:
+      - generic [ref=e22]: Explore Products
+      - generic [ref=e23]: Best Sellers
+      - generic [ref=e24]: New Releases
+      - generic [ref=e25]: Books
+      - generic [ref=e26]: Videos
+      - generic [ref=e27]: Audiobooks
+      - link "Learning Hub" [ref=e28] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/learning
+        - generic [ref=e29]: Learning Hub
+      - link "Newsletter Hub" [ref=e30] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/newsletters
+        - generic [ref=e31]: Newsletter Hub
+      - generic [ref=e32]: Free Learning
+  - generic [ref=e35]:
+    - link "Home" [ref=e36] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e37]: ">"
+    - link "Business & Other" [ref=e38] [cursor=pointer]:
+      - /url: /en-us/business-and-other
+    - generic [ref=e39]: ">"
+    - link "Project Management" [ref=e40] [cursor=pointer]:
+      - /url: /en-us/business-and-other/concept/project-management
+    - generic [ref=e41]: ">"
+    - generic [ref=e42]: Mastering Redmine Second Edition
+  - generic [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - img "Mastering Redmine Second Edition" [ref=e47] [cursor=pointer]
+        - generic [ref=e48]:
+          - 'heading "Mastering Redmine Second Edition: , Second Edition" [level=1] [ref=e49]'
+          - generic [ref=e51]:
+            - generic [ref=e55]:
+              - img "Profile Icon" [ref=e56]
+              - text: ANDRIY LESYUK
+            - generic [ref=e58]: $54.99
+            - link "Full star icon Full star icon Full star icon Full star icon Full star icon 5 (3 Ratings)" [ref=e60] [cursor=pointer]:
+              - /url: "#review-section"
+              - generic [ref=e61]:
+                - img "Full star icon" [ref=e62]
+                - img "Full star icon" [ref=e63]
+                - img "Full star icon" [ref=e64]
+                - img "Full star icon" [ref=e65]
+                - img "Full star icon" [ref=e66]
+                - generic [ref=e67]: "5"
+                - generic [ref=e68]: (3 Ratings)
+            - generic [ref=e69]:
+              - generic [ref=e70]: Paperback
+              - generic [ref=e71]: ●
+              - generic [ref=e72]: May 2016
+              - generic [ref=e73]: ●
+              - generic [ref=e74]: 366 pages
+              - generic [ref=e75]: ●
+              - generic [ref=e76]: 2nd Edition
+            - generic [ref=e77]:
+              - link "eBook $39.59 $43.99" [ref=e78] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785883460
+                - generic [ref=e79]:
+                  - generic [ref=e80]: eBook
+                  - generic [ref=e81]: $39.59
+                  - deletion [ref=e82]: $43.99
+              - link "Paperback $54.99" [ref=e83] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305
+                - generic [ref=e84]:
+                  - generic [ref=e85]: Paperback
+                  - generic [ref=e86]: $54.99
+              - link "Subscription Free Trial Renews at $19.99p/m" [ref=e87] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-redmine-second-edition-9781785881305?type=subscription
+                - generic [ref=e88]:
+                  - generic [ref=e89]: Subscription
+                  - generic [ref=e90]: Free Trial
+                  - generic [ref=e91]: Renews at $19.99p/m
+      - text: ● ● ●
+      - generic [ref=e92]:
+        - link "Table of content icon View table of contents" [ref=e93] [cursor=pointer]:
+          - /url: "#tocBlock"
+          - img "Table of content icon" [ref=e94]
+          - generic [ref=e95]: View table of contents
+        - generic [ref=e96]:
+          - img "Preview book icon" [ref=e97]
+          - generic [ref=e98]: Preview Book
+        - text: Note Note
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - heading "Key benefits" [level=2] [ref=e101]
+          - list [ref=e102]:
+            - listitem [ref=e103]: "*Learn Redmine through the basic topics to the mastering ones"
+            - listitem [ref=e104]: "*Customize Redmine without breaking upgrade compatibility"
+            - listitem [ref=e105]: "*Become an expert of Redmine after having read this comprehensive guide with tips, tricks and best practices."
+        - generic [ref=e106]:
+          - heading "Description" [level=2] [ref=e107]
+          - generic [ref=e108]: Redmine is not only one of the popular open source project management applications but also one of the best project hosting and issue tracking solutions. This book is an update of our previous successful edition, Mastering Redmine. This book is a comprehensive guide that will give you a detailed practical understanding on how to effectively manage, monitor and administer complex projects using Redmine. You will get familiar with the concept of Issue Tracking and will get to know why and what makes Redmine one of the best issue trackers. Another main part of Redmine functionality, which is Managing projects shows why this is one of the best applications for project hosting. Furthermore, you will learn more about Redmine rich text formatting syntax, access control and workflow and time Tracking. Towards the end, you will unleash the power of custom fields and guides to show how to customize Redmine without breaking upgrade compatibility. By the end of the book, you will have a deep practical understanding on how to effectively monitor and manage large scale and complex projects using Redmine.
+        - generic [ref=e109]:
+          - heading "Who is this book for?" [level=2] [ref=e110]
+          - generic [ref=e111]: This book is best suited for project managers and Redmine administrators who have working knowledge of Redmine and who now want to get advanced practical knowledge to manage and monitor projects effectively and efficiently.
+        - generic [ref=e112]:
+          - heading "What you will learn" [level=2] [ref=e113]
+          - list [ref=e114]:
+            - listitem [ref=e115]: "*Forget about troubles with installing and configuring Redmine"
+            - listitem [ref=e116]: "*Feel at ease with using Redmine wiki syntax"
+            - listitem [ref=e117]: "*Get familiar with the permissions system and issue life cycle in Redmine"
+            - listitem [ref=e118]: "*Use Redmine for issue tracking, project hosting, project management, and time tracking"
+            - listitem [ref=e119]: "*Find and choose plugins, and get familiar with some of the most useful Redmine plugins"
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - heading "What do you get with Print?" [level=2] [ref=e122]
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - img "Product feature icon" [ref=e125]
+            - generic [ref=e126]:
+              - strong [ref=e127]: Instant access
+              - text: to your digital copy whilst your Print order is Shipped
+          - generic [ref=e128]:
+            - img "Product feature icon" [ref=e129]
+            - generic [ref=e130]: Paperback book shipped to your preferred address
+          - generic [ref=e131]:
+            - img "Product feature icon" [ref=e132]
+            - generic [ref=e133]: Redeem a companion digital copy on all Print orders
+          - generic [ref=e134]:
+            - img "Product feature icon" [ref=e135]
+            - generic [ref=e136]: Access this title in our online reader with advanced features
+          - generic [ref=e137]:
+            - img "Product feature icon" [ref=e138]
+            - generic [ref=e139]:
+              - strong [ref=e140]: DRM FREE
+              - text: "- Read whenever, wherever and however you want"
+        - generic [ref=e141]:
+          - button "Buy Now" [ref=e143]
+          - button "ADD TO CART" [ref=e144]
+        - generic [ref=e145]:
+          - text: OR
+          - generic [ref=e146]:
+            - button "Google Pay" [ref=e147] [cursor=pointer]:
+              - img "Google Pay" [ref=e148]
+            - button "Apple Pay" [ref=e149] [cursor=pointer]:
+              - img "Apple Pay" [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e152]: Estimated delivery fee
+        - generic [ref=e153]: Deliver to United States
+        - generic [ref=e154]:
+          - generic [ref=e156]:
+            - paragraph [ref=e157]:
+              - generic [ref=e158]: Economy delivery
+              - generic [ref=e159]: 10 - 13 business days
+            - generic [ref=e160]:
+              - generic [ref=e161]: Free
+              - deletion [ref=e162]: $6.95
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - paragraph [ref=e165]:
+                - generic [ref=e166]: Premium delivery
+                - generic [ref=e167]: 6 - 9 business days
+              - generic [ref=e169]: $21.95
+            - generic [ref=e170]: (Includes tracking information)
+      - generic [ref=e171]:
+        - heading "Product Details" [level=2] [ref=e173]
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e177]: "Publication date :"
+            - generic [ref=e178]: May 31, 2016
+          - generic [ref=e179]:
+            - generic [ref=e180]: "Length:"
+            - generic [ref=e181]: 366 pages
+          - generic [ref=e182]:
+            - generic [ref=e183]: "Edition :"
+            - generic [ref=e184]: 2nd
+          - generic [ref=e185]:
+            - generic [ref=e186]: "Language :"
+            - generic [ref=e187]: English
+          - generic [ref=e188]:
+            - generic [ref=e189]: "ISBN-13 :"
+            - generic [ref=e190]: "9781785881305"
+          - generic [ref=e191]:
+            - generic [ref=e192]: "Category :"
+            - link "Business & Other" [ref=e194] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/business-and-other
+          - generic [ref=e195]:
+            - generic [ref=e196]: "Concepts :"
+            - link "Project Management" [ref=e198] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/business-and-other/concept/project-management
+          - generic [ref=e199]:
+            - generic [ref=e200]: "Tools :"
+            - link "Redmine" [ref=e202] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/business-and-other/tool/redmine
+```

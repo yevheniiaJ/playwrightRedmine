@@ -1,9 +1,11 @@
-export class ProjectManagement {
+import { BasePage } from '../pages/basePage.js'
+
+export class ProjectManagement extends BasePage {
 
     constructor(page) {
 
-        this.page = page;
-        this.ProjectManagementTitle = page.locator(`//span[@class='category-content-results-header-title']`)
+        super(page)
+        this.projectManagementTitle = page.locator(`//span[@class='category-content-results-header-title']`)
     }
 
 }

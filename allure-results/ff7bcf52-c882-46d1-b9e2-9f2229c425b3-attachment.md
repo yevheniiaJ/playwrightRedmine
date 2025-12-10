@@ -1,0 +1,552 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - link "Packt" [ref=e7] [cursor=pointer]:
+      - /url: https://www.packtpub.com/en-us
+      - img "Packt" [ref=e8]
+    - generic [ref=e9]:
+      - generic [ref=e10] [cursor=pointer]: FAQs
+      - generic [ref=e11] [cursor=pointer]: Contact us
+      - generic [ref=e12] [cursor=pointer]: Return Policies
+  - generic [ref=e13]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - iframe [ref=e20]:
+          
+        - generic [ref=e22]: Shipping address
+        - iframe [ref=e25]:
+          - generic [ref=f2e4]:
+            - generic [ref=f2e8]:
+              - generic [ref=f2e9]:
+                - generic [ref=f2e11]:
+                  - generic [ref=f2e12]: First name
+                  - textbox "First name" [ref=f2e14]:
+                    - /placeholder: ""
+                  - generic [ref=f2e15]:
+                    - alert: Please provide your first name.
+                - generic [ref=f2e17]:
+                  - generic [ref=f2e18]: Last name
+                  - textbox "Last name" [ref=f2e20]:
+                    - /placeholder: ""
+                  - generic [ref=f2e21]:
+                    - alert: Please provide your last name.
+                - generic [ref=f2e23]:
+                  - generic [ref=f2e24]: Country or region
+                  - combobox "Country or region" [ref=f2e27] [cursor=pointer]:
+                    - option "Select" [disabled]
+                    - option "Afghanistan"
+                    - option "Åland Islands"
+                    - option "Albania"
+                    - option "Algeria"
+                    - option "Andorra"
+                    - option "Angola"
+                    - option "Anguilla"
+                    - option "Antarctica"
+                    - option "Antigua & Barbuda"
+                    - option "Argentina"
+                    - option "Armenia"
+                    - option "Aruba"
+                    - option "Ascension Island"
+                    - option "Australia"
+                    - option "Austria"
+                    - option "Azerbaijan"
+                    - option "Bahamas"
+                    - option "Bahrain"
+                    - option "Bangladesh"
+                    - option "Barbados"
+                    - option "Belarus"
+                    - option "Belgium"
+                    - option "Belize"
+                    - option "Benin"
+                    - option "Bermuda"
+                    - option "Bhutan"
+                    - option "Bolivia"
+                    - option "Bosnia & Herzegovina"
+                    - option "Botswana"
+                    - option "Bouvet Island"
+                    - option "Brazil"
+                    - option "British Indian Ocean Territory"
+                    - option "British Virgin Islands"
+                    - option "Brunei"
+                    - option "Bulgaria"
+                    - option "Burkina Faso"
+                    - option "Burundi"
+                    - option "Cambodia"
+                    - option "Cameroon"
+                    - option "Canada"
+                    - option "Cape Verde"
+                    - option "Caribbean Netherlands"
+                    - option "Cayman Islands"
+                    - option "Central African Republic"
+                    - option "Chad"
+                    - option "Chile"
+                    - option "China"
+                    - option "Colombia"
+                    - option "Comoros"
+                    - option "Congo - Brazzaville"
+                    - option "Congo - Kinshasa"
+                    - option "Cook Islands"
+                    - option "Costa Rica"
+                    - option "Côte d’Ivoire"
+                    - option "Croatia"
+                    - option "Curaçao"
+                    - option "Cyprus"
+                    - option "Czechia"
+                    - option "Denmark"
+                    - option "Djibouti"
+                    - option "Dominica"
+                    - option "Dominican Republic"
+                    - option "Ecuador"
+                    - option "Egypt"
+                    - option "El Salvador"
+                    - option "Equatorial Guinea"
+                    - option "Eritrea"
+                    - option "Estonia"
+                    - option "Eswatini"
+                    - option "Ethiopia"
+                    - option "Falkland Islands"
+                    - option "Faroe Islands"
+                    - option "Fiji"
+                    - option "Finland"
+                    - option "France"
+                    - option "French Guiana"
+                    - option "French Polynesia"
+                    - option "French Southern Territories"
+                    - option "Gabon"
+                    - option "Gambia"
+                    - option "Georgia"
+                    - option "Germany"
+                    - option "Ghana"
+                    - option "Gibraltar"
+                    - option "Greece"
+                    - option "Greenland"
+                    - option "Grenada"
+                    - option "Guadeloupe"
+                    - option "Guam"
+                    - option "Guatemala"
+                    - option "Guernsey"
+                    - option "Guinea"
+                    - option "Guinea-Bissau"
+                    - option "Guyana"
+                    - option "Haiti"
+                    - option "Honduras"
+                    - option "Hong Kong SAR China"
+                    - option "Hungary"
+                    - option "Iceland"
+                    - option "India"
+                    - option "Indonesia"
+                    - option "Iraq"
+                    - option "Ireland"
+                    - option "Isle of Man"
+                    - option "Israel"
+                    - option "Italy"
+                    - option "Jamaica"
+                    - option "Japan"
+                    - option "Jersey"
+                    - option "Jordan"
+                    - option "Kazakhstan"
+                    - option "Kenya"
+                    - option "Kiribati"
+                    - option "Kosovo"
+                    - option "Kuwait"
+                    - option "Kyrgyzstan"
+                    - option "Laos"
+                    - option "Latvia"
+                    - option "Lebanon"
+                    - option "Lesotho"
+                    - option "Liberia"
+                    - option "Libya"
+                    - option "Liechtenstein"
+                    - option "Lithuania"
+                    - option "Luxembourg"
+                    - option "Macao SAR China"
+                    - option "Madagascar"
+                    - option "Malawi"
+                    - option "Malaysia"
+                    - option "Maldives"
+                    - option "Mali"
+                    - option "Malta"
+                    - option "Martinique"
+                    - option "Mauritania"
+                    - option "Mauritius"
+                    - option "Mayotte"
+                    - option "Mexico"
+                    - option "Moldova"
+                    - option "Monaco"
+                    - option "Mongolia"
+                    - option "Montenegro"
+                    - option "Montserrat"
+                    - option "Morocco"
+                    - option "Mozambique"
+                    - option "Myanmar (Burma)"
+                    - option "Namibia"
+                    - option "Nauru"
+                    - option "Nepal"
+                    - option "Netherlands"
+                    - option "New Caledonia"
+                    - option "New Zealand"
+                    - option "Nicaragua"
+                    - option "Niger"
+                    - option "Nigeria"
+                    - option "Niue"
+                    - option "North Macedonia"
+                    - option "Norway"
+                    - option "Oman"
+                    - option "Pakistan"
+                    - option "Palestinian Territories"
+                    - option "Panama"
+                    - option "Papua New Guinea"
+                    - option "Paraguay"
+                    - option "Peru"
+                    - option "Philippines"
+                    - option "Pitcairn Islands"
+                    - option "Poland"
+                    - option "Portugal"
+                    - option "Puerto Rico"
+                    - option "Qatar"
+                    - option "Réunion"
+                    - option "Romania"
+                    - option "Russia"
+                    - option "Rwanda"
+                    - option "Samoa"
+                    - option "San Marino"
+                    - option "São Tomé & Príncipe"
+                    - option "Saudi Arabia"
+                    - option "Senegal"
+                    - option "Serbia"
+                    - option "Seychelles"
+                    - option "Sierra Leone"
+                    - option "Singapore"
+                    - option "Sint Maarten"
+                    - option "Slovakia"
+                    - option "Slovenia"
+                    - option "Solomon Islands"
+                    - option "Somalia"
+                    - option "South Africa"
+                    - option "South Georgia & South Sandwich Islands"
+                    - option "South Korea"
+                    - option "South Sudan"
+                    - option "Spain"
+                    - option "Sri Lanka"
+                    - option "St. Barthélemy"
+                    - option "St. Helena"
+                    - option "St. Kitts & Nevis"
+                    - option "St. Lucia"
+                    - option "St. Martin"
+                    - option "St. Pierre & Miquelon"
+                    - option "St. Vincent & Grenadines"
+                    - option "Sudan"
+                    - option "Suriname"
+                    - option "Svalbard & Jan Mayen"
+                    - option "Sweden"
+                    - option "Switzerland"
+                    - option "Taiwan"
+                    - option "Tajikistan"
+                    - option "Tanzania"
+                    - option "Thailand"
+                    - option "Timor-Leste"
+                    - option "Togo"
+                    - option "Tokelau"
+                    - option "Tonga"
+                    - option "Trinidad & Tobago"
+                    - option "Tristan da Cunha"
+                    - option "Tunisia"
+                    - option "Türkiye"
+                    - option "Turkmenistan"
+                    - option "Turks & Caicos Islands"
+                    - option "Tuvalu"
+                    - option "Uganda"
+                    - option "Ukraine"
+                    - option "United Arab Emirates"
+                    - option "United Kingdom"
+                    - option "United States" [selected]
+                    - option "Uruguay"
+                    - option "Uzbekistan"
+                    - option "Vanuatu"
+                    - option "Vatican City"
+                    - option "Venezuela"
+                    - option "Vietnam"
+                    - option "Wallis & Futuna"
+                    - option "Western Sahara"
+                    - option "Yemen"
+                    - option "Zambia"
+                    - option "Zimbabwe"
+              - generic [ref=f2e28]:
+                - generic [ref=f2e30]:
+                  - generic [ref=f2e31]: Address line 1
+                  - textbox "Address line 1" [ref=f2e33]:
+                    - /placeholder: ""
+                  - generic [ref=f2e34]:
+                    - alert: This field is incomplete.
+                - generic [ref=f2e36]:
+                  - generic [ref=f2e37]: Address line 2
+                  - textbox "Address line 2" [ref=f2e39]:
+                    - /placeholder: Apt., suite, unit number, etc. (optional)
+                - generic [ref=f2e41]:
+                  - generic [ref=f2e42]: City
+                  - textbox "City" [ref=f2e44]:
+                    - /placeholder: ""
+                  - generic [ref=f2e45]:
+                    - alert: This field is incomplete.
+                - generic [ref=f2e47]:
+                  - generic [ref=f2e48]: State
+                  - generic [ref=f2e49]:
+                    - textbox [ref=f2e50]
+                    - combobox "State" [ref=f2e52] [cursor=pointer]:
+                      - option "Select" [disabled] [selected]
+                      - option "Alabama"
+                      - option "Alaska"
+                      - option "American Samoa"
+                      - option "Arizona"
+                      - option "Arkansas"
+                      - option "Armed Forces (AA)"
+                      - option "Armed Forces (AE)"
+                      - option "Armed Forces (AP)"
+                      - option "California"
+                      - option "Colorado"
+                      - option "Connecticut"
+                      - option "Delaware"
+                      - option "District of Columbia"
+                      - option "Florida"
+                      - option "Georgia"
+                      - option "Guam"
+                      - option "Hawaii"
+                      - option "Idaho"
+                      - option "Illinois"
+                      - option "Indiana"
+                      - option "Iowa"
+                      - option "Kansas"
+                      - option "Kentucky"
+                      - option "Louisiana"
+                      - option "Maine"
+                      - option "Marshall Islands"
+                      - option "Maryland"
+                      - option "Massachusetts"
+                      - option "Michigan"
+                      - option "Micronesia"
+                      - option "Minnesota"
+                      - option "Mississippi"
+                      - option "Missouri"
+                      - option "Montana"
+                      - option "Nebraska"
+                      - option "Nevada"
+                      - option "New Hampshire"
+                      - option "New Jersey"
+                      - option "New Mexico"
+                      - option "New York"
+                      - option "North Carolina"
+                      - option "North Dakota"
+                      - option "Northern Mariana Islands"
+                      - option "Ohio"
+                      - option "Oklahoma"
+                      - option "Oregon"
+                      - option "Palau"
+                      - option "Pennsylvania"
+                      - option "Puerto Rico"
+                      - option "Rhode Island"
+                      - option "South Carolina"
+                      - option "South Dakota"
+                      - option "Tennessee"
+                      - option "Texas"
+                      - option "Utah"
+                      - option "Vermont"
+                      - option "Virgin Islands"
+                      - option "Virginia"
+                      - option "Washington"
+                      - option "West Virginia"
+                      - option "Wisconsin"
+                      - option "Wyoming"
+                  - generic [ref=f2e53]:
+                    - alert: This field is incomplete.
+                - generic [ref=f2e55]:
+                  - generic [ref=f2e56]: ZIP code
+                  - textbox "ZIP code" [ref=f2e58]:
+                    - /placeholder: ""
+                  - generic [ref=f2e59]:
+                    - alert: This field is incomplete.
+            - button
+      - generic [ref=e26]:
+        - generic [ref=e27]: Billing address
+        - generic [ref=e29]:
+          - checkbox "Billing is same as shipping information" [checked] [ref=e30] [cursor=pointer]
+          - text: Billing is same as shipping information
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Payment details" [level=2] [ref=e33]
+          - img "Packt" [ref=e35]
+        - iframe [ref=e38]:
+          
+      - generic [ref=e39]:
+        - generic [ref=e40]: Shipping method
+        - generic [ref=e41]:
+          - radio "Economy (10 - 13 business days) Free $6.95" [checked] [ref=e43] [cursor=pointer]
+          - generic [ref=e44]:
+            - text: Economy
+            - generic [ref=e45]: (10 - 13 business days)
+          - generic [ref=e46]:
+            - generic [ref=e47]: Free
+            - generic [ref=e48]: $6.95
+        - generic [ref=e49]:
+          - radio "Premium (6 - 9 business days) $21.95" [ref=e51] [cursor=pointer]
+          - generic [ref=e52]:
+            - text: Premium
+            - generic [ref=e53]: (6 - 9 business days)
+          - generic [ref=e55]: $21.95
+      - generic [ref=e56]:
+        - button "Pay Now" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: Pay Now
+        - generic [ref=e60]:
+          - strong [ref=e61]: "Please complete the following:"
+          - list [ref=e62]:
+            - listitem [ref=e63]: Please enter your email address.
+            - listitem [ref=e64]: Please complete the address details.
+            - listitem [ref=e65]: Please complete the payment details.
+        - generic [ref=e66] [cursor=pointer]: 14 day refund period for digital products, 30 day return period for Print orders.
+        - generic [ref=e67]:
+          - img "Packt" [ref=e68]
+          - generic [ref=e70]:
+            - text: By clicking Pay Now, you agree to our
+            - link "Terms of Service" [ref=e71] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/help/terms-and-conditions
+            - text: and
+            - link "Cookie Policy" [ref=e72] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/help/cookie-policy
+            - text: . If checking out as a guest, you agree to create an account after purchase to access your products.
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]: Total to Pay
+        - generic [ref=e77]: $54.99
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - generic [ref=e81]:
+            - img "Mastering Redmine Second Edition" [ref=e83]
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - generic [ref=e86]: Mastering Redmine Second Edition
+                - generic [ref=e88]: $54.99
+              - generic [ref=e91]: Paperback
+            - button "Remove from cart icon" [ref=e93] [cursor=pointer]:
+              - img "Remove from cart icon" [ref=e94]
+      - list [ref=e96]:
+        - listitem [ref=e97]:
+          - generic [ref=e98]:
+            - generic [ref=e99]: Subtotal
+            - generic [ref=e100]: $54.99
+          - link "Add Discount Code" [ref=e104] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e105]:
+            - generic [ref=e106]: Order Subtotal
+            - generic [ref=e107]: $54.99
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - text: Economy shipping fee
+              - generic [ref=e110]: (10 - 13 business days)
+            - generic [ref=e111]:
+              - generic [ref=e112]: Free
+              - generic [ref=e113]: $6.95
+        - listitem [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Total to pay (Inc. taxes)
+            - generic [ref=e117]: $54.99
+      - generic [ref=e119]:
+        - generic [ref=e120]: Recommended Products
+        - generic [ref=e121]:
+          - generic [ref=e122]: Get 15% off for buying 2 products
+          - generic [ref=e123]: . 20% off for buying 3-4 products
+          - generic [ref=e124]: 30% off for buying 5+ products
+        - generic [ref=e126]:
+          - img "Left arrow icon" [ref=e127] [cursor=pointer]
+          - generic [ref=e128]:
+            - generic [ref=e131]:
+              - link "Workflow Automation with Microsoft Power Automate Workflow Automation with Microsoft Power Automate" [ref=e132] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/workflow-automation-with-microsoft-power-automate-9781803242668
+                - img "Workflow Automation with Microsoft Power Automate" [ref=e133]
+                - generic [ref=e135]: Workflow Automation with Microsoft Power Automate
+                - text: ● ●
+              - generic [ref=e136]:
+                - generic [ref=e137]:
+                  - generic [ref=e138]:
+                    - img "eBook" [ref=e139]
+                    - button "eBook" [ref=e141] [cursor=pointer]
+                  - generic [ref=e143]:
+                    - strong [ref=e144]: $40.49
+                    - deletion [ref=e145]: $44.99
+                - button "ADD TO CART" [ref=e148]
+            - generic [ref=e151]:
+              - link "101 UX Principles – 2nd edition 101 UX Principles – 2nd edition" [ref=e152] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/101-ux-principles-2nd-edition-9781803230511
+                - img "101 UX Principles – 2nd edition" [ref=e153]
+                - generic [ref=e155]: 101 UX Principles – 2nd edition
+                - text: ●
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - generic [ref=e158]:
+                    - img "eBook" [ref=e159]
+                    - button "eBook" [ref=e161] [cursor=pointer]
+                  - generic [ref=e163]:
+                    - strong [ref=e164]: $30.59
+                    - deletion [ref=e165]: $33.99
+                - button "ADD TO CART" [ref=e168]
+            - generic [ref=e171]:
+              - link "Mastering PostgreSQL 12 Mastering PostgreSQL 12" [ref=e172] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-postgresql-12-9781838985271
+                - img "Mastering PostgreSQL 12" [ref=e173]
+                - generic [ref=e175]: Mastering PostgreSQL 12
+                - text: ●
+              - generic [ref=e176]:
+                - generic [ref=e177]:
+                  - generic [ref=e178]:
+                    - img "eBook" [ref=e179]
+                    - button "eBook" [ref=e181] [cursor=pointer]
+                  - generic [ref=e183]:
+                    - strong [ref=e184]: $26.99
+                    - deletion [ref=e185]: $29.99
+                - button "ADD TO CART" [ref=e188]
+            - generic [ref=e191]:
+              - link "Mastering Microsoft Dynamics 365 Business Central Mastering Microsoft Dynamics 365 Business Central" [ref=e192] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-microsoft-dynamics-365-business-central-9781837639663
+                - img "Mastering Microsoft Dynamics 365 Business Central" [ref=e193]
+                - generic [ref=e195]: Mastering Microsoft Dynamics 365 Business Central
+                - text: ● ●
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - generic [ref=e198]:
+                    - img "eBook" [ref=e199]
+                    - button "eBook" [ref=e201] [cursor=pointer]
+                  - generic [ref=e203]:
+                    - strong [ref=e204]: $35.99
+                    - deletion [ref=e205]: $39.99
+                - button "ADD TO CART" [ref=e208]
+            - generic [ref=e211]:
+              - link "Learn Blender Simulations the Right Way Learn Blender Simulations the Right Way" [ref=e212] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/learn-blender-simulations-the-right-way-9781803240169
+                - img "Learn Blender Simulations the Right Way" [ref=e213]
+                - generic [ref=e215]: Learn Blender Simulations the Right Way
+                - text: ● ●
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - img "eBook" [ref=e219]
+                    - button "eBook" [ref=e221] [cursor=pointer]
+                  - generic [ref=e223]:
+                    - strong [ref=e224]: $43.19
+                    - deletion [ref=e225]: $47.99
+                - button "ADD TO CART" [ref=e228]
+          - img "Right arrow icon" [ref=e229] [cursor=pointer]
+  - generic [ref=e231]:
+    - generic [ref=e232]:
+      - generic [ref=e233]:
+        - text: Packt Publishing Ltd, Grosvenor House,
+        - text: 11 St Paul's Square, Birmingham, B3 1RB
+      - generic [ref=e234]: © 2025 Packt Publishing Limited All Rights Reserved
+    - generic [ref=e235]:
+      - img "Packt" [ref=e237]
+      - generic [ref=e238] [cursor=pointer]: FAQs
+      - generic [ref=e239] [cursor=pointer]: Contact us
+      - generic [ref=e240] [cursor=pointer]: Return Policies
+    - generic [ref=e241]:
+      - img [ref=e243]
+      - generic [ref=e244]: GDPR compliant business
+```

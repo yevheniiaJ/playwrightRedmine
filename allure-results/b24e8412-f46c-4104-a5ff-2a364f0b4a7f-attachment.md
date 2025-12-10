@@ -1,0 +1,1624 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Packt" [ref=e4] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us
+        - img "Packt" [ref=e5]
+      - generic [ref=e6]:
+        - img "Search icon" [ref=e7]
+        - textbox "Search..." [ref=e8]
+      - generic [ref=e9]:
+        - link "Subscription" [ref=e10] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/subscribe
+        - generic [ref=e11]:
+          - generic [ref=e12]: "0"
+          - img "Cart icon" [ref=e14]
+      - img "Profile icon" [ref=e17]
+    - generic [ref=e21]:
+      - generic [ref=e22]: Explore Products
+      - generic [ref=e23]: Best Sellers
+      - generic [ref=e24]: New Releases
+      - generic [ref=e25]: Books
+      - generic [ref=e26]: Videos
+      - generic [ref=e27]: Audiobooks
+      - link "Learning Hub" [ref=e28] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/learning
+        - generic [ref=e29]: Learning Hub
+      - link "Newsletter Hub" [ref=e30] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/newsletters
+        - generic [ref=e31]: Newsletter Hub
+      - generic [ref=e32]: Free Learning
+  - generic [ref=e34]:
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - link "Business & Other" [ref=e38] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/business-and-other
+          - heading "Business & Other" [level=4] [ref=e39]
+        - heading "1433" [level=4] [ref=e40]
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - heading "concept 801" [level=5] [ref=e43]:
+            - generic [ref=e44]: concept
+            - generic [ref=e45]: "801"
+          - link "Business Management 115" [ref=e46] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/concept/business-management
+            - generic [ref=e47]:
+              - generic [ref=e48]: Business Management
+              - generic [ref=e49]: "115"
+          - link "Enterprise Resource Planning 114" [ref=e50] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/concept/enterprise-resource-planning
+            - generic [ref=e51]:
+              - generic [ref=e52]: Enterprise Resource Planning
+              - generic [ref=e53]: "114"
+          - link "Project Management 90" [ref=e54] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/concept/project-management
+            - generic [ref=e55]:
+              - generic [ref=e56]: Project Management
+              - generic [ref=e57]: "90"
+          - link "Soft Skills 64" [ref=e58] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/concept/soft-skills
+            - generic [ref=e59]:
+              - generic [ref=e60]: Soft Skills
+              - generic [ref=e61]: "64"
+          - link "Animation 44" [ref=e62] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/concept/animation
+            - generic [ref=e63]:
+              - generic [ref=e64]: Animation
+              - generic [ref=e65]: "44"
+          - generic [ref=e66]: View 27 More
+        - generic [ref=e67]:
+          - heading "tool 487" [level=5] [ref=e68]:
+            - generic [ref=e69]: tool
+            - generic [ref=e70]: "487"
+          - link "JIRA 27" [ref=e71] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/tool/jira
+            - generic [ref=e72]:
+              - generic [ref=e73]: JIRA
+              - generic [ref=e74]: "27"
+          - link "Dynamics NAV 20" [ref=e75] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/tool/dynamics-nav
+            - generic [ref=e76]:
+              - generic [ref=e77]: Dynamics NAV
+              - generic [ref=e78]: "20"
+          - link "Dynamics 365 18" [ref=e79] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/tool/dynamics-365
+            - generic [ref=e80]:
+              - generic [ref=e81]: Dynamics 365
+              - generic [ref=e82]: "18"
+          - link "Blender 16" [ref=e83] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/tool/blender
+            - generic [ref=e84]:
+              - generic [ref=e85]: Blender
+              - generic [ref=e86]: "16"
+          - link "QuickBooks 13" [ref=e87] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/tool/quickbooks
+            - generic [ref=e88]:
+              - generic [ref=e89]: QuickBooks
+              - generic [ref=e90]: "13"
+          - generic [ref=e91]: View 50 More
+        - generic [ref=e92]:
+          - heading "language 145" [level=5] [ref=e93]:
+            - generic [ref=e94]: language
+            - generic [ref=e95]: "145"
+          - link "Java 28" [ref=e96] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/language/java
+            - generic [ref=e97]:
+              - generic [ref=e98]: Java
+              - generic [ref=e99]: "28"
+          - link "C# 27" [ref=e100] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/language/c-sharp
+            - generic [ref=e101]:
+              - generic [ref=e102]: C#
+              - generic [ref=e103]: "27"
+          - link "Python 20" [ref=e104] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/language/python
+            - generic [ref=e105]:
+              - generic [ref=e106]: Python
+              - generic [ref=e107]: "20"
+          - link "C++ 19" [ref=e108] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/language/c-plus-plus
+            - generic [ref=e109]:
+              - generic [ref=e110]: C++
+              - generic [ref=e111]: "19"
+          - link "JavaScript 14" [ref=e112] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/business-and-other/language/javascript
+            - generic [ref=e113]:
+              - generic [ref=e114]: JavaScript
+              - generic [ref=e115]: "14"
+          - generic [ref=e116]: View 23 More
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - generic [ref=e119]: Project Management
+        - generic [ref=e120]: Discover the latest and most popular project management books to advance your career. Our extensive catalog features renowned titles covering methodologies like Agile and SCRUM as well as books tailored to specific tools like Jira, Trello, and more. Learn from industry experts through hundreds of practical examples that will help you deliver projects on time and under budget. Whether you're just starting out or an experienced project manager, these essential reads provide the techniques and best practices to improve workflows, boost team collaboration, and become an effective leader.
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - heading "Bestsellers" [level=2] [ref=e124]
+            - generic [ref=e125]: A range of our top selling data products from the last year
+          - generic [ref=e126]: 1 of 10
+        - generic [ref=e127]:
+          - img "Left arrow icon" [ref=e128] [cursor=pointer]
+          - generic [ref=e129]:
+            - generic [ref=e132]:
+              - link "CMake Best Practices CMake Best Practices Aug 2024 ● 356 pages" [ref=e133] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/cmake-best-practices-9781835880654
+                - img "CMake Best Practices" [ref=e134]
+                - generic [ref=e136]: CMake Best Practices
+                - generic [ref=e137]:
+                  - generic [ref=e138]: Aug 2024
+                  - generic [ref=e139]: ●
+                  - generic [ref=e140]: 356 pages
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - generic [ref=e143]:
+                    - img "eBook" [ref=e144]
+                    - button "eBook" [ref=e146] [cursor=pointer]
+                  - generic [ref=e148]:
+                    - strong [ref=e149]: $30.59
+                    - deletion [ref=e150]: $33.99
+                - button "ADD TO CART" [ref=e153]
+            - generic [ref=e156]:
+              - link "Tools and Skills for .NET 8 Tools and Skills for .NET 8 Jul 2024 ● 778 pages ● Full star icon 5 (13)" [ref=e157] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/tools-and-skills-for-net-8-9781837633685
+                - img "Tools and Skills for .NET 8" [ref=e158]
+                - generic [ref=e160]: Tools and Skills for .NET 8
+                - generic [ref=e161]:
+                  - generic [ref=e162]: Jul 2024
+                  - generic [ref=e163]: ●
+                  - generic [ref=e164]: 778 pages
+                  - generic [ref=e165]: ●
+                  - generic [ref=e166]:
+                    - img "Full star icon" [ref=e167]
+                    - generic [ref=e168]: 5 (13)
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - img "eBook" [ref=e172]
+                    - button "eBook" [ref=e174] [cursor=pointer]
+                  - generic [ref=e176]:
+                    - strong [ref=e177]: $35.09
+                    - deletion [ref=e178]: $38.99
+                - button "ADD TO CART" [ref=e181]
+            - generic [ref=e184]:
+              - link "Enhancing Productivity with Notion Enhancing Productivity with Notion Mar 2022 ● 312 pages ● Full star icon 4.4 (9)" [ref=e185] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/enhancing-productivity-with-notion-9781803231952
+                - img "Enhancing Productivity with Notion" [ref=e186]
+                - generic [ref=e188]: Enhancing Productivity with Notion
+                - generic [ref=e189]:
+                  - generic [ref=e190]: Mar 2022
+                  - generic [ref=e191]: ●
+                  - generic [ref=e192]: 312 pages
+                  - generic [ref=e193]: ●
+                  - generic [ref=e194]:
+                    - img "Full star icon" [ref=e195]
+                    - generic [ref=e196]: 4.4 (9)
+              - generic [ref=e197]:
+                - generic [ref=e198]:
+                  - generic [ref=e199]:
+                    - img "eBook" [ref=e200]
+                    - button "eBook" [ref=e202] [cursor=pointer]
+                  - generic [ref=e204]:
+                    - strong [ref=e205]: $19.79
+                    - deletion [ref=e206]: $21.99
+                - button "ADD TO CART" [ref=e209]
+            - generic [ref=e212]:
+              - 'link "Microsoft Power Platform Functional Consultant: PL-200 Exam Guide Microsoft Power Platform Functional Consultant: PL-200 Exam Guide Dec 2020 ● 648 pages ● Full star icon 4.6 (16)" [ref=e213] [cursor=pointer]':
+                - /url: https://www.packtpub.com/en-us/product/microsoft-power-platform-functional-consultant-pl-200-exam-guide-9781838984069
+                - 'img "Microsoft Power Platform Functional Consultant: PL-200 Exam Guide" [ref=e214]'
+                - generic [ref=e216]: "Microsoft Power Platform Functional Consultant: PL-200 Exam Guide"
+                - generic [ref=e217]:
+                  - generic [ref=e218]: Dec 2020
+                  - generic [ref=e219]: ●
+                  - generic [ref=e220]: 648 pages
+                  - generic [ref=e221]: ●
+                  - generic [ref=e222]:
+                    - img "Full star icon" [ref=e223]
+                    - generic [ref=e224]: 4.6 (16)
+              - generic [ref=e225]:
+                - generic [ref=e226]:
+                  - generic [ref=e227]:
+                    - img "eBook" [ref=e228]
+                    - button "eBook" [ref=e230] [cursor=pointer]
+                  - generic [ref=e232]:
+                    - strong [ref=e233]: $41.39
+                    - deletion [ref=e234]: $45.99
+                - button "ADD TO CART" [ref=e237]
+            - generic [ref=e240]:
+              - link "PLC and HMI Development with Siemens TIA Portal PLC and HMI Development with Siemens TIA Portal Apr 2022 ● 436 pages ● Full star icon 4.6 (18)" [ref=e241] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/plc-and-hmi-development-with-siemens-tia-portal-9781801814645
+                - img "PLC and HMI Development with Siemens TIA Portal" [ref=e242]
+                - generic [ref=e244]: PLC and HMI Development with Siemens TIA Portal
+                - generic [ref=e245]:
+                  - generic [ref=e246]: Apr 2022
+                  - generic [ref=e247]: ●
+                  - generic [ref=e248]: 436 pages
+                  - generic [ref=e249]: ●
+                  - generic [ref=e250]:
+                    - img "Full star icon" [ref=e251]
+                    - generic [ref=e252]: 4.6 (18)
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]:
+                    - img "eBook" [ref=e256]
+                    - button "eBook" [ref=e258] [cursor=pointer]
+                  - generic [ref=e260]:
+                    - strong [ref=e261]: $50.39
+                    - deletion [ref=e262]: $55.99
+                - button "ADD TO CART" [ref=e265]
+            - generic [ref=e268]:
+              - link "Azure DevOps Explained Azure DevOps Explained Dec 2020 ● 438 pages ● Full star icon 3.9 (7)" [ref=e269] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/azure-devops-explained-9781800568655
+                - img "Azure DevOps Explained" [ref=e270]
+                - generic [ref=e272]: Azure DevOps Explained
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Dec 2020
+                  - generic [ref=e275]: ●
+                  - generic [ref=e276]: 438 pages
+                  - generic [ref=e277]: ●
+                  - generic [ref=e278]:
+                    - img "Full star icon" [ref=e279]
+                    - generic [ref=e280]: 3.9 (7)
+              - generic [ref=e281]:
+                - generic [ref=e282]:
+                  - generic [ref=e283]:
+                    - img "eBook" [ref=e284]
+                    - button "eBook" [ref=e286] [cursor=pointer]
+                  - generic [ref=e288]:
+                    - strong [ref=e289]: $26.99
+                    - deletion [ref=e290]: $29.99
+                - button "ADD TO CART" [ref=e293]
+            - generic [ref=e296]:
+              - link "Introduction to Programming with C#12 and .NET8 Introduction to Programming with C#12 and .NET8 May 2025 ● 13hrs 51mins ● Full star icon 5 (3)" [ref=e297] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/introduction-to-programming-with-c12-and-net8-9781836203995
+                - img "Introduction to Programming with C#12 and .NET8" [ref=e298]
+                - generic [ref=e300]: Introduction to Programming with C#12 and .NET8
+                - generic [ref=e301]:
+                  - generic [ref=e302]: May 2025
+                  - generic [ref=e303]: ●
+                  - generic [ref=e304]: 13hrs 51mins
+                  - generic [ref=e305]: ●
+                  - generic [ref=e306]:
+                    - img "Full star icon" [ref=e307]
+                    - generic [ref=e308]: 5 (3)
+              - generic [ref=e309]:
+                - generic [ref=e310]:
+                  - generic [ref=e311]:
+                    - img "Video" [ref=e312]
+                    - generic [ref=e313] [cursor=pointer]: Video
+                  - generic [ref=e316]: $120.99
+                - button "ADD TO CART" [ref=e319]
+            - generic [ref=e322]:
+              - link "Jira 8 Essentials Jira 8 Essentials Oct 2022 ● 412 pages ● Full star icon 5 (11)" [ref=e323] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/jira-8-essentials-9781803248851
+                - img "Jira 8 Essentials" [ref=e324]
+                - generic [ref=e326]: Jira 8 Essentials
+                - generic [ref=e327]:
+                  - generic [ref=e328]: Oct 2022
+                  - generic [ref=e329]: ●
+                  - generic [ref=e330]: 412 pages
+                  - generic [ref=e331]: ●
+                  - generic [ref=e332]:
+                    - img "Full star icon" [ref=e333]
+                    - generic [ref=e334]: 5 (11)
+              - generic [ref=e335]:
+                - generic [ref=e336]:
+                  - generic [ref=e337]:
+                    - img "eBook" [ref=e338]
+                    - button "eBook" [ref=e340] [cursor=pointer]
+                  - generic [ref=e342]:
+                    - strong [ref=e343]: $26.09
+                    - deletion [ref=e344]: $28.99
+                - button "ADD TO CART" [ref=e347]
+            - generic [ref=e350]:
+              - link "Real-World Edge Computing Real-World Edge Computing Jun 2024 ● 296 pages" [ref=e351] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/real-world-edge-computing-9781835885857
+                - img "Real-World Edge Computing" [ref=e352]
+                - generic [ref=e354]: Real-World Edge Computing
+                - generic [ref=e355]:
+                  - generic [ref=e356]: Jun 2024
+                  - generic [ref=e357]: ●
+                  - generic [ref=e358]: 296 pages
+              - generic [ref=e359]:
+                - generic [ref=e360]:
+                  - generic [ref=e361]:
+                    - img "eBook" [ref=e362]
+                    - button "eBook" [ref=e364] [cursor=pointer]
+                  - generic [ref=e366]:
+                    - strong [ref=e367]: $28.79
+                    - deletion [ref=e368]: $31.99
+                - button "ADD TO CART" [ref=e371]
+            - generic [ref=e374]:
+              - link "The Simplest Guide™ to Project Management and PMI-PMP Certification Exam The Simplest Guide™ to Project Management and PMI-PMP Certification Exam May 2025 ● 9hrs 6mins" [ref=e375] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/the-simplest-guide-to-project-management-and-pmi-pmp-certification-exam-9781801079846
+                - img "The Simplest Guide™ to Project Management and PMI-PMP Certification Exam" [ref=e376]
+                - generic [ref=e378]: The Simplest Guide™ to Project Management and PMI-PMP Certification Exam
+                - generic [ref=e379]:
+                  - generic [ref=e380]: May 2025
+                  - generic [ref=e381]: ●
+                  - generic [ref=e382]: 9hrs 6mins
+              - generic [ref=e383]:
+                - generic [ref=e384]:
+                  - generic [ref=e385]:
+                    - img "Video" [ref=e386]
+                    - generic [ref=e387] [cursor=pointer]: Video
+                  - generic [ref=e390]: $109.99
+                - button "ADD TO CART" [ref=e393]
+          - img "Right arrow icon" [ref=e394] [cursor=pointer]
+      - generic [ref=e395]:
+        - generic [ref=e396]:
+          - generic [ref=e397]:
+            - heading "What's New" [level=2] [ref=e398]
+            - generic [ref=e399]: Our latest data releases from the last few months.
+          - generic [ref=e400]: 1 of 10
+        - generic [ref=e401]:
+          - img "Left arrow icon" [ref=e402] [cursor=pointer]
+          - generic [ref=e403]:
+            - generic [ref=e406]:
+              - link "Master Agile Estimation - Top Techniques for Scrum and Kanban Master Agile Estimation - Top Techniques for Scrum and Kanban May 2025 ● 3hrs" [ref=e407] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/master-agile-estimation-top-techniques-for-scrum-and-kanban-9781836648550
+                - img "Master Agile Estimation - Top Techniques for Scrum and Kanban" [ref=e408]
+                - generic [ref=e410]: Master Agile Estimation - Top Techniques for Scrum and Kanban
+                - generic [ref=e411]:
+                  - generic [ref=e412]: May 2025
+                  - generic [ref=e413]: ●
+                  - generic [ref=e414]: 3hrs
+              - generic [ref=e415]:
+                - generic [ref=e416]:
+                  - generic [ref=e417]:
+                    - img "Video" [ref=e418]
+                    - generic [ref=e419] [cursor=pointer]: Video
+                  - generic [ref=e422]: $54.99
+                - button "ADD TO CART" [ref=e425]
+            - generic [ref=e428]:
+              - link "Project Management Project Management May 2025 ● 1hr 20mins" [ref=e429] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/project-management-9781836648857
+                - img "Project Management" [ref=e430]
+                - generic [ref=e432]: Project Management
+                - generic [ref=e433]:
+                  - generic [ref=e434]: May 2025
+                  - generic [ref=e435]: ●
+                  - generic [ref=e436]: 1hr 20mins
+              - generic [ref=e437]:
+                - generic [ref=e438]:
+                  - generic [ref=e439]:
+                    - img "Video" [ref=e440]
+                    - generic [ref=e441] [cursor=pointer]: Video
+                  - generic [ref=e444]: $65.99
+                - button "ADD TO CART" [ref=e447]
+            - generic [ref=e450]:
+              - link "CMake Best Practices CMake Best Practices Aug 2024 ● 356 pages" [ref=e451] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/cmake-best-practices-9781835880654
+                - img "CMake Best Practices" [ref=e452]
+                - generic [ref=e454]: CMake Best Practices
+                - generic [ref=e455]:
+                  - generic [ref=e456]: Aug 2024
+                  - generic [ref=e457]: ●
+                  - generic [ref=e458]: 356 pages
+              - generic [ref=e459]:
+                - generic [ref=e460]:
+                  - generic [ref=e461]:
+                    - img "eBook" [ref=e462]
+                    - button "eBook" [ref=e464] [cursor=pointer]
+                  - generic [ref=e466]:
+                    - strong [ref=e467]: $30.59
+                    - deletion [ref=e468]: $33.99
+                - button "ADD TO CART" [ref=e471]
+            - generic [ref=e474]:
+              - link "Tools and Skills for .NET 8 Tools and Skills for .NET 8 Jul 2024 ● 778 pages ● Full star icon 5 (13)" [ref=e475] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/tools-and-skills-for-net-8-9781837633685
+                - img "Tools and Skills for .NET 8" [ref=e476]
+                - generic [ref=e478]: Tools and Skills for .NET 8
+                - generic [ref=e479]:
+                  - generic [ref=e480]: Jul 2024
+                  - generic [ref=e481]: ●
+                  - generic [ref=e482]: 778 pages
+                  - generic [ref=e483]: ●
+                  - generic [ref=e484]:
+                    - img "Full star icon" [ref=e485]
+                    - generic [ref=e486]: 5 (13)
+              - generic [ref=e487]:
+                - generic [ref=e488]:
+                  - generic [ref=e489]:
+                    - img "eBook" [ref=e490]
+                    - button "eBook" [ref=e492] [cursor=pointer]
+                  - generic [ref=e494]:
+                    - strong [ref=e495]: $35.09
+                    - deletion [ref=e496]: $38.99
+                - button "ADD TO CART" [ref=e499]
+            - generic [ref=e502]:
+              - link "Data Analytics Data Analytics Jul 2024 ● 146 pages" [ref=e503] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/data-analytics-9781836643708
+                - img "Data Analytics" [ref=e504]
+                - generic [ref=e506]: Data Analytics
+                - generic [ref=e507]:
+                  - generic [ref=e508]: Jul 2024
+                  - generic [ref=e509]: ●
+                  - generic [ref=e510]: 146 pages
+              - generic [ref=e511]:
+                - generic [ref=e512]:
+                  - generic [ref=e513]:
+                    - img "eBook" [ref=e514]
+                    - generic [ref=e515] [cursor=pointer]: eBook
+                  - generic [ref=e517]:
+                    - strong [ref=e518]: $46.79
+                    - deletion [ref=e519]: $51.99
+                - button "ADD TO CART" [ref=e522]
+            - generic [ref=e525]:
+              - link "C Programming Pocket Primer C Programming Pocket Primer Jul 2024 ● 236 pages" [ref=e526] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/c-programming-pocket-primer-9781836644460
+                - img "C Programming Pocket Primer" [ref=e527]
+                - generic [ref=e529]: C Programming Pocket Primer
+                - generic [ref=e530]:
+                  - generic [ref=e531]: Jul 2024
+                  - generic [ref=e532]: ●
+                  - generic [ref=e533]: 236 pages
+              - generic [ref=e534]:
+                - generic [ref=e535]:
+                  - generic [ref=e536]:
+                    - img "eBook" [ref=e537]
+                    - generic [ref=e538] [cursor=pointer]: eBook
+                  - generic [ref=e540]:
+                    - strong [ref=e541]: $35.99
+                    - deletion [ref=e542]: $39.99
+                - button "ADD TO CART" [ref=e545]
+            - generic [ref=e548]:
+              - link "Mastering Project Management with ClickUp for Work and Home Life Balance Mastering Project Management with ClickUp for Work and Home Life Balance Jun 2024 ● 308 pages ● Full star icon 5 (2)" [ref=e549] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-project-management-with-clickup-for-work-and-home-life-balance-9781835464687
+                - img "Mastering Project Management with ClickUp for Work and Home Life Balance" [ref=e550]
+                - generic [ref=e552]: Mastering Project Management with ClickUp for Work and Home Life Balance
+                - generic [ref=e553]:
+                  - generic [ref=e554]: Jun 2024
+                  - generic [ref=e555]: ●
+                  - generic [ref=e556]: 308 pages
+                  - generic [ref=e557]: ●
+                  - generic [ref=e558]:
+                    - img "Full star icon" [ref=e559]
+                    - generic [ref=e560]: 5 (2)
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - generic [ref=e563]:
+                    - img "eBook" [ref=e564]
+                    - button "eBook" [ref=e566] [cursor=pointer]
+                  - generic [ref=e568]:
+                    - strong [ref=e569]: $28.79
+                    - deletion [ref=e570]: $31.99
+                - button "ADD TO CART" [ref=e573]
+            - generic [ref=e576]:
+              - link "Real-World Edge Computing Real-World Edge Computing Jun 2024 ● 296 pages" [ref=e577] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/real-world-edge-computing-9781835885857
+                - img "Real-World Edge Computing" [ref=e578]
+                - generic [ref=e580]: Real-World Edge Computing
+                - generic [ref=e581]:
+                  - generic [ref=e582]: Jun 2024
+                  - generic [ref=e583]: ●
+                  - generic [ref=e584]: 296 pages
+              - generic [ref=e585]:
+                - generic [ref=e586]:
+                  - generic [ref=e587]:
+                    - img "eBook" [ref=e588]
+                    - button "eBook" [ref=e590] [cursor=pointer]
+                  - generic [ref=e592]:
+                    - strong [ref=e593]: $28.79
+                    - deletion [ref=e594]: $31.99
+                - button "ADD TO CART" [ref=e597]
+            - generic [ref=e600]:
+              - link "Defining Project Scope and Managing Resources in Projects Defining Project Scope and Managing Resources in Projects Sep 2025 ● 2hrs" [ref=e601] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/defining-project-scope-and-managing-resources-in-projects-9781836200239
+                - img "Defining Project Scope and Managing Resources in Projects" [ref=e602]
+                - generic [ref=e604]: Defining Project Scope and Managing Resources in Projects
+                - generic [ref=e605]:
+                  - generic [ref=e606]: Sep 2025
+                  - generic [ref=e607]: ●
+                  - generic [ref=e608]: 2hrs
+              - generic [ref=e609]:
+                - generic [ref=e610]:
+                  - generic [ref=e611]:
+                    - img "Video" [ref=e612]
+                    - generic [ref=e613] [cursor=pointer]: Video
+                  - generic [ref=e616]: $38.99
+                - button "ADD TO CART" [ref=e619]
+            - generic [ref=e622]:
+              - 'link "Expert Leadership and Management in Agile Project Management: Building Core Competencies Expert Leadership and Management in Agile Project Management: Building Core Competencies May 2025 ● 5hrs 3mins" [ref=e623] [cursor=pointer]':
+                - /url: https://www.packtpub.com/en-us/product/expert-leadership-and-management-in-agile-project-management-building-core-competencies-9781836200215
+                - 'img "Expert Leadership and Management in Agile Project Management: Building Core Competencies" [ref=e624]'
+                - generic [ref=e626]: "Expert Leadership and Management in Agile Project Management: Building Core Competencies"
+                - generic [ref=e627]:
+                  - generic [ref=e628]: May 2025
+                  - generic [ref=e629]: ●
+                  - generic [ref=e630]: 5hrs 3mins
+              - generic [ref=e631]:
+                - generic [ref=e632]:
+                  - generic [ref=e633]:
+                    - img "Video" [ref=e634]
+                    - generic [ref=e635] [cursor=pointer]: Video
+                  - generic [ref=e638]: $120.99
+                - button "ADD TO CART" [ref=e641]
+          - img "Right arrow icon" [ref=e642] [cursor=pointer]
+      - link [ref=e643] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/product/cmake-best-practices-9781835880654
+        - generic [ref=e644]: The Most Popular in Project Management
+        - generic [ref=e645]:
+          - img "CMake Best Practices" [ref=e646]
+          - generic [ref=e647]:
+            - generic [ref=e648]: CMake Best Practices
+            - generic [ref=e650]: Discover the cutting-edge advancements in CMake with the new edition of CMake Best Practices. This book focuses on real-world applications and techniques to leverage CMake, avoiding outdated hacks and overwhelming documentation. You’ll learn how to use CMake presets for streamlined project configurations and embrace modern package management with Conan 2.0. Covering advanced methods to integrate third-party libraries and optimize cross-platform builds, this updated edition introduces new tools and techniques to enhance software quality, including testing frameworks, fuzzers, and automated documentation generation. Through hands-on examples, you’ll become proficient in structuring complex projects, ensuring that your builds run smoothly across different environments. Whether you’re integrating tools for continuous integration or packaging software for distribution, this book equips you with the skills needed to excel in modern software development. By the end of the book, you’ll have mastered setting up and maintaining robust software projects using CMake to streamline your development workflow and produce high-quality software.
+            - generic [ref=e653]:
+              - generic [ref=e654]:
+                - img "Profile Icon" [ref=e655]
+                - text: Berner
+              - generic [ref=e656]:
+                - img "Profile Icon" [ref=e657]
+                - text: Mustafa Kemal Gilor
+            - generic [ref=e658]:
+              - generic [ref=e659]: eBook
+              - generic [ref=e660]: ●
+              - generic [ref=e661]: Aug 2024
+              - generic [ref=e662]: ●
+              - generic [ref=e663]: "712"
+            - generic [ref=e664]:
+              - deletion [ref=e665]: $33.99
+              - generic [ref=e666]: $30.59
+      - generic [ref=e667]:
+        - generic [ref=e668]:
+          - generic [ref=e669]:
+            - heading "Audience Favourites" [level=2] [ref=e670]
+            - generic [ref=e671]: Our most rated business & other products by our Customers.
+          - generic [ref=e672]: 3 Items
+        - generic [ref=e674]:
+          - generic [ref=e677]:
+            - link "The Simplest Guide™ to Project Management and PMI-PMP Certification Exam The Simplest Guide™ to Project Management and PMI-PMP Certification Exam May 2025 ● 9hrs 6mins" [ref=e678] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/product/the-simplest-guide-to-project-management-and-pmi-pmp-certification-exam-9781801079846
+              - img "The Simplest Guide™ to Project Management and PMI-PMP Certification Exam" [ref=e679]
+              - generic [ref=e681]: The Simplest Guide™ to Project Management and PMI-PMP Certification Exam
+              - generic [ref=e682]:
+                - generic [ref=e683]: May 2025
+                - generic [ref=e684]: ●
+                - generic [ref=e685]: 9hrs 6mins
+            - generic [ref=e686]:
+              - generic [ref=e687]:
+                - generic [ref=e688]:
+                  - img "Video" [ref=e689]
+                  - generic [ref=e690] [cursor=pointer]: Video
+                - generic [ref=e693]: $109.99
+              - button "ADD TO CART" [ref=e696]
+          - generic [ref=e699]:
+            - link "Jira 8 Essentials Jira 8 Essentials Oct 2022 ● 412 pages ● Full star icon 5 (11)" [ref=e700] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/product/jira-8-essentials-9781803248851
+              - img "Jira 8 Essentials" [ref=e701]
+              - generic [ref=e703]: Jira 8 Essentials
+              - generic [ref=e704]:
+                - generic [ref=e705]: Oct 2022
+                - generic [ref=e706]: ●
+                - generic [ref=e707]: 412 pages
+                - generic [ref=e708]: ●
+                - generic [ref=e709]:
+                  - img "Full star icon" [ref=e710]
+                  - generic [ref=e711]: 5 (11)
+            - generic [ref=e712]:
+              - generic [ref=e713]:
+                - generic [ref=e714]:
+                  - img "eBook" [ref=e715]
+                  - button "eBook" [ref=e717] [cursor=pointer]
+                - generic [ref=e719]:
+                  - strong [ref=e720]: $26.09
+                  - deletion [ref=e721]: $28.99
+              - button "ADD TO CART" [ref=e724]
+          - generic [ref=e727]:
+            - link "Efficiency Best Practices for Microsoft 365 Efficiency Best Practices for Microsoft 365 Dec 2021 ● 350 pages ● Full star icon 4.9 (15)" [ref=e728] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/product/efficiency-best-practices-for-microsoft-365-9781801078221
+              - img "Efficiency Best Practices for Microsoft 365" [ref=e729]
+              - generic [ref=e731]: Efficiency Best Practices for Microsoft 365
+              - generic [ref=e732]:
+                - generic [ref=e733]: Dec 2021
+                - generic [ref=e734]: ●
+                - generic [ref=e735]: 350 pages
+                - generic [ref=e736]: ●
+                - generic [ref=e737]:
+                  - img "Full star icon" [ref=e738]
+                  - generic [ref=e739]: 4.9 (15)
+            - generic [ref=e740]:
+              - generic [ref=e741]:
+                - generic [ref=e742]:
+                  - img "eBook" [ref=e743]
+                  - button "eBook" [ref=e745] [cursor=pointer]
+                - generic [ref=e747]:
+                  - strong [ref=e748]: $26.09
+                  - deletion [ref=e749]: $28.99
+              - button "ADD TO CART" [ref=e752]
+      - generic [ref=e753]:
+        - generic [ref=e754]:
+          - generic [ref=e755]:
+            - heading "Quick Learns" [level=2] [ref=e756]
+            - generic [ref=e757]: Our business & other books which are under 200 pages long.
+          - generic [ref=e758]: 1 of 9
+        - generic [ref=e759]:
+          - img "Left arrow icon" [ref=e760] [cursor=pointer]
+          - generic [ref=e761]:
+            - generic [ref=e764]:
+              - link "Jira Quick Start Guide Jira Quick Start Guide Jan 2019 ● 162 pages ● Full star icon 2.6 (5)" [ref=e765] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/jira-quick-start-guide-9781789345889
+                - img "Jira Quick Start Guide" [ref=e766]
+                - generic [ref=e768]: Jira Quick Start Guide
+                - generic [ref=e769]:
+                  - generic [ref=e770]: Jan 2019
+                  - generic [ref=e771]: ●
+                  - generic [ref=e772]: 162 pages
+                  - generic [ref=e773]: ●
+                  - generic [ref=e774]:
+                    - img "Full star icon" [ref=e775]
+                    - generic [ref=e776]: 2.6 (5)
+              - generic [ref=e777]:
+                - generic [ref=e778]:
+                  - generic [ref=e779]:
+                    - img "eBook" [ref=e780]
+                    - button "eBook" [ref=e782] [cursor=pointer]
+                  - generic [ref=e784]:
+                    - strong [ref=e785]: $20.69
+                    - deletion [ref=e786]: $22.99
+                - button "ADD TO CART" [ref=e789]
+            - generic [ref=e792]:
+              - link "Hands-On Agile Software Development with JIRA Hands-On Agile Software Development with JIRA Jul 2018 ● 158 pages ● Full star icon 3 (10)" [ref=e793] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/hands-on-agile-software-development-with-jira-9781789539622
+                - img "Hands-On Agile Software Development with JIRA" [ref=e794]
+                - generic [ref=e796]: Hands-On Agile Software Development with JIRA
+                - generic [ref=e797]:
+                  - generic [ref=e798]: Jul 2018
+                  - generic [ref=e799]: ●
+                  - generic [ref=e800]: 158 pages
+                  - generic [ref=e801]: ●
+                  - generic [ref=e802]:
+                    - img "Full star icon" [ref=e803]
+                    - generic [ref=e804]: 3 (10)
+              - generic [ref=e805]:
+                - generic [ref=e806]:
+                  - generic [ref=e807]:
+                    - img "eBook" [ref=e808]
+                    - button "eBook" [ref=e810] [cursor=pointer]
+                  - generic [ref=e812]:
+                    - strong [ref=e813]: $23.39
+                    - deletion [ref=e814]: $25.99
+                - button "ADD TO CART" [ref=e817]
+            - generic [ref=e820]:
+              - link "Natural Language Processing with Python Quick Start Guide Natural Language Processing with Python Quick Start Guide Nov 2018 ● 182 pages" [ref=e821] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/natural-language-processing-with-python-quick-start-guide-9781788994101
+                - img "Natural Language Processing with Python Quick Start Guide" [ref=e822]
+                - generic [ref=e824]: Natural Language Processing with Python Quick Start Guide
+                - generic [ref=e825]:
+                  - generic [ref=e826]: Nov 2018
+                  - generic [ref=e827]: ●
+                  - generic [ref=e828]: 182 pages
+              - generic [ref=e829]:
+                - generic [ref=e830]:
+                  - generic [ref=e831]:
+                    - img "eBook" [ref=e832]
+                    - button "eBook" [ref=e834] [cursor=pointer]
+                  - generic [ref=e836]:
+                    - strong [ref=e837]: $23.39
+                    - deletion [ref=e838]: $25.99
+                - button "ADD TO CART" [ref=e841]
+            - generic [ref=e844]:
+              - link "The Mini Book of Agile The Mini Book of Agile Mar 2022 ● 50 pages ● Full star icon 3 (2)" [ref=e845] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/the-mini-book-of-agile-9781803244914
+                - img "The Mini Book of Agile" [ref=e846]
+                - generic [ref=e848]: The Mini Book of Agile
+                - generic [ref=e849]:
+                  - generic [ref=e850]: Mar 2022
+                  - generic [ref=e851]: ●
+                  - generic [ref=e852]: 50 pages
+                  - generic [ref=e853]: ●
+                  - generic [ref=e854]:
+                    - img "Full star icon" [ref=e855]
+                    - generic [ref=e856]: 3 (2)
+              - generic [ref=e857]:
+                - generic [ref=e858]:
+                  - generic [ref=e859]:
+                    - img "eBook" [ref=e860]
+                    - button "eBook" [ref=e862] [cursor=pointer]
+                  - generic [ref=e864]:
+                    - strong [ref=e865]: $17.99
+                    - deletion [ref=e866]: $19.99
+                - button "ADD TO CART" [ref=e869]
+            - generic [ref=e872]:
+              - 'link "Quantifiably Better: Delivering HR Analytics from Start to Finish Quantifiably Better: Delivering HR Analytics from Start to Finish Feb 2017 ● 126 pages ● Full star icon 4.4 (8)" [ref=e873] [cursor=pointer]':
+                - /url: https://www.packtpub.com/en-us/product/quantifiably-better-delivering-hr-analytics-from-start-to-finish-9781634622233
+                - 'img "Quantifiably Better: Delivering HR Analytics from Start to Finish" [ref=e874]'
+                - generic [ref=e876]: "Quantifiably Better: Delivering HR Analytics from Start to Finish"
+                - generic [ref=e877]:
+                  - generic [ref=e878]: Feb 2017
+                  - generic [ref=e879]: ●
+                  - generic [ref=e880]: 126 pages
+                  - generic [ref=e881]: ●
+                  - generic [ref=e882]:
+                    - img "Full star icon" [ref=e883]
+                    - generic [ref=e884]: 4.4 (8)
+              - generic [ref=e885]:
+                - generic [ref=e886]:
+                  - generic [ref=e887]:
+                    - img "eBook" [ref=e888]
+                    - button "eBook" [ref=e890] [cursor=pointer]
+                  - generic [ref=e892]:
+                    - strong [ref=e893]: $26.99
+                    - deletion [ref=e894]: $29.99
+                - button "ADD TO CART" [ref=e897]
+            - generic [ref=e900]:
+              - link "Data Analytics Data Analytics Jul 2024 ● 146 pages" [ref=e901] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/data-analytics-9781836643708
+                - img "Data Analytics" [ref=e902]
+                - generic [ref=e904]: Data Analytics
+                - generic [ref=e905]:
+                  - generic [ref=e906]: Jul 2024
+                  - generic [ref=e907]: ●
+                  - generic [ref=e908]: 146 pages
+              - generic [ref=e909]:
+                - generic [ref=e910]:
+                  - generic [ref=e911]:
+                    - img "eBook" [ref=e912]
+                    - generic [ref=e913] [cursor=pointer]: eBook
+                  - generic [ref=e915]:
+                    - strong [ref=e916]: $46.79
+                    - deletion [ref=e917]: $51.99
+                - button "ADD TO CART" [ref=e920]
+            - generic [ref=e923]:
+              - 'link "After Action Review: Continuous Improvement Made Easy After Action Review: Continuous Improvement Made Easy Jan 2018 ● 86 pages ● Full star icon 5 (6)" [ref=e924] [cursor=pointer]':
+                - /url: https://www.packtpub.com/en-us/product/after-action-review-continuous-improvement-made-easy-9781634623254
+                - 'img "After Action Review: Continuous Improvement Made Easy" [ref=e925]'
+                - generic [ref=e927]: "After Action Review: Continuous Improvement Made Easy"
+                - generic [ref=e928]:
+                  - generic [ref=e929]: Jan 2018
+                  - generic [ref=e930]: ●
+                  - generic [ref=e931]: 86 pages
+                  - generic [ref=e932]: ●
+                  - generic [ref=e933]:
+                    - img "Full star icon" [ref=e934]
+                    - generic [ref=e935]: 5 (6)
+              - generic [ref=e936]:
+                - generic [ref=e937]:
+                  - generic [ref=e938]:
+                    - img "eBook" [ref=e939]
+                    - button "eBook" [ref=e941] [cursor=pointer]
+                  - generic [ref=e943]:
+                    - strong [ref=e944]: $13.49
+                    - deletion [ref=e945]: $14.99
+                - button "ADD TO CART" [ref=e948]
+            - generic [ref=e951]:
+              - link "Hearing the Voice of the Customer Hearing the Voice of the Customer Jan 2018 ● 153 pages" [ref=e952] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/hearing-the-voice-of-the-customer-9781634623339
+                - img "Hearing the Voice of the Customer" [ref=e953]
+                - generic [ref=e955]: Hearing the Voice of the Customer
+                - generic [ref=e956]:
+                  - generic [ref=e957]: Jan 2018
+                  - generic [ref=e958]: ●
+                  - generic [ref=e959]: 153 pages
+              - generic [ref=e960]:
+                - generic [ref=e961]:
+                  - generic [ref=e962]:
+                    - img "eBook" [ref=e963]
+                    - button "eBook" [ref=e965] [cursor=pointer]
+                  - generic [ref=e967]:
+                    - strong [ref=e968]: $26.09
+                    - deletion [ref=e969]: $28.99
+                - button "ADD TO CART" [ref=e972]
+            - generic [ref=e975]:
+              - link "Jira Software Essentials Jira Software Essentials Jan 2018 ● 192 pages ● Full star icon 2.9 (7)" [ref=e976] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/jira-software-essentials-9781788836081
+                - img "Jira Software Essentials" [ref=e977]
+                - generic [ref=e979]: Jira Software Essentials
+                - generic [ref=e980]:
+                  - generic [ref=e981]: Jan 2018
+                  - generic [ref=e982]: ●
+                  - generic [ref=e983]: 192 pages
+                  - generic [ref=e984]: ●
+                  - generic [ref=e985]:
+                    - img "Full star icon" [ref=e986]
+                    - generic [ref=e987]: 2.9 (7)
+              - generic [ref=e988]:
+                - generic [ref=e989]:
+                  - generic [ref=e990]:
+                    - img "eBook" [ref=e991]
+                    - button "eBook" [ref=e993] [cursor=pointer]
+                  - generic [ref=e995]:
+                    - strong [ref=e996]: $26.99
+                    - deletion [ref=e997]: $29.99
+                - button "ADD TO CART" [ref=e1000]
+          - img "Right arrow icon" [ref=e1001] [cursor=pointer]
+      - generic [ref=e1002]:
+        - generic [ref=e1003]:
+          - generic [ref=e1004]:
+            - heading "Beginner's Corner" [level=2] [ref=e1005]
+            - generic [ref=e1006]: Our top picks for starting your business & other journey.
+          - generic [ref=e1007]: 1 of 10
+        - generic [ref=e1008]:
+          - img "Left arrow icon" [ref=e1009] [cursor=pointer]
+          - generic [ref=e1010]:
+            - generic [ref=e1013]:
+              - 'link "Microsoft Power Platform Functional Consultant: PL-200 Exam Guide Microsoft Power Platform Functional Consultant: PL-200 Exam Guide Dec 2020 ● 648 pages ● Full star icon 4.6 (16)" [ref=e1014] [cursor=pointer]':
+                - /url: https://www.packtpub.com/en-us/product/microsoft-power-platform-functional-consultant-pl-200-exam-guide-9781838984069
+                - 'img "Microsoft Power Platform Functional Consultant: PL-200 Exam Guide" [ref=e1015]'
+                - generic [ref=e1017]: "Microsoft Power Platform Functional Consultant: PL-200 Exam Guide"
+                - generic [ref=e1018]:
+                  - generic [ref=e1019]: Dec 2020
+                  - generic [ref=e1020]: ●
+                  - generic [ref=e1021]: 648 pages
+                  - generic [ref=e1022]: ●
+                  - generic [ref=e1023]:
+                    - img "Full star icon" [ref=e1024]
+                    - generic [ref=e1025]: 4.6 (16)
+              - generic [ref=e1026]:
+                - generic [ref=e1027]:
+                  - generic [ref=e1028]:
+                    - img "eBook" [ref=e1029]
+                    - button "eBook" [ref=e1031] [cursor=pointer]
+                  - generic [ref=e1033]:
+                    - strong [ref=e1034]: $41.39
+                    - deletion [ref=e1035]: $45.99
+                - button "ADD TO CART" [ref=e1038]
+            - generic [ref=e1041]:
+              - link "Introduction to Programming with C#12 and .NET8 Introduction to Programming with C#12 and .NET8 May 2025 ● 13hrs 51mins ● Full star icon 5 (3)" [ref=e1042] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/introduction-to-programming-with-c12-and-net8-9781836203995
+                - img "Introduction to Programming with C#12 and .NET8" [ref=e1043]
+                - generic [ref=e1045]: Introduction to Programming with C#12 and .NET8
+                - generic [ref=e1046]:
+                  - generic [ref=e1047]: May 2025
+                  - generic [ref=e1048]: ●
+                  - generic [ref=e1049]: 13hrs 51mins
+                  - generic [ref=e1050]: ●
+                  - generic [ref=e1051]:
+                    - img "Full star icon" [ref=e1052]
+                    - generic [ref=e1053]: 5 (3)
+              - generic [ref=e1054]:
+                - generic [ref=e1055]:
+                  - generic [ref=e1056]:
+                    - img "Video" [ref=e1057]
+                    - generic [ref=e1058] [cursor=pointer]: Video
+                  - generic [ref=e1061]: $120.99
+                - button "ADD TO CART" [ref=e1064]
+            - generic [ref=e1067]:
+              - link "Jira 8 Essentials Jira 8 Essentials Oct 2022 ● 412 pages ● Full star icon 5 (11)" [ref=e1068] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/jira-8-essentials-9781803248851
+                - img "Jira 8 Essentials" [ref=e1069]
+                - generic [ref=e1071]: Jira 8 Essentials
+                - generic [ref=e1072]:
+                  - generic [ref=e1073]: Oct 2022
+                  - generic [ref=e1074]: ●
+                  - generic [ref=e1075]: 412 pages
+                  - generic [ref=e1076]: ●
+                  - generic [ref=e1077]:
+                    - img "Full star icon" [ref=e1078]
+                    - generic [ref=e1079]: 5 (11)
+              - generic [ref=e1080]:
+                - generic [ref=e1081]:
+                  - generic [ref=e1082]:
+                    - img "eBook" [ref=e1083]
+                    - button "eBook" [ref=e1085] [cursor=pointer]
+                  - generic [ref=e1087]:
+                    - strong [ref=e1088]: $26.09
+                    - deletion [ref=e1089]: $28.99
+                - button "ADD TO CART" [ref=e1092]
+            - generic [ref=e1095]:
+              - link "Learning Microsoft Project 2019 Learning Microsoft Project 2019 Sep 2020 ● 504 pages ● Full star icon 5 (5)" [ref=e1096] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/learning-microsoft-project-2019-9781838983727
+                - img "Learning Microsoft Project 2019" [ref=e1097]
+                - generic [ref=e1099]: Learning Microsoft Project 2019
+                - generic [ref=e1100]:
+                  - generic [ref=e1101]: Sep 2020
+                  - generic [ref=e1102]: ●
+                  - generic [ref=e1103]: 504 pages
+                  - generic [ref=e1104]: ●
+                  - generic [ref=e1105]:
+                    - img "Full star icon" [ref=e1106]
+                    - generic [ref=e1107]: 5 (5)
+              - generic [ref=e1108]:
+                - generic [ref=e1109]:
+                  - generic [ref=e1110]:
+                    - img "eBook" [ref=e1111]
+                    - button "eBook" [ref=e1113] [cursor=pointer]
+                  - generic [ref=e1115]:
+                    - strong [ref=e1116]: $30.59
+                    - deletion [ref=e1117]: $33.99
+                - button "ADD TO CART" [ref=e1120]
+            - generic [ref=e1123]:
+              - link "UiPath Associate Certification Guide UiPath Associate Certification Guide Jun 2022 ● 558 pages ● Full star icon 4.5 (13)" [ref=e1124] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/uipath-associate-certification-guide-9781801079389
+                - img "UiPath Associate Certification Guide" [ref=e1125]
+                - generic [ref=e1127]: UiPath Associate Certification Guide
+                - generic [ref=e1128]:
+                  - generic [ref=e1129]: Jun 2022
+                  - generic [ref=e1130]: ●
+                  - generic [ref=e1131]: 558 pages
+                  - generic [ref=e1132]: ●
+                  - generic [ref=e1133]:
+                    - img "Full star icon" [ref=e1134]
+                    - generic [ref=e1135]: 4.5 (13)
+              - generic [ref=e1136]:
+                - generic [ref=e1137]:
+                  - generic [ref=e1138]:
+                    - img "eBook" [ref=e1139]
+                    - button "eBook" [ref=e1141] [cursor=pointer]
+                  - generic [ref=e1143]:
+                    - strong [ref=e1144]: $34.19
+                    - deletion [ref=e1145]: $37.99
+                - button "ADD TO CART" [ref=e1148]
+            - generic [ref=e1151]:
+              - link "Learn Odoo Learn Odoo Oct 2019 ● 504 pages" [ref=e1152] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/learn-odoo-9781789531480
+                - img "Learn Odoo" [ref=e1153]
+                - generic [ref=e1155]: Learn Odoo
+                - generic [ref=e1156]:
+                  - generic [ref=e1157]: Oct 2019
+                  - generic [ref=e1158]: ●
+                  - generic [ref=e1159]: 504 pages
+              - generic [ref=e1160]:
+                - generic [ref=e1161]:
+                  - generic [ref=e1162]:
+                    - img "eBook" [ref=e1163]
+                    - button "eBook" [ref=e1165] [cursor=pointer]
+                  - generic [ref=e1167]:
+                    - strong [ref=e1168]: $35.09
+                    - deletion [ref=e1169]: $38.99
+                - button "ADD TO CART" [ref=e1172]
+            - generic [ref=e1175]:
+              - link "Python 3 from Beginner to Expert - Learn Python from Scratch Python 3 from Beginner to Expert - Learn Python from Scratch Sep 2025 ● 20hrs 1min" [ref=e1176] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/python-3-from-beginner-to-expert-learn-python-from-scratch-9781838552787
+                - img "Python 3 from Beginner to Expert - Learn Python from Scratch" [ref=e1177]
+                - generic [ref=e1179]: Python 3 from Beginner to Expert - Learn Python from Scratch
+                - generic [ref=e1180]:
+                  - generic [ref=e1181]: Sep 2025
+                  - generic [ref=e1182]: ●
+                  - generic [ref=e1183]: 20hrs 1min
+              - generic [ref=e1184]:
+                - generic [ref=e1185]:
+                  - generic [ref=e1186]:
+                    - img "Video" [ref=e1187]
+                    - generic [ref=e1188] [cursor=pointer]: Video
+                  - generic [ref=e1191]: $129.99
+                - button "ADD TO CART" [ref=e1194]
+            - generic [ref=e1197]:
+              - link "Jira 8 Administration Cookbook Jira 8 Administration Cookbook Jun 2019 ● 280 pages ● Full star icon 3.7 (3)" [ref=e1198] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/jira-8-administration-cookbook-9781838555887
+                - img "Jira 8 Administration Cookbook" [ref=e1199]
+                - generic [ref=e1201]: Jira 8 Administration Cookbook
+                - generic [ref=e1202]:
+                  - generic [ref=e1203]: Jun 2019
+                  - generic [ref=e1204]: ●
+                  - generic [ref=e1205]: 280 pages
+                  - generic [ref=e1206]: ●
+                  - generic [ref=e1207]:
+                    - img "Full star icon" [ref=e1208]
+                    - generic [ref=e1209]: 3.7 (3)
+              - generic [ref=e1210]:
+                - generic [ref=e1211]:
+                  - generic [ref=e1212]:
+                    - img "eBook" [ref=e1213]
+                    - button "eBook" [ref=e1215] [cursor=pointer]
+                  - generic [ref=e1217]:
+                    - strong [ref=e1218]: $20.69
+                    - deletion [ref=e1219]: $22.99
+                - button "ADD TO CART" [ref=e1222]
+            - generic [ref=e1225]:
+              - link "Jira 7 Guide for Administrators and Developers Jira 7 Guide for Administrators and Developers Apr 2025 ● 4hrs 26mins" [ref=e1226] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/jira-7-guide-for-administrators-and-developers-9781788833271
+                - img "Jira 7 Guide for Administrators and Developers" [ref=e1227]
+                - generic [ref=e1229]: Jira 7 Guide for Administrators and Developers
+                - generic [ref=e1230]:
+                  - generic [ref=e1231]: Apr 2025
+                  - generic [ref=e1232]: ●
+                  - generic [ref=e1233]: 4hrs 26mins
+              - generic [ref=e1234]:
+                - generic [ref=e1235]:
+                  - generic [ref=e1236]:
+                    - img "Video" [ref=e1237]
+                    - generic [ref=e1238] [cursor=pointer]: Video
+                  - generic [ref=e1241]: $137.99
+                - button "ADD TO CART" [ref=e1244]
+            - generic [ref=e1247]:
+              - link "Microsoft Project 2021 From Beginners to Advanced Microsoft Project 2021 From Beginners to Advanced May 2025 ● 11hrs 11mins ● Full star icon 1 (1)" [ref=e1248] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/microsoft-project-2021-from-beginners-to-advanced-9781805120148
+                - img "Microsoft Project 2021 From Beginners to Advanced" [ref=e1249]
+                - generic [ref=e1251]: Microsoft Project 2021 From Beginners to Advanced
+                - generic [ref=e1252]:
+                  - generic [ref=e1253]: May 2025
+                  - generic [ref=e1254]: ●
+                  - generic [ref=e1255]: 11hrs 11mins
+                  - generic [ref=e1256]: ●
+                  - generic [ref=e1257]:
+                    - img "Full star icon" [ref=e1258]
+                    - generic [ref=e1259]: 1 (1)
+              - generic [ref=e1260]:
+                - generic [ref=e1261]:
+                  - generic [ref=e1262]:
+                    - img "Video" [ref=e1263]
+                    - generic [ref=e1264] [cursor=pointer]: Video
+                  - generic [ref=e1267]: $109.99
+                - button "ADD TO CART" [ref=e1270]
+          - img "Right arrow icon" [ref=e1271] [cursor=pointer]
+      - generic [ref=e1272]:
+        - generic [ref=e1273]:
+          - generic [ref=e1274]:
+            - heading "Express Tutorials" [level=2] [ref=e1275]
+            - generic [ref=e1276]: Learn core business & other skills and be productive within two hours.
+          - generic [ref=e1277]: 1 of 7
+        - generic [ref=e1278]:
+          - img "Left arrow icon" [ref=e1279] [cursor=pointer]
+          - generic [ref=e1280]:
+            - generic [ref=e1283]:
+              - link "Six Sigma White Belt Six Sigma White Belt May 2025 ● 1hr 55mins ● Full star icon 5 (2)" [ref=e1284] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/six-sigma-white-belt-9781803243511
+                - img "Six Sigma White Belt" [ref=e1285]
+                - generic [ref=e1287]: Six Sigma White Belt
+                - generic [ref=e1288]:
+                  - generic [ref=e1289]: May 2025
+                  - generic [ref=e1290]: ●
+                  - generic [ref=e1291]: 1hr 55mins
+                  - generic [ref=e1292]: ●
+                  - generic [ref=e1293]:
+                    - img "Full star icon" [ref=e1294]
+                    - generic [ref=e1295]: 5 (2)
+              - generic [ref=e1296]:
+                - generic [ref=e1297]:
+                  - generic [ref=e1298]:
+                    - img "Video" [ref=e1299]
+                    - generic [ref=e1300] [cursor=pointer]: Video
+                  - generic [ref=e1303]: $109.99
+                - button "ADD TO CART" [ref=e1306]
+            - generic [ref=e1309]:
+              - link "Baselines and Updating a Project with Primavera P6 PPM Baselines and Updating a Project with Primavera P6 PPM May 2025 ● 1hr 39mins" [ref=e1310] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/baselines-and-updating-a-project-with-primavera-p6-ppm-9781801810388
+                - img "Baselines and Updating a Project with Primavera P6 PPM" [ref=e1311]
+                - generic [ref=e1313]: Baselines and Updating a Project with Primavera P6 PPM
+                - generic [ref=e1314]:
+                  - generic [ref=e1315]: May 2025
+                  - generic [ref=e1316]: ●
+                  - generic [ref=e1317]: 1hr 39mins
+              - generic [ref=e1318]:
+                - generic [ref=e1319]:
+                  - generic [ref=e1320]:
+                    - img "Video" [ref=e1321]
+                    - generic [ref=e1322] [cursor=pointer]: Video
+                  - generic [ref=e1325]: $27.99
+                - button "ADD TO CART" [ref=e1328]
+            - generic [ref=e1331]:
+              - 'link "Agile Retrospective: Continuous Improvement and Kaizen with Scrum Agile Retrospective: Continuous Improvement and Kaizen with Scrum May 2025 ● 1hr 23mins" [ref=e1332] [cursor=pointer]':
+                - /url: https://www.packtpub.com/en-us/product/agile-retrospective-continuous-improvement-and-kaizen-with-scrum-9781803231563
+                - 'img "Agile Retrospective: Continuous Improvement and Kaizen with Scrum" [ref=e1333]'
+                - generic [ref=e1335]: "Agile Retrospective: Continuous Improvement and Kaizen with Scrum"
+                - generic [ref=e1336]:
+                  - generic [ref=e1337]: May 2025
+                  - generic [ref=e1338]: ●
+                  - generic [ref=e1339]: 1hr 23mins
+              - generic [ref=e1340]:
+                - generic [ref=e1341]:
+                  - generic [ref=e1342]:
+                    - img "Video" [ref=e1343]
+                    - generic [ref=e1344] [cursor=pointer]: Video
+                  - generic [ref=e1347]: $148.99
+                - button "ADD TO CART" [ref=e1350]
+            - generic [ref=e1353]:
+              - 'link "An Agile Crash Course: Agile Project Management and Agile Delivery An Agile Crash Course: Agile Project Management and Agile Delivery May 2025 ● 1hr 5mins" [ref=e1354] [cursor=pointer]':
+                - /url: https://www.packtpub.com/en-us/product/an-agile-crash-course-agile-project-management-and-agile-delivery-9781789533415
+                - 'img "An Agile Crash Course: Agile Project Management and Agile Delivery" [ref=e1355]'
+                - generic [ref=e1357]: "An Agile Crash Course: Agile Project Management and Agile Delivery"
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]: May 2025
+                  - generic [ref=e1360]: ●
+                  - generic [ref=e1361]: 1hr 5mins
+              - generic [ref=e1362]:
+                - generic [ref=e1363]:
+                  - generic [ref=e1364]:
+                    - img "Video" [ref=e1365]
+                    - generic [ref=e1366] [cursor=pointer]: Video
+                  - generic [ref=e1369]: $120.99
+                - button "ADD TO CART" [ref=e1372]
+            - generic [ref=e1375]:
+              - link "Scrum Advanced - Software Development and Program Management Scrum Advanced - Software Development and Program Management May 2025 ● 1hr 10mins" [ref=e1376] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/scrum-advanced-software-development-and-program-management-9781804610206
+                - img "Scrum Advanced - Software Development and Program Management" [ref=e1377]
+                - generic [ref=e1379]: Scrum Advanced - Software Development and Program Management
+                - generic [ref=e1380]:
+                  - generic [ref=e1381]: May 2025
+                  - generic [ref=e1382]: ●
+                  - generic [ref=e1383]: 1hr 10mins
+              - generic [ref=e1384]:
+                - generic [ref=e1385]:
+                  - generic [ref=e1386]:
+                    - img "Video" [ref=e1387]
+                    - generic [ref=e1388] [cursor=pointer]: Video
+                  - generic [ref=e1391]: $60.99
+                - button "ADD TO CART" [ref=e1394]
+            - generic [ref=e1397]:
+              - link "The Complete Scrum Master Certification and Agile Scrum Course The Complete Scrum Master Certification and Agile Scrum Course May 2025 ● 1hr 58mins ● Full star icon 2 (1)" [ref=e1398] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/the-complete-scrum-master-certification-and-agile-scrum-course-9781835460283
+                - img "The Complete Scrum Master Certification and Agile Scrum Course" [ref=e1399]
+                - generic [ref=e1401]: The Complete Scrum Master Certification and Agile Scrum Course
+                - generic [ref=e1402]:
+                  - generic [ref=e1403]: May 2025
+                  - generic [ref=e1404]: ●
+                  - generic [ref=e1405]: 1hr 58mins
+                  - generic [ref=e1406]: ●
+                  - generic [ref=e1407]:
+                    - img "Full star icon" [ref=e1408]
+                    - generic [ref=e1409]: 2 (1)
+              - generic [ref=e1410]:
+                - generic [ref=e1411]:
+                  - generic [ref=e1412]:
+                    - img "Video" [ref=e1413]
+                    - generic [ref=e1414] [cursor=pointer]: Video
+                  - generic [ref=e1417]: $93.99
+                - button "ADD TO CART" [ref=e1420]
+            - generic [ref=e1423]:
+              - link "Project Management Project Management May 2025 ● 1hr 20mins" [ref=e1424] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/project-management-9781836648857
+                - img "Project Management" [ref=e1425]
+                - generic [ref=e1427]: Project Management
+                - generic [ref=e1428]:
+                  - generic [ref=e1429]: May 2025
+                  - generic [ref=e1430]: ●
+                  - generic [ref=e1431]: 1hr 20mins
+              - generic [ref=e1432]:
+                - generic [ref=e1433]:
+                  - generic [ref=e1434]:
+                    - img "Video" [ref=e1435]
+                    - generic [ref=e1436] [cursor=pointer]: Video
+                  - generic [ref=e1439]: $65.99
+                - button "ADD TO CART" [ref=e1442]
+          - img "Right arrow icon" [ref=e1443] [cursor=pointer]
+      - generic [ref=e1444]:
+        - generic [ref=e1445]:
+          - generic [ref=e1446]:
+            - heading "Related topics" [level=2] [ref=e1447]
+            - generic [ref=e1448]: People interested in business & other are frequently also interested in the following
+          - generic [ref=e1449]: 1 of 10
+        - generic [ref=e1450]:
+          - img "Left arrow icon" [ref=e1451] [cursor=pointer]
+          - generic [ref=e1452]:
+            - generic [ref=e1455]:
+              - link "3D Printing" [ref=e1457] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/3d-printing
+                - img "3D Printing" [ref=e1458]
+              - heading "3D Printing" [level=4] [ref=e1459]
+            - generic [ref=e1462]:
+              - link "Agile" [ref=e1464] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/agile
+                - img "Agile" [ref=e1465]
+              - heading "Agile" [level=4] [ref=e1466]
+            - generic [ref=e1469]:
+              - link "Animation" [ref=e1471] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/animation
+                - img "Animation" [ref=e1472]
+              - heading "Animation" [level=4] [ref=e1473]
+            - generic [ref=e1476]:
+              - link "Audio Processing" [ref=e1478] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/audio-processing
+                - img "Audio Processing" [ref=e1479]
+              - heading "Audio Processing" [level=4] [ref=e1480]
+            - generic [ref=e1483]:
+              - link "Autonomous Systems" [ref=e1485] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/autonomous-systems
+                - img "Autonomous Systems" [ref=e1486]
+              - heading "Autonomous Systems" [level=4] [ref=e1487]
+            - generic [ref=e1490]:
+              - link "Bioinformatics" [ref=e1492] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/bioinformatics
+                - img "Bioinformatics" [ref=e1493]
+              - heading "Bioinformatics" [level=4] [ref=e1494]
+            - generic [ref=e1497]:
+              - link "Business Management" [ref=e1499] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/business-management
+                - img "Business Management" [ref=e1500]
+              - heading "Business Management" [level=4] [ref=e1501]
+            - generic [ref=e1504]:
+              - link "3D Printing" [ref=e1506] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/3d-printing
+                - img "3D Printing" [ref=e1507]
+              - heading "3D Printing" [level=4] [ref=e1508]
+            - generic [ref=e1511]:
+              - link "Design" [ref=e1513] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/design
+                - img "Design" [ref=e1514]
+              - heading "Design" [level=4] [ref=e1515]
+            - generic [ref=e1518]:
+              - link "Devices" [ref=e1520] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/business-and-other/concept/devices
+                - img "Devices" [ref=e1521]
+              - heading "Devices" [level=4] [ref=e1522]
+          - img "Right arrow icon" [ref=e1523] [cursor=pointer]
+      - generic [ref=e1524]:
+        - generic [ref=e1525]:
+          - generic [ref=e1526]:
+            - heading "Listen & Learn" [level=2] [ref=e1527]
+            - generic [ref=e1528]: Engaging business & other audiobooks for learning on the go.
+          - generic [ref=e1529]: 3 Items
+        - generic [ref=e1531]:
+          - generic [ref=e1534]:
+            - link "Becoming an Inspirational Leader Becoming an Inspirational Leader May 2023 ● 1hr 59mins" [ref=e1535] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/product/becoming-an-inspirational-leader-9781805120247
+              - img "Becoming an Inspirational Leader" [ref=e1536]
+              - generic [ref=e1538]: Becoming an Inspirational Leader
+              - generic [ref=e1539]:
+                - generic [ref=e1540]: May 2023
+                - generic [ref=e1541]: ●
+                - generic [ref=e1542]: 1hr 59mins
+            - generic [ref=e1543]:
+              - generic [ref=e1544]:
+                - generic [ref=e1545]:
+                  - img "Audiobook" [ref=e1546]
+                  - generic [ref=e1547] [cursor=pointer]: Audiobook
+                - generic [ref=e1550]: $199.99
+              - button "ADD TO CART" [ref=e1553]
+          - generic [ref=e1556]:
+            - link "Project Management 101 Project Management 101 May 2023 ● 1hr 14mins" [ref=e1557] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/product/project-management-101-9781805129585
+              - img "Project Management 101" [ref=e1558]
+              - generic [ref=e1560]: Project Management 101
+              - generic [ref=e1561]:
+                - generic [ref=e1562]: May 2023
+                - generic [ref=e1563]: ●
+                - generic [ref=e1564]: 1hr 14mins
+            - generic [ref=e1565]:
+              - generic [ref=e1566]:
+                - generic [ref=e1567]:
+                  - img "Audiobook" [ref=e1568]
+                  - generic [ref=e1569] [cursor=pointer]: Audiobook
+                - generic [ref=e1572]: $199.99
+              - button "ADD TO CART" [ref=e1575]
+          - generic [ref=e1578]:
+            - link "Technical Program Manager's Handbook Technical Program Manager's Handbook Dec 2022 ● 6hrs 19mins" [ref=e1579] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/product/technical-program-managers-handbook-9781837637775
+              - img "Technical Program Manager's Handbook" [ref=e1580]
+              - generic [ref=e1582]: Technical Program Manager's Handbook
+              - generic [ref=e1583]:
+                - generic [ref=e1584]: Dec 2022
+                - generic [ref=e1585]: ●
+                - generic [ref=e1586]: 6hrs 19mins
+            - generic [ref=e1587]:
+              - generic [ref=e1588]:
+                - generic [ref=e1589]:
+                  - img "Audiobook" [ref=e1590]
+                  - button "Audiobook" [ref=e1592] [cursor=pointer]
+                - generic [ref=e1595]: $41.99
+              - button "ADD TO CART" [ref=e1598]
+      - generic [ref=e1599]:
+        - generic [ref=e1600]:
+          - heading "Popular Authors (10)" [level=2] [ref=e1602]
+          - generic [ref=e1603]: 1 of 10
+        - generic [ref=e1604]:
+          - img "Left arrow icon" [ref=e1605] [cursor=pointer]
+          - generic [ref=e1606]:
+            - generic [ref=e1608]:
+              - generic [ref=e1609]:
+                - generic [ref=e1610]:
+                  - generic [ref=e1611]:
+                    - img "Author Profile Icon" [ref=e1612]
+                    - generic [ref=e1613]: Harrison Ferrone
+                  - generic [ref=e1614]:
+                    - link "LinkedIn" [ref=e1615] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/harrisonferrone/
+                      - img "LinkedIn" [ref=e1616]
+                    - link "Github" [ref=e1617] [cursor=pointer]:
+                      - /url: https://github.com/hferrone
+                      - img "Github" [ref=e1618]
+                - generic [ref=e1621]: Harrison Ferrone was born in Chicago, IL. Most days, you can find him creating instructional content for LinkedIn Learning or trying to learn something new. He holds various fancy looking pieces of paper from the University of Colorado at Boulder and Columbia College Chicago, and despite being a proud alumnus, most of these are stored in a basement somewhere. After a few years as an iOS developer at small start-ups, and one Fortune 500 company, he fell into a teaching career and never looked back. Throughout all this, he's bought many books, acquired a few cats, worked abroad, and continually wondered why Neuromancer isn't on more course syllabi
+              - generic [ref=e1622]:
+                - generic [ref=e1623]:
+                  - strong [ref=e1624]: Most popular book of Harrison Ferrone
+                  - generic [ref=e1625]:
+                    - img "Learning Design Patterns with Unity" [ref=e1626]
+                    - generic [ref=e1627]: Learning Design Patterns with Unity
+                - link "See 4 other products by Harrison Ferrone" [ref=e1628] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/harrison-ferrone
+            - generic [ref=e1630]:
+              - generic [ref=e1631]:
+                - generic [ref=e1632]:
+                  - generic [ref=e1633]:
+                    - img "Author Profile Icon" [ref=e1634]
+                    - generic [ref=e1635]: Karlsson
+                  - generic [ref=e1636]:
+                    - link "LinkedIn" [ref=e1637] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/johan-karlsson-252aba10/
+                      - img "LinkedIn" [ref=e1638]
+                    - link "Github" [ref=e1639] [cursor=pointer]:
+                      - /url: https://github.com/johankson
+                      - img "Github" [ref=e1640]
+                - generic [ref=e1643]: Johan Karlsson has been working with Xamarin since the days of MonoTouch and Mono for Android, and it all started with writing a game. He is a full-stack developer, currently focusing on mobile applications using Xamarin, but has in the past worked a lot with ASP.NET MVC, Visual Basic.NET (not proud), and C# in general. Also, he's created a whole bunch of databases in SQL Server over the years. Johan works at tretton37 in Sweden and has about 20 years' experience in the trade of assembling ones and zeros.
+              - generic [ref=e1644]:
+                - generic [ref=e1645]:
+                  - strong [ref=e1646]: Most popular book of Karlsson
+                  - generic [ref=e1647]:
+                    - img ".NET MAUI Projects" [ref=e1648]
+                    - generic [ref=e1649]: .NET MAUI Projects
+                - link "See 1 other products by Karlsson" [ref=e1650] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/karlsson
+            - generic [ref=e1652]:
+              - generic [ref=e1653]:
+                - generic [ref=e1654]:
+                  - generic [ref=e1655]:
+                    - img "Author Profile Icon" [ref=e1656]
+                    - generic [ref=e1657]: Scott H. Cameron
+                  - generic [ref=e1658]:
+                    - link "LinkedIn" [ref=e1659] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/shcameron/
+                      - img "LinkedIn" [ref=e1660]
+                    - link "Github" [ref=e1661] [cursor=pointer]:
+                      - /url: https://github.com/badscotsman
+                      - img "Github" [ref=e1662]
+                - generic [ref=e1665]: Scott Cameron is an award-winning digital content creator and designer with over 25 years of experience in information technology, software development, and design while he specializes in Indie game development. He is a Unity certified expert programmer and currently works as a Senior Unity engineer at io house ltd. Additionally, he also provides quality assurance and student course support & mentorship for Unity, Phaser, and C++ game development curriculum at Zenva.
+              - generic [ref=e1666]:
+                - generic [ref=e1667]:
+                  - strong [ref=e1668]: Most popular book of Scott H. Cameron
+                  - generic [ref=e1669]:
+                    - img "Unity 2022 by Example" [ref=e1670]
+                    - generic [ref=e1671]: Unity 2022 by Example
+                - link "See 1 other products by Scott H. Cameron" [ref=e1672] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/scott-h-dot-cameron
+            - generic [ref=e1674]:
+              - generic [ref=e1675]:
+                - generic [ref=e1676]:
+                  - generic [ref=e1677]:
+                    - img "Author Profile Icon" [ref=e1678]
+                    - generic [ref=e1679]: Sergey Kosarevsky
+                  - generic [ref=e1680]:
+                    - link "LinkedIn" [ref=e1681] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/sergey-kosarevsky
+                      - img "LinkedIn" [ref=e1682]
+                    - link "Github" [ref=e1683] [cursor=pointer]:
+                      - /url: https://github.com/corporateshark
+                      - img "Github" [ref=e1684]
+                - generic [ref=e1687]: Sergey Kosarevsky is a former rendering lead at Ubisoft RedLynx. He currently leads Vulkan development at Meta. He worked in the mobile industry at SPB Software, Yandex, Layar and Blippar, TWNKLS, and DAQRI, where he designed and implemented real-time rendering technology. He has more than 20 years of software development experience and more than 12 years of mobile and embedded 3D graphics experience. In his Ph.D. thesis, Sergey employed computer vision to solve mechanical engineering problems. He is also a co-author of several books on 3D graphics and mobile software development in C++, including “3D Graphics Rendering Cookbook”.
+              - generic [ref=e1688]:
+                - generic [ref=e1689]:
+                  - strong [ref=e1690]: Most popular book of Sergey Kosarevsky
+                  - generic [ref=e1691]:
+                    - img "3D Graphics Rendering Cookbook" [ref=e1692]
+                    - generic [ref=e1693]: 3D Graphics Rendering Cookbook
+                - link "See 2 other products by Sergey Kosarevsky" [ref=e1694] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/sergey-kosarevsky
+            - generic [ref=e1696]:
+              - generic [ref=e1697]:
+                - generic [ref=e1698]:
+                  - generic [ref=e1699]:
+                    - img "Author Profile Icon" [ref=e1700]
+                    - generic [ref=e1701]: Tuomanen
+                  - generic [ref=e1702]:
+                    - link "LinkedIn" [ref=e1703] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/brian-tuomanen/
+                      - img "LinkedIn" [ref=e1704]
+                    - link "Github" [ref=e1705] [cursor=pointer]:
+                      - /url: www.github.com/btuomanen
+                      - img "Github" [ref=e1706]
+                - generic [ref=e1709]: Dr. Brian Tuomanen has been working with CUDA and General-Purpose GPU Programming since 2014. He received his Bachelor of Science in Electrical Engineering from the University of Washington in Seattle, and briefly worked as a Software Engineer before switching to Mathematics for Graduate School. He completed his Ph.D. in Mathematics at the University of Missouri in Columbia, where he first encountered GPU programming as a means for studying scientific problems. Dr. Tuomanen has spoken at the US Army Research Lab about General Purpose GPU programming, and has recently lead GPU integration and development at a Maryland based start-up company. He currently lives and works in the Seattle area.
+              - generic [ref=e1710]:
+                - generic [ref=e1711]:
+                  - strong [ref=e1712]: Most popular book of Tuomanen
+                  - generic [ref=e1713]:
+                    - img "Hands-On GPU Programming with Python and CUDA" [ref=e1714]
+                    - generic [ref=e1715]: Hands-On GPU Programming with Python and CUDA
+                - link "See 1 other products by Tuomanen" [ref=e1716] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/tuomanen
+            - generic [ref=e1718]:
+              - generic [ref=e1719]:
+                - generic [ref=e1720]:
+                  - generic [ref=e1721]:
+                    - img "Author Profile Icon" [ref=e1722]
+                    - generic [ref=e1723]: John P. Doran
+                  - generic [ref=e1724]:
+                    - link "LinkedIn" [ref=e1725] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/johnpdoran/
+                      - img "LinkedIn" [ref=e1726]
+                    - link "Github" [ref=e1727] [cursor=pointer]:
+                      - /url: https://github.com/jodoran/
+                      - img "Github" [ref=e1728]
+                - generic [ref=e1731]: "John P. Doran is a passionate and seasoned Technical Game Designer, Software Engineer, and Author who is based in Songdo, South Korea. His passion for game development began at an early age. He later graduated from DigiPen Institute of Technology with a Bachelor of Science in Game Design and a Master of Science in Computer Science from Bradley University.nFor over a decade, John has gained extensive hands-on expertise in game development working in various roles ranging from game designer to lead UI programmer working in teams consisting of just himself to over 70 people in student, mod, and professional game projects including working at LucasArts on Star Wars: 1313. Additionally, John has worked in game development education teaching in Singapore, South Korea, and the United States. To date, he has authored over 10 books pertaining to game development. John is currently an Instructor at George Mason University Korea. Prior to his present ventures, he was an award-winning videographer."
+              - generic [ref=e1732]:
+                - generic [ref=e1733]:
+                  - strong [ref=e1734]: Most popular book of John P. Doran
+                  - generic [ref=e1735]:
+                    - img "Unity 2022 Mobile Game Development" [ref=e1736]
+                    - generic [ref=e1737]: Unity 2022 Mobile Game Development
+                - link "See 5 other products by John P. Doran" [ref=e1738] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/john-p-dot-doran
+            - generic [ref=e1740]:
+              - generic [ref=e1741]:
+                - generic [ref=e1742]:
+                  - generic [ref=e1743]:
+                    - img "Author Profile Icon" [ref=e1744]
+                    - generic [ref=e1745]: Kumsal Obuz
+                  - generic [ref=e1746]:
+                    - link "LinkedIn" [ref=e1747] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/denizkumsal/
+                      - img "LinkedIn" [ref=e1748]
+                    - link "Github" [ref=e1749] [cursor=pointer]:
+                      - /url: https://github.com/kubarium
+                      - img "Github" [ref=e1750]
+                - generic [ref=e1753]: Kumsal Obuz is a self taught, but veteran web developer with more than 15 years of experience in two different countries, leading teams and projects of various sizes. After several years of preparation and transition, he started his own game studio in August 2020. He launched a small puzzle strategy game at the end of 2020 and is currently working on an ambitious farming simulation game. He also likes to mentor, perhaps due to his genetic background since both of his parents are teachers, and because of his love of Godot, founded and still organizes the Godot Toronto Meetup group.
+              - generic [ref=e1754]:
+                - generic [ref=e1755]:
+                  - strong [ref=e1756]: Most popular book of Kumsal Obuz
+                  - generic [ref=e1757]:
+                    - img "Game Development with Blender and Godot" [ref=e1758]
+                    - generic [ref=e1759]: Game Development with Blender and Godot
+                - link "See 1 other products by Kumsal Obuz" [ref=e1760] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/kumsal-obuz
+            - generic [ref=e1762]:
+              - generic [ref=e1763]:
+                - generic [ref=e1764]:
+                  - generic [ref=e1765]:
+                    - img "Author Profile Icon" [ref=e1766]
+                    - generic [ref=e1767]: Frahaan Hussain
+                  - generic [ref=e1768]:
+                    - link "LinkedIn" [ref=e1769] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/frahaan/
+                      - img "LinkedIn" [ref=e1770]
+                    - link "Github" [ref=e1771] [cursor=pointer]:
+                      - /url: https://github.com/SonarSystems/
+                      - img "Github" [ref=e1772]
+                - generic [ref=e1775]: Frahaan Hussain is a 3 time published author with over 500,000 students enrolled on his courses online and more than 40,000 loyal YouTube followers. Before he started teaching programming online, Frahaan graduated top of his class with honours in Computer Games Programming from De Montfort University. After just 2 years, he was invited back to become module leader at his Alma Mater. While consulting with huge clients such as Google and Chukong, Frahaan continues to further the education of others and himself.
+              - generic [ref=e1776]:
+                - generic [ref=e1777]:
+                  - strong [ref=e1778]: Most popular book of Frahaan Hussain
+                  - generic [ref=e1779]:
+                    - img "Learn OpenGL" [ref=e1780]
+                    - generic [ref=e1781]: Learn OpenGL
+                - link "See 4 other products by Frahaan Hussain" [ref=e1782] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/frahaan-hussain
+            - generic [ref=e1784]:
+              - generic [ref=e1785]:
+                - generic [ref=e1786]:
+                  - generic [ref=e1787]:
+                    - img "Author Profile Icon" [ref=e1788]
+                    - generic [ref=e1789]: Oscar Baechler
+                  - generic [ref=e1790]:
+                    - link "LinkedIn" [ref=e1791] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/ogbog/
+                      - img "LinkedIn" [ref=e1792]
+                    - link "Github" [ref=e1793] [cursor=pointer]:
+                      - /url: https://github.com/ogbog
+                      - img "Github" [ref=e1794]
+                - generic [ref=e1797]: Oscar Baechler is a CG generalist, professor, painter, photographer, open source advocate, and community organizer who teaches at Lake Washington Institute of Technology. He's published a number of mobile games with a Blender pipeline and created animation for clients both big and small. Oscar runs the Seattle Blender User Group and Ballard Life Drawing Co-op and has presented on CGI at SIGGRAPH, LinuxFest Northwest, the Blender Conference, OSCON, Usenix LISA, SeaGL, SIX, WACC, and others.
+              - generic [ref=e1798]:
+                - generic [ref=e1799]:
+                  - strong [ref=e1800]: Most popular book of Oscar Baechler
+                  - generic [ref=e1801]:
+                    - img "Blender 3D By Example" [ref=e1802]
+                    - generic [ref=e1803]: Blender 3D By Example
+                - link "See 1 other products by Oscar Baechler" [ref=e1804] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/oscar-baechler
+            - generic [ref=e1806]:
+              - generic [ref=e1807]:
+                - generic [ref=e1808]:
+                  - generic [ref=e1809]:
+                    - img "Author Profile Icon" [ref=e1810]
+                    - generic [ref=e1811]: Gonçalo Marques
+                  - generic [ref=e1812]:
+                    - link "LinkedIn" [ref=e1813] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/gon%C3%A7alo-marques-a7416a107/
+                      - img "LinkedIn" [ref=e1814]
+                    - link "Github" [ref=e1815] [cursor=pointer]:
+                      - /url: https://github.com/goncasmage1
+                      - img "Github" [ref=e1816]
+                - generic [ref=e1819]: Gonçalo Marques has been an active gamer since the age of 6. He has been using Unreal Engine since 2016 and has done freelance and consulting work using the engine. Gonçalo also released a free and open source plugin called UI Navigation, which has garnered an extremely positive reception with over 100,000 downloads and is still receiving frequent updates and fixes. Thanks to the development of this plugin, he became an Epic MegaGrant recipient. He is now working at Funcom ZPX, a game studio in Lisbon that has contributed to games such as Conan Exiles, Mutant Year Zero, and Moons of Madness. Gonçalo is currently working on a new Funcom game in the Dune universe.
+              - generic [ref=e1820]:
+                - generic [ref=e1821]:
+                  - strong [ref=e1822]: Most popular book of Gonçalo Marques
+                  - generic [ref=e1823]:
+                    - img "Elevating Game Experiences with Unreal Engine 5" [ref=e1824]
+                    - generic [ref=e1825]: Elevating Game Experiences with Unreal Engine 5
+                - link "See 2 other products by Gonçalo Marques" [ref=e1826] [cursor=pointer]:
+                  - /url: https://www.packtpub.com/authors/goncalo-marques
+          - img "Right arrow icon" [ref=e1827] [cursor=pointer]
+      - generic [ref=e1828]:
+        - heading "business & other Category Discovery" [level=2] [ref=e1829]
+        - heading "tool" [level=3] [ref=e1830]
+        - link "Alexa Skills (1)" [ref=e1832] [cursor=pointer]:
+          - /url: https://www.packtpub.com/en-us/business-and-other/tool/alexa-skills
+  - contentinfo [ref=e1833]:
+    - generic [ref=e1837]:
+      - link "Machine Learning" [ref=e1838] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/data/concept/machine-learning
+      - link "Kubernetes" [ref=e1839] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/cloud-and-networking/tool/kubernetes
+      - link "React" [ref=e1840] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/web-development/tool/react
+      - link "Python" [ref=e1841] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/data/language/python
+      - link "Cybersecurity" [ref=e1842] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/security/concept/cybersecurity
+      - link "Unity Game Development" [ref=e1843] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/game-development/tool/unity
+      - link "Power BI" [ref=e1844] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/data/concept/business-intelligence
+      - link "Azure" [ref=e1845] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/cloud-and-networking/tool/azure
+      - link "Web Development" [ref=e1846] [cursor=pointer]:
+        - /url: https://www.packtpub.com/en-us/web-development
+    - generic [ref=e1847]:
+      - generic [ref=e1848]:
+        - generic [ref=e1849]: Legal
+        - generic [ref=e1850]:
+          - link "Terms and Conditions" [ref=e1851] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/terms-and-conditions
+          - link "Privacy Policy" [ref=e1852] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/privacy-policy
+          - link "Cookie Policy" [ref=e1853] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/cookie-policy
+          - link "Shipping Policy" [ref=e1854] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/shipping-policy
+          - link "Cancellation Policy" [ref=e1855] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/cancellation-policy
+          - link "Return Policy" [ref=e1856] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/returns-policy
+      - generic [ref=e1857]:
+        - generic [ref=e1858]: Support
+        - generic [ref=e1859]:
+          - link "Help" [ref=e1860] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/faqs
+          - link "Contact Us" [ref=e1861] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/help/contact
+      - generic [ref=e1862]:
+        - generic [ref=e1863]: Business
+        - generic [ref=e1864]:
+          - link "Partnerships" [ref=e1865] [cursor=pointer]:
+            - /url: https://partnerships.packt.com/
+          - generic [ref=e1866]:
+            - link "Sponsored eBooks" [ref=e1867] [cursor=pointer]:
+              - /url: https://partnerships.packt.com/sponsored-ebooks/
+            - link "Custom eBooks" [ref=e1868] [cursor=pointer]:
+              - /url: https://partnerships.packt.com/ebooks-white-papers/
+          - link "Careers" [ref=e1869] [cursor=pointer]:
+            - /url: https://apply.workable.com/packtpublishing/?lng=en
+          - link "Packt China" [ref=e1870] [cursor=pointer]:
+            - /url: https://china.packtpub.com/
+          - link "Become an author" [ref=e1871] [cursor=pointer]:
+            - /url: https://partnerships.packt.com/contributors/
+      - generic [ref=e1872]:
+        - generic [ref=e1873]: Packt+ Membership
+        - generic [ref=e1874]:
+          - link "Subscription" [ref=e1875] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-us/subscribe
+          - link "DataPro" [ref=e1876] [cursor=pointer]:
+            - /url: https://www.packtpub.com/datapro
+          - link "SecPro" [ref=e1877] [cursor=pointer]:
+            - /url: https://www.packtpub.com/secpro
+    - generic [ref=e1878]:
+      - generic [ref=e1879]:
+        - img "countryFlag" [ref=e1880]
+        - generic [ref=e1881]: United States
+      - generic [ref=e1882]:
+        - generic [ref=e1883]: "Company Address: Packt Publishing Ltd, Grosvenor House, 11 St Paul's Square, Birmingham, B3 1RB"
+        - generic [ref=e1884]: © 2025 Packt Publishing Limited All Rights Reserved
+    - generic [ref=e1887]:
+      - generic [ref=e1888]:
+        - img "Close icon" [ref=e1889]
+        - generic [ref=e1890]: You are browsing a version of our website which may not be the most relevant option for you. We suggest changing to the following version.
+        - generic [ref=e1891]:
+          - button "countryFlag Canada" [ref=e1892] [cursor=pointer]:
+            - img "countryFlag" [ref=e1893]
+            - generic [ref=e1894]: Canada
+          - link "GO" [ref=e1895] [cursor=pointer]:
+            - /url: https://www.packtpub.com/en-ca?category=business-and-other&type=concept&tech=project-management&product=
+            - button "GO" [ref=e1896]
+      - separator [ref=e1897]
+      - generic [ref=e1898]:
+        - img "Close icon" [ref=e1899]
+        - paragraph [ref=e1901]: Signed in users are eligible for personalised offers and content recommendations.
+        - generic [ref=e1902]:
+          - link "Country selected Sign in with Packt" [ref=e1903] [cursor=pointer]:
+            - /url: https://www.packtpub.com/login
+            - button "Country selected Sign in with Packt" [ref=e1904]:
+              - img "Country selected" [ref=e1905]
+              - text: Sign in with
+              - generic [ref=e1906]: Packt
+          - link "Google Sign in with Google" [ref=e1907] [cursor=pointer]:
+            - /url: https://www.packtpub.com/login
+            - button "Google Sign in with Google" [ref=e1908]:
+              - img "Google" [ref=e1909]
+              - text: Sign in with
+              - generic [ref=e1910]: Google
+          - link "Github Sign in with Github" [ref=e1911] [cursor=pointer]:
+            - /url: https://www.packtpub.com/login
+            - button "Github Sign in with Github" [ref=e1912]:
+              - img "Github" [ref=e1913]
+              - text: Sign in with
+              - generic [ref=e1914]: Github
+```

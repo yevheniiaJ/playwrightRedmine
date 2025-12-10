@@ -1,10 +1,10 @@
-import config from '../playwright.config.js'
 
-export class MainPage {
+import { BasePage } from '../pages/basePage.js'
+
+export class MainPage extends BasePage {
 
     constructor(page) {
-        this.page = page;
-        this.book = page.locator(`//table[@class='wiki-class-noborder']//tr[1]/td[1]`)
+        super(page)
         this.buyNowBtn = page.locator(`//div[@class='product-page-rhs desktop']//*[@id="product-buy-now"]`)
         this.addSelectedToCart = page.locator(`//div[@class='product-total-card']/div[@class='product-total-card-footer']`)
         this.cartCount = page.locator(`//span[@class='header-cart-count']`)
@@ -15,9 +15,5 @@ export class MainPage {
         this.projectManagement = page.locator(`//a[@href='/en-us/business-and-other/concept/project-management']`)
         this.searchField = page.locator(`//div[@id='quick-search']/form/input[@id='q']`)
         this.searchLinks = page.locator(`//a/span[@class='highlight token-0']`)
-    }
-
-    async goto() {
-        await this.page.goto(`${config.baseURL}`)
     }
 }

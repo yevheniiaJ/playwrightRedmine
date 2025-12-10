@@ -1,0 +1,197 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - link "Packt" [ref=e7] [cursor=pointer]:
+      - /url: https://www.packtpub.com/en-us
+      - img "Packt" [ref=e8]
+    - generic [ref=e9]:
+      - generic [ref=e10] [cursor=pointer]: FAQs
+      - generic [ref=e11] [cursor=pointer]: Contact us
+      - generic [ref=e12] [cursor=pointer]: Return Policies
+  - generic [ref=e13]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - iframe [ref=e20]:
+          
+        - generic [ref=e22]: Shipping address
+        - iframe [ref=e25]:
+          
+      - generic [ref=e26]:
+        - generic [ref=e27]: Billing address
+        - generic [ref=e29]:
+          - checkbox "Billing is same as shipping information" [checked] [ref=e30] [cursor=pointer]
+          - text: Billing is same as shipping information
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Payment details" [level=2] [ref=e33]
+          - img "Packt" [ref=e35]
+        - iframe [ref=e38]:
+          
+      - generic [ref=e39]:
+        - generic [ref=e40]: Shipping method
+        - generic [ref=e41]:
+          - radio "Economy (10 - 13 business days) Free $6.95" [checked] [ref=e43] [cursor=pointer]
+          - generic [ref=e44]:
+            - text: Economy
+            - generic [ref=e45]: (10 - 13 business days)
+          - generic [ref=e46]:
+            - generic [ref=e47]: Free
+            - generic [ref=e48]: $6.95
+        - generic [ref=e49]:
+          - radio "Premium (6 - 9 business days) $21.95" [ref=e51] [cursor=pointer]
+          - generic [ref=e52]:
+            - text: Premium
+            - generic [ref=e53]: (6 - 9 business days)
+          - generic [ref=e55]: $21.95
+      - generic [ref=e56]:
+        - button "Pay Now" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: Pay Now
+        - generic [ref=e59] [cursor=pointer]: 14 day refund period for digital products, 30 day return period for Print orders.
+        - generic [ref=e60]:
+          - img "Packt" [ref=e61]
+          - generic [ref=e63]:
+            - text: By clicking Pay Now, you agree to our
+            - link "Terms of Service" [ref=e64] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/help/terms-and-conditions
+            - text: and
+            - link "Cookie Policy" [ref=e65] [cursor=pointer]:
+              - /url: https://www.packtpub.com/en-us/help/cookie-policy
+            - text: . If checking out as a guest, you agree to create an account after purchase to access your products.
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]: Total to Pay
+        - generic [ref=e70]: $54.99
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - generic [ref=e74]:
+            - img "Mastering Redmine Second Edition" [ref=e76]
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: Mastering Redmine Second Edition
+                - generic [ref=e81]: $54.99
+              - generic [ref=e84]: Paperback
+            - button "Remove from cart icon" [ref=e86] [cursor=pointer]:
+              - img "Remove from cart icon" [ref=e87]
+      - list [ref=e89]:
+        - listitem [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: Subtotal
+            - generic [ref=e93]: $54.99
+          - link "Add Discount Code" [ref=e97] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - generic [ref=e98]:
+            - generic [ref=e99]: Order Subtotal
+            - generic [ref=e100]: $54.99
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - text: Economy shipping fee
+              - generic [ref=e103]: (10 - 13 business days)
+            - generic [ref=e104]:
+              - generic [ref=e105]: Free
+              - generic [ref=e106]: $6.95
+        - listitem [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]: Total to pay (Inc. taxes)
+            - generic [ref=e110]: $54.99
+      - generic [ref=e112]:
+        - generic [ref=e113]: Recommended Products
+        - generic [ref=e114]:
+          - generic [ref=e115]: Get 15% off for buying 2 products
+          - generic [ref=e116]: . 20% off for buying 3-4 products
+          - generic [ref=e117]: 30% off for buying 5+ products
+        - generic [ref=e119]:
+          - img "Left arrow icon" [ref=e120] [cursor=pointer]
+          - generic [ref=e121]:
+            - generic [ref=e124]:
+              - link "Workflow Automation with Microsoft Power Automate Workflow Automation with Microsoft Power Automate" [ref=e125] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/workflow-automation-with-microsoft-power-automate-9781803242668
+                - img "Workflow Automation with Microsoft Power Automate" [ref=e126]
+                - generic [ref=e128]: Workflow Automation with Microsoft Power Automate
+                - text: ● ●
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - img "eBook" [ref=e132]
+                    - button "eBook" [ref=e134] [cursor=pointer]
+                  - generic [ref=e136]:
+                    - strong [ref=e137]: $40.49
+                    - deletion [ref=e138]: $44.99
+                - button "ADD TO CART" [ref=e141]
+            - generic [ref=e144]:
+              - link "101 UX Principles – 2nd edition 101 UX Principles – 2nd edition" [ref=e145] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/101-ux-principles-2nd-edition-9781803230511
+                - img "101 UX Principles – 2nd edition" [ref=e146]
+                - generic [ref=e148]: 101 UX Principles – 2nd edition
+                - text: ●
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]:
+                    - img "eBook" [ref=e152]
+                    - button "eBook" [ref=e154] [cursor=pointer]
+                  - generic [ref=e156]:
+                    - strong [ref=e157]: $30.59
+                    - deletion [ref=e158]: $33.99
+                - button "ADD TO CART" [ref=e161]
+            - generic [ref=e164]:
+              - link "Mastering PostgreSQL 12 Mastering PostgreSQL 12" [ref=e165] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-postgresql-12-9781838985271
+                - img "Mastering PostgreSQL 12" [ref=e166]
+                - generic [ref=e168]: Mastering PostgreSQL 12
+                - text: ●
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - img "eBook" [ref=e172]
+                    - button "eBook" [ref=e174] [cursor=pointer]
+                  - generic [ref=e176]:
+                    - strong [ref=e177]: $26.99
+                    - deletion [ref=e178]: $29.99
+                - button "ADD TO CART" [ref=e181]
+            - generic [ref=e184]:
+              - link "Mastering Microsoft Dynamics 365 Business Central Mastering Microsoft Dynamics 365 Business Central" [ref=e185] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/mastering-microsoft-dynamics-365-business-central-9781837639663
+                - img "Mastering Microsoft Dynamics 365 Business Central" [ref=e186]
+                - generic [ref=e188]: Mastering Microsoft Dynamics 365 Business Central
+                - text: ● ●
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - generic [ref=e191]:
+                    - img "eBook" [ref=e192]
+                    - button "eBook" [ref=e194] [cursor=pointer]
+                  - generic [ref=e196]:
+                    - strong [ref=e197]: $35.99
+                    - deletion [ref=e198]: $39.99
+                - button "ADD TO CART" [ref=e201]
+            - generic [ref=e204]:
+              - link "Learn Blender Simulations the Right Way Learn Blender Simulations the Right Way" [ref=e205] [cursor=pointer]:
+                - /url: https://www.packtpub.com/en-us/product/learn-blender-simulations-the-right-way-9781803240169
+                - img "Learn Blender Simulations the Right Way" [ref=e206]
+                - generic [ref=e208]: Learn Blender Simulations the Right Way
+                - text: ● ●
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]:
+                    - img "eBook" [ref=e212]
+                    - button "eBook" [ref=e214] [cursor=pointer]
+                  - generic [ref=e216]:
+                    - strong [ref=e217]: $43.19
+                    - deletion [ref=e218]: $47.99
+                - button "ADD TO CART" [ref=e221]
+          - img "Right arrow icon" [ref=e222] [cursor=pointer]
+  - generic [ref=e224]:
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - text: Packt Publishing Ltd, Grosvenor House,
+        - text: 11 St Paul's Square, Birmingham, B3 1RB
+      - generic [ref=e227]: © 2025 Packt Publishing Limited All Rights Reserved
+    - generic [ref=e228]:
+      - img "Packt" [ref=e230]
+      - generic [ref=e231] [cursor=pointer]: FAQs
+      - generic [ref=e232] [cursor=pointer]: Contact us
+      - generic [ref=e233] [cursor=pointer]: Return Policies
+    - generic [ref=e234]:
+      - img [ref=e236]
+      - generic [ref=e237]: GDPR compliant business
+```

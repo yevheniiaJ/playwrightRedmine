@@ -1,9 +1,10 @@
+import { BasePage } from "../pages/basePage.js"
 
-export class CheckoutPage {
+export class CheckoutPage extends BasePage {
 
     constructor(page) {
-        this.page = page;
-        this.item = page.locator(`//div[@class='item']`)
+        super(page)
+        this.item = page.locator(`//div[@class='total-pay']`)
 
 
     }
